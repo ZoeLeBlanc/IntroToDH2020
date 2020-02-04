@@ -4,8 +4,6 @@
 
 layout: home
 ---
-# Introduction to Digital Humanities
-
 ## Foundations and Futures (Spring 2020)
 
 ### Course Logistics
