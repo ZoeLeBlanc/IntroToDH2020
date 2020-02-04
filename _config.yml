@@ -17,8 +17,8 @@ title: Introduction to Digital Humanities Spring 2020
 email: zleblanc@princeton.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Course website for Introduction to Digital Humanities at Princeton University, Spring 2020.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/IntroToDH2020" # the subpath of your site, e.g. /blog
+url: "https://zoeleBlanc.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Zoe_LeBlanc
 github_username:  ZoeLeBlanc
 
