@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Installation Instructions | Introduction to Digital Humanities Spring 2020</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="Installation Instructions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="First setup your computer:" />
+<meta property="og:description" content="First setup your computer:" />
+<link rel="canonical" href="/software/2020/02/03/installation-instructions.html" />
+<meta property="og:url" content="/software/2020/02/03/installation-instructions.html" />
+<meta property="og:site_name" content="Introduction to Digital Humanities Spring 2020" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-03T21:22:18-05:00" />
+<script type="application/ld+json">
+{"description":"First setup your computer:","@type":"BlogPosting","url":"/software/2020/02/03/installation-instructions.html","headline":"Installation Instructions","dateModified":"2020-02-03T21:22:18-05:00","datePublished":"2020-02-03T21:22:18-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/software/2020/02/03/installation-instructions.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Introduction to Digital Humanities Spring 2020" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Introduction to Digital Humanities Spring 2020</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Installation Instructions</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-02-03T21:22:18-05:00" itemprop="datePublished">Feb 3, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="first-setup-your-computer">First setup your computer:</h2>
+
+<p>In the following sections, we’ll go through how to get your computer set up so that you are ready for the course. Follow the instructions for your computer type (Windows = any computer running windows, Mac = any apple computer) Most of the instructions involve clicking on links to follow instructions and pasting text into your computer. If you get stuck or have any problems, please Slack me or email me.</p>
+
+<h3 id="windows">Windows:</h3>
+
+<ul>
+  <li>
+    <p>Go to <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">Windows 10 Installation Guide</a>.</p>
+  </li>
+  <li>
+    <p>Open your PowerShell as Administrator and paste this command and then hit enter:</p>
+  </li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enable-WindowsOptionalFeature <span class="nt">-Online</span> <span class="nt">-FeatureName</span> Microsoft-Windows-Subsystem-Linux
+</code></pre></div></div>
+
+<p><img src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2015/08/How-to-open-an-elevated-PowerShell-prompt.jpg" alt="Powershell" /></p>
+<ul>
+  <li>
+    <p>Restart your computer when prompted.</p>
+  </li>
+  <li>Install a linux distribution. Follow the steps for installing Windows Subsystem for Linux. (You can either do it through the Windows Store or the Command Line. I would recommend the Windows Store though). Choose the link for <a href="https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?rtc=1#activetab=pivot:overviewtab">Ubuntu 18.04</a></li>
+  <li>Finally initialize the linux distribution following these <a href="https://docs.microsoft.com/en-us/windows/wsl/initialize-distro">instructions</a></li>
+</ul>
+
+<h4 id="setup-python">Setup Python</h4>
+
+<ul>
+  <li>
+    <p>Windows Subsystem Linux (WSL) comes with Python3, but need to install pip.</p>
+  </li>
+  <li>
+    <p>Open WSL and type:</p>
+  </li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> python3-pip
+</code></pre></div></div>
+
+<ul>
+  <li>Then you need to install Debian development tools, openSSL, and Python extension headers. Type the following:</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>build-essential libssl-dev libffi-dev python3-dev
+</code></pre></div></div>
+
+<ul>
+  <li>Then update pip:</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip3 <span class="nb">install</span> <span class="nt">--upgrade</span> pip
+</code></pre></div></div>
+
+<h4 id="text-editor">Text Editor</h4>
+
+<ul>
+  <li>Finally, install Visual Studio Code for your computer (Select the Download for Mac or download for windows)<a href="https://code.visualstudio.com/">Find VS Code here</a></li>
+</ul>
+
+<h4 id="more-info">More Info</h4>
+
+<ul>
+  <li>Feel free to check out this WSL setup for links to more options
+<a href="https://github.com/lloydstubber/my-wsl-setup">https://github.com/lloydstubber/my-wsl-setup</a></li>
+</ul>
+
+<hr />
+
+<h3 id="mac">Mac:</h3>
+
+<ul>
+  <li>Go to <a href="https://brew.sh/">Homebrew</a></li>
+  <li>
+    <p>Open up Terminal, it should like this:
+<img src="https://blog.macsales.com/wp-content/uploads/2016/12/DefaultTerminal1280.jpg" alt="Terminal" /></p>
+  </li>
+  <li>You can find Terminal in your applications folder. Paste this line into the terminal and press enter:</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/usr/bin/ruby <span class="nt">-e</span> <span class="s2">"</span><span class="si">$(</span>curl <span class="nt">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/master/install<span class="si">)</span><span class="s2">"</span>
+</code></pre></div></div>
+
+<ul>
+  <li>Once that’s complete install Xcode Command Line Tools, by typing into the terminal:</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>xcode-select <span class="nt">--install</span>
+</code></pre></div></div>
+
+<h4 id="setup-python-1">Setup Python:</h4>
+
+<ul>
+  <li>
+    <p>Instructions for installing <a href="https://docs.python-guide.org/starting/install3/osx/">Python 3</a></p>
+  </li>
+  <li>
+    <p>Open up your terminal and type this command, then press enter:</p>
+  </li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>python
+</code></pre></div></div>
+
+<ul>
+  <li>Then update pip with this command:</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip3 <span class="nb">install</span> <span class="nt">--upgrade</span> pip
+</code></pre></div></div>
+
+<h4 id="text-editor-1">Text Editor</h4>
+
+<ul>
+  <li>Finally, install Visual Studio Code for your computer (Select the Download for Mac or download for windows)<a href="https://code.visualstudio.com/">Find VS Code here</a></li>
+</ul>
+
+<p><strong>CONGRATS YOU’VE SETUP YOUR COMPUTER 🎉</strong></p>
+
+  </div><a class="u-url" href="/software/2020/02/03/installation-instructions.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Introduction to Digital Humanities Spring 2020</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Introduction to Digital Humanities Spring 2020</li><li><a class="u-email" href="mailto:zleblanc@princeton.edu">zleblanc@princeton.edu</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/ZoeLeBlanc"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">ZoeLeBlanc</span></a></li><li><a href="https://www.twitter.com/Zoe_LeBlanc"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">Zoe_LeBlanc</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Course website for Introduction to Digital Humanities at Princeton University, Spring 2020.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

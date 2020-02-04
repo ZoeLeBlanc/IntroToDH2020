@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-02-04T12:34:26-05:00</updated><id>/feed.xml</id><title type="html">Introduction to Digital Humanities Spring 2020</title><subtitle>Course website for Introduction to Digital Humanities at Princeton University, Spring 2020.</subtitle><entry><title type="html">Installation Instructions</title><link href="/software/2020/02/03/installation-instructions.html" rel="alternate" type="text/html" title="Installation Instructions" /><published>2020-02-03T21:22:18-05:00</published><updated>2020-02-03T21:22:18-05:00</updated><id>/software/2020/02/03/installation-instructions</id><content type="html" xml:base="/software/2020/02/03/installation-instructions.html">&lt;h2 id=&quot;first-setup-your-computer&quot;&gt;First setup your computer:&lt;/h2&gt;
+
+&lt;p&gt;In the following sections, we’ll go through how to get your computer set up so that you are ready for the course. Follow the instructions for your computer type (Windows = any computer running windows, Mac = any apple computer) Most of the instructions involve clicking on links to follow instructions and pasting text into your computer. If you get stuck or have any problems, please Slack me or email me.&lt;/p&gt;
+
+&lt;h3 id=&quot;windows&quot;&gt;Windows:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/install-win10&quot;&gt;Windows 10 Installation Guide&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open your PowerShell as Administrator and paste this command and then hit enter:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Enable-WindowsOptionalFeature &lt;span class=&quot;nt&quot;&gt;-Online&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-FeatureName&lt;/span&gt; Microsoft-Windows-Subsystem-Linux
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2015/08/How-to-open-an-elevated-PowerShell-prompt.jpg&quot; alt=&quot;Powershell&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Restart your computer when prompted.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Install a linux distribution. Follow the steps for installing Windows Subsystem for Linux. (You can either do it through the Windows Store or the Command Line. I would recommend the Windows Store though). Choose the link for &lt;a href=&quot;https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?rtc=1#activetab=pivot:overviewtab&quot;&gt;Ubuntu 18.04&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Finally initialize the linux distribution following these &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/initialize-distro&quot;&gt;instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;setup-python&quot;&gt;Setup Python&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Windows Subsystem Linux (WSL) comes with Python3, but need to install pip.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open WSL and type:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; python3-pip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Then you need to install Debian development tools, openSSL, and Python extension headers. Type the following:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;build-essential libssl-dev libffi-dev python3-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Then update pip:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip3 &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--upgrade&lt;/span&gt; pip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;text-editor&quot;&gt;Text Editor&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Finally, install Visual Studio Code for your computer (Select the Download for Mac or download for windows)&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Find VS Code here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;more-info&quot;&gt;More Info&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Feel free to check out this WSL setup for links to more options
+&lt;a href=&quot;https://github.com/lloydstubber/my-wsl-setup&quot;&gt;https://github.com/lloydstubber/my-wsl-setup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;mac&quot;&gt;Mac:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go to &lt;a href=&quot;https://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open up Terminal, it should like this:
+&lt;img src=&quot;https://blog.macsales.com/wp-content/uploads/2016/12/DefaultTerminal1280.jpg&quot; alt=&quot;Terminal&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You can find Terminal in your applications folder. Paste this line into the terminal and press enter:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/usr/bin/ruby &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; https://raw.githubusercontent.com/Homebrew/install/master/install&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Once that’s complete install Xcode Command Line Tools, by typing into the terminal:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;xcode-select &lt;span class=&quot;nt&quot;&gt;--install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;setup-python-1&quot;&gt;Setup Python:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Instructions for installing &lt;a href=&quot;https://docs.python-guide.org/starting/install3/osx/&quot;&gt;Python 3&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open up your terminal and type this command, then press enter:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;python
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Then update pip with this command:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip3 &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--upgrade&lt;/span&gt; pip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;text-editor-1&quot;&gt;Text Editor&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Finally, install Visual Studio Code for your computer (Select the Download for Mac or download for windows)&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Find VS Code here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;CONGRATS YOU’VE SETUP YOUR COMPUTER 🎉&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">First setup your computer:</summary></entry></feed>
