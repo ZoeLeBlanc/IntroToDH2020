@@ -37,3 +37,5 @@ _What comes after this course?_
 Much of what you do with this course depends on your interests but at the very least you will be well equipped to continue undertaking substantive digital research in the humanities. You will also be able to transfer some of what you will learn in this course to study in data journalism or computational social science. Ideally, I hope that each of you continues to work on your final DH project and share your research long after the course ends.
 
 Draft Syllabus available [here on google docs](https://drive.google.com/file/d/18A1O5UeUjJZEXZT5o2qbHJirEs-PhDcd/view?usp=sharing) for annotating.
+
+[Getting started with Slack](https://slack.com/help/articles/218080037).
