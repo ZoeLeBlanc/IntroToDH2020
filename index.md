@@ -4,9 +4,10 @@
 
 layout: home
 ---
-# Introduction to Digital Humanities
+<h1 style="text-align: center"> Introduction to Digital Humanities <br>
+Foundations and Futures </h1>
 
-## Foundations and Futures (Spring 2020)
+## Spring 2020
 
 ### Course Logistics
 

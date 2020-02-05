@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Introduction to Digital Humanities Spring 2020
+title: Intro to DH Spring 2020
 email: zleblanc@princeton.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Course website for Introduction to Digital Humanities at Princeton University, Spring 2020.
@@ -24,9 +24,10 @@ github_username:  ZoeLeBlanc
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
