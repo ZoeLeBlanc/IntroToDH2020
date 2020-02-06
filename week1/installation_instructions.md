@@ -94,4 +94,10 @@ pip3 install --upgrade pip
 
 * Finally, install Visual Studio Code for your computer (Select the Download for Mac or download for windows)[Find VS Code here](https://code.visualstudio.com/)
 
+### Shell (optional, but pretty)
+
+* Install [ZShell (zsh)](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+* Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+* Install [iTerm2](https://iterm2.com/)
+
 **CONGRATS YOU'VE SETUP YOUR COMPUTER 🎉**
