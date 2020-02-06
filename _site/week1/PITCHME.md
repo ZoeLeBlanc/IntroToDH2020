@@ -15,7 +15,7 @@
 
 [https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begin](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/#lets-begin)
 
-![What is Code](images/whatiscode1.png)
+![What is Code](https://i.insider.com/557cfa3169bedd37184452ac?width=750&format=jpeg&auto=webp)
 
 Note: series of clocks/switches doing millions of computation. But how does it know what to do? We tell it with inputs! like a keyboard scroll down to keyboard visualization. But how does what we input turn into something the computer understands?
 
@@ -108,7 +108,7 @@ Let's start coding. Follow along in the [week1 README](README.md)
 
 [https://computerhistory.org/timelines/](https://computerhistory.org/timelines/)
 
-![Timelines](images/timelines.png)
+![Timelines](https://www.computerhistory.org/siliconengine/_media/img/siliconengine-welcome-main.jpg)
 
 ---
 # Histories of Code and Computers
