@@ -87,12 +87,12 @@ A programming language is a system for encoding, naming, and organizing algorith
 ---
 # Let's Code
 
-Go to [installation instructions](installation_instructions.md) to setup your computer
+Go to [installation instructions](/week1/installation_instructions.md) to setup your computer
 
 ---
 # Let's Code
 
-Let's start coding. Follow along in the [week1 README](README.md)
+Let's start coding. Follow along in the [week1 README](/week1/README.md)
 
 ---
 #### Histories of Code and Computers
