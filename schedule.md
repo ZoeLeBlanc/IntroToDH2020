@@ -44,8 +44,8 @@ What is the digital in digital humanities? How does a computer understand code?
 
 *Read the following articles and primary sources:*
 
-- Louis T. Milic, “The Next Step,” *Computers and the Humanities* 1.1. (1966)
-- Tara McPherson, “Why are the Digital Humanities So White? or Thinking the Histories of Race and Computation,” Debates in DH, Gold ed., 139-160.
+- Louis T. Milic, “The Next Step,” *Computers and the Humanities* 1.1. (1966) (available on Blackboard)
+- Tara McPherson, “Why are the Digital Humanities So White? or Thinking the Histories of Race and Computation,” Debates in DH, Gold ed., 139-160. [https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/20df8acd-9ab9-4f35-8a5d-e91aa5f4a0ea](https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/20df8acd-9ab9-4f35-8a5d-e91aa5f4a0ea)
 
 Either:
 
@@ -53,7 +53,7 @@ Either:
 
 OR:
 
-- Cameron Blevins, “Digital History’s Perpetual Future Tense,” Debates in the Digital Humanities 2016
+- Cameron Blevins, “Digital History’s Perpetual Future Tense,” Debates in the Digital Humanities 2016 [https://dhdebates.gc.cuny.edu/read/untitled/section/4555da10-0561-42c1-9e34-112f0695f523](https://dhdebates.gc.cuny.edu/read/untitled/section/4555da10-0561-42c1-9e34-112f0695f523)
 
 Complete the following code exercises:
 
@@ -61,7 +61,7 @@ Complete the following code exercises:
 
 *Additional Readings:*
 
-- Susan Hockey, “The History of Humanities Computing,” in A Companion to Digital Humanities, eds. Susan Schreibman, Ray Siemens, John Unsworth (Oxford: Blackwell, 2004)
+- Susan Hockey, “The History of Humanities Computing,” in A Companion to Digital Humanities, eds. Susan Schreibman, Ray Siemens, John Unsworth (Oxford: Blackwell, 2004) [http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-2-1&toc.depth=1&toc.id=ss1-2-1&brand=default](http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-2-1&toc.depth=1&toc.id=ss1-2-1&brand=default)
 
 <h3 id="week-2">Week 2: Origin Stories: The Foundations of Digital Humanities and Coding</h3>
 
@@ -83,7 +83,7 @@ How do different histories of digital humanities explain the emergence of this f
 
 - Paul Ford, “What is Code,” Business Week, June 11, 2015. Section 3.
 - Ted Underwood, [“Theorizing Research Practices We Forgot to Theorize Twenty Years Ago,”](https://www.ideals.illinois.edu/bitstream/handle/2142/48906/theorizing.pdf?sequence=2) *Representations* 127.1 (Summer 2014)
-- Ian Bogost, “The Cathedral of Computation,” The Atlantic, 15 January 2015 https://www.theatlantic.com/technology/archive/2015/01/the-cathedral-of-computation/384300/
+- Ian Bogost, “The Cathedral of Computation,” The Atlantic, 15 January 2015 [https://www.theatlantic.com/technology/archive/2015/01/the-cathedral-of-computation/384300/](https://www.theatlantic.com/technology/archive/2015/01/the-cathedral-of-computation/384300/)
 
 *Second Meeting: Introduction to Python and Coding February 13, 2020*
 
