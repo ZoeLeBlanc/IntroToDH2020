@@ -35,7 +35,7 @@
 @snapend
 
 @snap[north-east span-40 -center]
-@ul[list-spaced-bullets text-white text-12]
+@ul[list-spaced-bullets text-white text-06]
 - What is a secondary source?
 - What is McPherson's argument? How does she support her argument? What historical trends does she explore?
 - What terminology did McPherson use? What is the idea of modularity?
@@ -45,9 +45,11 @@
 
 ---
 @snap[west span-40 -center]
+#### MULTICS
 ![multics](https://web.mit.edu/Saltzer/www/GE645.jpg)
 @snapend
-@snap[north-east span-40 text-08]
+@snap[north-east span-40 -center]
+#### 1968 DNC Convention
 ![1968](https://cdn.theatlantic.com/thumbor/j-cisd58snNEPTl4-68zyLH3uyQ=/1200x798/media/img/photo/2018/01/50-years-ago-in-photos-a-look-back/f34_515177534/original.jpg)
 @snapend
 
@@ -91,15 +93,11 @@ Read more about Susan Hockey here [http://nowviskie.org/2011/ada-lovelace-day-su
 ![Robert Busa](https://alchetron.com/cdn/roberto-busa-38cd1b53-4548-49bf-9196-b0f528240f0-resize-750.jpeg)
 @snapend
 
-@snap[north-east span-40 text-08]
+@snap[north-east span-40 -center]
 ![front card](https://theoreti.ca/wp-content/uploads/2016/03/IMG_1628-1024x455.jpg)
-@snapend
 
-@snap[north-east span-40 text-08]
 ![back card](https://theoreti.ca/wp-content/uploads/2016/03/IMG_1629-1024x455.jpg)
-@snapend
 
-@snap[north-east span-40 text-08]@snap[north-east span-40 text-08]
 Read more about Father Robert Busa and the Index Thomisticus here [https://theoreti.ca/?p=6096](https://theoreti.ca/?p=6096)
 @snapend
 
