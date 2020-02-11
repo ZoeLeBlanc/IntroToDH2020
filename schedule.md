@@ -6,6 +6,16 @@ permalink: /schedule/
 
 1. [What is digital humanities? Meta-Narratives and Definitions](#week-1)
 2. [Origin Stories: The Foundations of Digital Humanities and Coding](#week-2)
+3. [Origin Stories: The Big Tent of Digital Humanities](#week-3)
+4. [Case Study: Public Digital Humanities and Data As Collections](#week-4)
+5. [Case Study: Minimal Computing and New Media Studies](#week-5)
+6. [Case Study: Cultural Analytics and Digital History](#week-6)
+7. [Making Digital Humanities: Humanities Sources Into Datasets](#week-7)
+8. [Making Digital Humanities: Humanities Research Into Hypotheses](#week-8)
+9. [Making Digital Humanities: Humanities Arguments Into Data Analyses and Visualizations](#week-9)
+10. [Retrospectives: Failures and Successes in Digital Humanities](#week-10)
+11. [Retrospectives: Sustainability and Obsolesce in Digital Humanities](#week-11)
+12. [The Futures of Digital Humanities](#week-12)
 
 <h3 id="week-1"> Week 1: What is digital humanities? Meta-Narratives and Definitions</h3>
 
@@ -47,7 +57,7 @@ What is the digital in digital humanities? How does a computer understand code?
 - Louis T. Milic, “The Next Step,” *Computers and the Humanities* 1.1. (1966) (available on Blackboard)
 - Tara McPherson, “Why are the Digital Humanities So White? or Thinking the Histories of Race and Computation,” Debates in DH, Gold ed., 139-160. [https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/20df8acd-9ab9-4f35-8a5d-e91aa5f4a0ea](https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/20df8acd-9ab9-4f35-8a5d-e91aa5f4a0ea)
 
-Either:
+Skim either:
 
 - Matthew Kirschenbaum, “What is Digital Humanities and What’s It Doing in English Departments?,” pp. 3-11, [https://mkirschenbaum.files.wordpress.com/2011/03/ade-final.pdf](https://mkirschenbaum.files.wordpress.com/2011/03/ade-final.pdf)
 
@@ -100,7 +110,7 @@ Complete introduction to Python coding exercises if not finished during class.
 
 Read the following:
 
-- Matthew K. Gold, “The Digital Humanities Moment,” Debates in the Digital Humanities (2012) http://dhdebates.gc.cuny.edu/debates/text/2
+- Matthew K. Gold, “The Digital Humanities Moment,” Debates in the Digital Humanities (2012) [http://dhdebates.gc.cuny.edu/debates/text/2](http://dhdebates.gc.cuny.edu/debates/text/2)
 - Lauren F. Klein and Matthew K. Gold, “Digital Humanities: The Expanded Field” Debates in the Digital Humanities (2016) [http://dhdebates.gc.cuny.edu/debates/text/51](http://dhdebates.gc.cuny.edu/debates/text/51)
 
 And read one of the following:
@@ -111,9 +121,9 @@ And read one of the following:
 *Additional Readings:*
 
 - Melissa Terras, “Peering Inside the Big Tent: Digital Humanities and the Crisis of Inclusion” 26 July 2011. [https://melissaterras.org/2011/07/26/peering-inside-the-big-tent-digital-humanities-and-the-crisis-of-inclusion/](https://melissaterras.org/2011/07/26/peering-inside-the-big-tent-digital-humanities-and-the-crisis-of-inclusion/)
-- Cecire, Natalia. “When Digital Humanities Was in Vogue.” Journal of Digital Humanities 1, no. 1 (2011)
+- Cecire, Natalia. “When Digital Humanities Was in Vogue.” Journal of Digital Humanities 1, no. 1 (2011) [http://journalofdigitalhumanities.org/1-1/when-digital-humanities-was-in-vogue-by-natalia-cecire/](http://journalofdigitalhumanities.org/1-1/when-digital-humanities-was-in-vogue-by-natalia-cecire/)
 
-**Week 3: The Big Tent of Digital Humanities**
+<h3 id="week-3">Week 3: The Big Tent of Digital Humanities</h3>
 
 *First Meeting: The Big Tent and Many Forms of DH February 18, 2020*
 
@@ -128,12 +138,12 @@ What was the Big Tent of DH? What are the many formats of digital humanities’ 
 
 *Read one of the following:*
 
-- Miriam Posner, “How Did They Make That?,” August 29, 2013. http://miriamposner.com/blog/how-did-they-make-that/
-- Paige Morgan, “How to get a digital humanities project off the ground” June 5, 2014. https://www.paigemorgan.net/how-to-get-a-digital-humanities-project-off-the-ground/
+- Miriam Posner, “How Did They Make That?,” August 29, 2013. [http://miriamposner.com/blog/how-did-they-make-that/](http://miriamposner.com/blog/how-did-they-make-that/)
+- Paige Morgan, “How to get a digital humanities project off the ground” June 5, 2014. [https://www.paigemorgan.net/how-to-get-a-digital-humanities-project-off-the-ground/](https://www.paigemorgan.net/how-to-get-a-digital-humanities-project-off-the-ground/)
 
 *Additional readings:*
 
-- Stephen Ramsay and Geofrey Rockwell, “Developing Things: Notes toward an Epistemology of Building in the Digital Humanities,” pp. 75-84, in Debates in the Digital Humanities, ed. Matthew K. Gold (Minnesota UP, 2012).
+- Stephen Ramsay and Geofrey Rockwell, “Developing Things: Notes toward an Epistemology of Building in the Digital Humanities,” pp. 75-84, in Debates in the Digital Humanities, ed. Matthew K. Gold (Minnesota UP, 2012). [https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/c733786e-5787-454e-8f12-e1b7a85cac72](https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/c733786e-5787-454e-8f12-e1b7a85cac72)
 
 *Second Meeting: Python Fundamentals and DH Project Management February 20, 2020*
 
@@ -147,9 +157,9 @@ How do you manage a digital humanities project? How do you manage code?
 
 *Assignment for next class:* Complete coding assignment on Python fundamentals and share on Slack.
 
-Select two articles from *Current Research in Digital Humanities* for the DH Review assignment. When selecting, consider what topics, methods, or data you might be interested in using in the final project. Send me an email or Slack message with a short paragraph explaining your selection.
+Select two articles from *Current Research in Digital History* [https://crdh.rrchnm.org/](https://crdh.rrchnm.org/) for the DH Review assignment. When selecting, consider what topics, methods, or data you might be interested in using in the final project. Send me an email or Slack message with a short paragraph explaining your selection.
 
-**Week 4: Case Study: Public Digital Humanities and Data As Collections**
+<h3 id="week-4"> Case Study: Public Digital Humanities and Data As Collections</h3>
 
 *First Meeting: Python Classes and Libraries February 25, 2020*
 
@@ -163,13 +173,13 @@ What is a Python library? How do we store information in Python?
 
 *Assignment for next class:*
 
-- The Santa Barbara Statement on Collections as Data. Version 2. https://collectionsasdata.github.io/statement/
-- Either Sharon Leon, “Complexity and Collaboration: Doing Public History in a Digital Environment,” in The *Oxford Handbook of Public History*, edited by Paula Hamilton and James B. Gardner (Oxford University Press, 2017) or Sheila Brenna, Public First. Debates in Digital Humanities 2016. http://dhdebates.gc.cuny.edu/debates/text/83
+- The Santa Barbara Statement on Collections as Data. Version 2. [https://collectionsasdata.github.io/statement/](https://collectionsasdata.github.io/statement/)
+- Either Sharon Leon, “Complexity and Collaboration: Doing Public History in a Digital Environment,” in The *Oxford Handbook of Public History*, edited by Paula Hamilton and James B. Gardner (Oxford University Press, 2017) or Sheila Brenna, Public First. Debates in Digital Humanities 2016. [http://dhdebates.gc.cuny.edu/debates/text/83](http://dhdebates.gc.cuny.edu/debates/text/83)
 
 *Additional Readings:*
 
-- Matthew Delmont, “Does It Count?” Scholarly Communication and African American Digital History” Perspectives on History. November 1, 2016 https://www.historians.org/publications-and-directories/perspectives-on-history/november-2016/does-it-count-scholarly-communication-and-african-american-digital-history
-- Mark C. Marino, “Why We Must Read the Code: The Science Wars, Episode IV” Debates in DH 2016 http://dhdebates.gc.cuny.edu/debates/text/64
+- Matthew Delmont, “Does It Count?” Scholarly Communication and African American Digital History” Perspectives on History. November 1, 2016 [https://www.historians.org/publications-and-directories/perspectives-on-history/november-2016/does-it-count-scholarly-communication-and-african-american-digital-history](https://www.historians.org/publications-and-directories/perspectives-on-history/november-2016/does-it-count-scholarly-communication-and-african-american-digital-history)
+- Mark C. Marino, “Why We Must Read the Code: The Science Wars, Episode IV” Debates in DH 2016 [http://dhdebates.gc.cuny.edu/debates/text/64](http://dhdebates.gc.cuny.edu/debates/text/64)
 
 *Second Meeting: DH in Public and in Libraries February 27, 2020*
 
@@ -183,14 +193,14 @@ What is *public* digital humanities? Where does this type of scholarship happen?
 
 Complete the coding assignments on Python classes and continue to pair program. Continue working on your DH review assignment.
 
-- “What is HTML” Mozilla Developer Network https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML
-- Jeffrey Veen, “A Brief History of HTML” Wired. April 28, 1997 https://www.wired.com/1997/04/a-brief-history-of-html/
+- “What is HTML” Mozilla Developer Network [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML)
+- Jeffrey Veen, “A Brief History of HTML” Wired. April 28, 1997 [https://www.wired.com/1997/04/a-brief-history-of-html/](https://www.wired.com/1997/04/a-brief-history-of-html/)
 
 *Additional readings:*
 
 - Ian Milligan “Welcome to the Web: The Online Community of GeoCities During The Early Years of The World Wide Web” https://ianmilligan.ca/2017/03/14/new-chapter-welcome-to-the-web-the-online-community-of-geocities-during-the-early-years-of-the-world-wide-web/
 
-**Week 5: Case Study: Minimal Computing and New Media Studies**
+<h3 id="week-5">Week 5: Case Study: Minimal Computing and New Media Studies</h3>
 
 *First Meeting: How the Web Works March 3, 2020*
 
@@ -220,7 +230,7 @@ What theoretical perspectives informed digital humanities and vice versa? How do
 - Read preface from Ted Underwood, *Distant Horizons: Digital Evidence and Literary Change*.
 - Finish DH review assignment
 
-**Week 6: Case Study: Cultural Analytics and Digital History**
+<h3 id="week-6">Week 6: Case Study: Cultural Analytics and Digital History</h3>
 
 *First Meeting: Counting and Computing in DH March 10, 2020*
 
@@ -254,7 +264,7 @@ Read the following:
 
 - Posner, Miriam (2015), “Humanities Data, a Necessary Contradiction”
 - Krause, H. (2017, March 27). Data Biographies: Getting to Know Your Data. Global Investigative Journalism Network. [https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/)
-- Maciej Cegłowski. “Deep Fried Data” *Idle Words*. September 27, 2016. https://idlewords.com/talks/deep_fried_data.htm
+- Maciej Cegłowski. “Deep Fried Data” *Idle Words*. September 27, 2016. [https://idlewords.com/talks/deep_fried_data.htm](https://idlewords.com/talks/deep_fried_data.htm)
 
 *Additional Readings:*
 
@@ -264,7 +274,7 @@ Read the following:
 
 **SPRING BREAK**
 
-**Week 7: Making Digital Humanities: Humanities Sources Into Datasets**
+<h3 id="week-7">Week 7: Making Digital Humanities: Humanities Sources Into Datasets</h3>
 
 *First Meeting: Data in DH March 24, 2020*
 
@@ -303,7 +313,7 @@ Read:
 - Scott B. Weingart, “‘Digital History’ Can Never Be New,” the scottbot irregular, 2 May 2016 and “ Argument Clinic” July 26, 2017
 - Matthew K. Gold et al., “Forum: Text Analysis at Scale,” in Debates in the Digital Humanities 2016 (University of Minnesota Press, 2016), 525–568.
 
-**Week 8: Making Digital Humanities: Humanities Research Into Hypotheses**
+<h3 id="week-8">Week 8: Making Digital Humanities: Humanities Research Into Hypotheses</h3>
 
 *First Meeting: Analysis in DH March 31, 2020*
 
@@ -345,7 +355,7 @@ Read selected chapters from Lauren Klein and Catherine D’Ignacio, Data Feminis
 
 - Johanna Drucker, “Humanities Approaches to Graphical Display,” Digital Humanities Quarterly 5, no. 1 (2011) http://digitalhumanities.org/dhq/vol/5/1/000091/000091.html
 
-**Week 9: Making Digital Humanities: Humanities Arguments Into Data Analyses and Visualizations**
+<h3 id="week-9">Week 9: Making Digital Humanities: Humanities Arguments Into Data Analyses and Visualizations</h3>
 
 *First Meeting: Data Visualization in DH April 7, 2020*
 
@@ -372,7 +382,7 @@ What Python libraries exist for visualization? How does data visualization in Py
 
 - Quinn Dombrowski What Ever Happened to Project Bamboo?, Literary and Linguistic Computing, Volume 29, Issue 3, 1 September 2014, Pages 326–339, https://doi.org/10.1093/llc/fqu026
 
-**Week 10: Retrospectives: Failures and Successes in Digital Humanities**
+<h3 id="week-10">Week 10: Retrospectives: Failures and Successes in Digital Humanities</h3>
 
 **First project demo due**
 
@@ -397,7 +407,7 @@ No assigned readings, class meeting time used for project retrospectives.
 - Kathleen Fitzpatrick, “Obsolescence and Innovation in the Age of the Digital” in The Routledge Companion to Media Studies and Digital Humanities, ed. Jentery Sayers (New York: Routledge, 2018)
 - Castelvecchi, D. (2019). Venice ‘time machine’ project suspended amid data row. *Nature*, *574*(7780), 607–607. [https://doi.org/10.1038/d41586-019-03240-w](https://doi.org/10.1038/d41586-019-03240-w)
 
-**Week 11: Retrospectives: Sustainability and Obsolesce in Digital Humanities**
+<h3 id="week-11">Week 11: Retrospectives: Sustainability and Obsolesce in Digital Humanities</h3>
 
 *First Meeting: Sunrise and Sunset in DH and Information Technology April 21, 2020*
 
@@ -423,7 +433,7 @@ No assigned readings, class time dedicated to project check-ins and sprint.
 - Miriam Posner. “What’s Next: The Radical, Unrealized Potential of Digital Humanities” Debates in Digital Humanities 2016.
 - Bethany Nowviskie “Reconstitute the World” June 12, 2018. http://nowviskie.org/2018/reconstitute-the-world/
 
-**Week 12: The Futures of Digital Humanities**
+<h3 id="week-12">Week 12: The Futures of Digital Humanities</h3>
 
 *First Meeting: Imagining DH April 28, 2020*
 
