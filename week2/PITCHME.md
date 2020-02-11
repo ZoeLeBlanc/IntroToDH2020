@@ -1,7 +1,11 @@
-- history of digital humanities
-- humanities computing
-- punch cards
+@title[What is Humanities Computing]
+# Humanities Computing -> Digital Humanities
 
-- what is digital and what is historic
+- Louis Milic and 1966 |
+- Tara McPherson and Cultures of Computing |
+- Brief History of Humanities Computing |
+- In-class exercise on HC & DH |
+- Kirschenbaum & Blevins on DH
 
-- google ngram and origins
+---
+![comps_hums](../week2/computers_hums_firstissue.gif)
