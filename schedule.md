@@ -81,8 +81,8 @@ How do different histories of digital humanities explain the emergence of this f
 
 *Class Activities:*
 
-- Seminar discussion about early DH and debates over how to define the field
-- Experiment with Google Ngram Viewer. What does it tell us about the origins of DH?
+- Seminar discussion about early DH and debates over how to define the field [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week2)
+- Experiment with Google Ngram Viewer. What does it tell us about the origins of DH? [https://books.google.com/ngrams](https://books.google.com/ngrams)
 
 *Assignment for next class:*
 - "Which Dh Tools Are Actually Used In Research?" By Laure Barbot, Frank Fischer, Yoann Moranville And Ivan Pozdniakov, December 6 2019 [https://weltliteratur.net/dh-tools-used-in-research/](https://weltliteratur.net/dh-tools-used-in-research/)
