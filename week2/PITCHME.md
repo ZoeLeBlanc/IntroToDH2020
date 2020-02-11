@@ -118,16 +118,15 @@ Frederick Mosteller and David L. Wallace "Inference in an Authorship Problem" *J
 ---
 ![comps_hums](/week2/computers_hums_firstissue.gif)
 
-![ach](https://lh3.googleusercontent.com/proxy/_AzUrl10BYDFkfCqNUvyz7kBpPBq7uw9nn2Y23qZp7SKNZukavd0COf2IlwIXVc9ZO1g3sPlq7HWM0rvRLhan2GL4GCNaRDs4xcPhyjQqlsSi7XNUir8RJYSoaixLvLJEv4VLLpKEWI)
+![ach](/week2/ach.png)
 
 ---
-@snap[west span-40 -center]
+
 ![Time on the Cross](https://images-na.ssl-images-amazon.com/images/I/51detvSEF%2BL._SX322_BO1,204,203,200_.jpg)
-@snapend
-@snap[east span-40 -center]
+
 Robert Fogel and Stanley Engerman *Time on the Cross: The Economics of American Negro Slavery* (1974). 
 "Used statistical analysis to argue that slavery in the nineteenth-century United States was both more profitable and more benign than previously thought. For many historians, Time on the Cross embodied everything that was wrong with quantitative history, from its reliance on limited datasets to its dismissal of less quantifiable aspects of history such as ideology or power." Blevins
-@snapend
+
 ---
 @snap[west span-40 -center]
 Oxford Text Archive Project in 1976 founded by Susan Hockey and Lou Burnard [https://ota.bodleian.ox.ac.uk/repository/xmlui/](https://ota.bodleian.ox.ac.uk/repository/xmlui/)
