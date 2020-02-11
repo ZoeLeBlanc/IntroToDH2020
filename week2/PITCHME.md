@@ -7,7 +7,8 @@
 - In-class exercise on HC & DH |
 - Kirschenbaum & Blevins on DH |
 
----?color=linear-gradient(90deg, white 50%, #567AD2 50%)
+<!-- ---?color=linear-gradient(90deg, white 50%, black 50%) -->
+---
 @snap[west span-40 -center]
 
 ![comps_hums](/week2/computers_hums_firstissue.gif)
@@ -15,7 +16,11 @@
 @snapend
 
 @snap[north-east span-40 text-08]
-@box[bg-green](What is a primary source?)
+
+- What is a primary source? |
+- How did Milic define the intersection for humanities and computers? |
+- What is Milic's vision for the Next Step in 1966? | 
+<!-- @box[bg-green](What is a primary source?)
 @snapend
 
 @snap[east span-40 text-08]
@@ -23,5 +28,5 @@
 @snapend
 
 @snap[south-east span-40 text-08]
-@box[bg-gold](What is Milic's vision for the Next Step in 1966?)
+@box[bg-gold](What is Milic's vision for the Next Step in 1966?) -->
 @snapend
