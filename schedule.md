@@ -59,11 +59,11 @@ What is the digital in digital humanities? How does a computer understand code?
 
 Skim either:
 
-- Matthew Kirschenbaum, “What is Digital Humanities and What’s It Doing in English Departments?,” pp. 3-11, [https://mkirschenbaum.files.wordpress.com/2011/03/ade-final.pdf](https://mkirschenbaum.files.wordpress.com/2011/03/ade-final.pdf)
+- Matthew Kirschenbaum, “What is Digital Humanities and What’s It Doing in English Departments?,” pp. 3-11, [https://mkirschenbaum.files.wordpress.com/2011/03/ade-final.pdf](https://mkirschenbaum.files.wordpress.com/2011/03/ade-final.pdf) (Will discuss more the following week)
 
 OR:
 
-- Cameron Blevins, “Digital History’s Perpetual Future Tense,” Debates in the Digital Humanities 2016 [https://dhdebates.gc.cuny.edu/read/untitled/section/4555da10-0561-42c1-9e34-112f0695f523](https://dhdebates.gc.cuny.edu/read/untitled/section/4555da10-0561-42c1-9e34-112f0695f523)
+- Cameron Blevins, “Digital History’s Perpetual Future Tense,” Debates in the Digital Humanities 2016 [https://dhdebates.gc.cuny.edu/read/untitled/section/4555da10-0561-42c1-9e34-112f0695f523](https://dhdebates.gc.cuny.edu/read/untitled/section/4555da10-0561-42c1-9e34-112f0695f523) (Will discuss more during Digital History Case Study Week)
 
 Complete the following code exercises:
 
@@ -85,12 +85,11 @@ How do different histories of digital humanities explain the emergence of this f
 - Experiment with Google Ngram Viewer. What does it tell us about the origins of DH?
 
 *Assignment for next class:*
-
-- Matthew Kirschenbaum. “Hello Worlds” The Chronicle of Higher Education. January 23, 2009. [https://www.chronicle.com/article/Hello-Worlds/5476](https://www.chronicle.com/article/Hello-Worlds/5476)
 - "Which Dh Tools Are Actually Used In Research?" By Laure Barbot, Frank Fischer, Yoann Moranville And Ivan Pozdniakov, December 6 2019 [https://weltliteratur.net/dh-tools-used-in-research/](https://weltliteratur.net/dh-tools-used-in-research/)
 
 *Additional Readings:*
 
+- Matthew Kirschenbaum. “Hello Worlds” The Chronicle of Higher Education. January 23, 2009. [https://www.chronicle.com/article/Hello-Worlds/5476](https://www.chronicle.com/article/Hello-Worlds/5476)
 - Paul Ford, “What is Code,” Business Week, June 11, 2015. Section 3.
 - Ted Underwood, [“Theorizing Research Practices We Forgot to Theorize Twenty Years Ago,”](https://www.ideals.illinois.edu/bitstream/handle/2142/48906/theorizing.pdf?sequence=2) *Representations* 127.1 (Summer 2014)
 - Ian Bogost, “The Cathedral of Computation,” The Atlantic, 15 January 2015 [https://www.theatlantic.com/technology/archive/2015/01/the-cathedral-of-computation/384300/](https://www.theatlantic.com/technology/archive/2015/01/the-cathedral-of-computation/384300/)
