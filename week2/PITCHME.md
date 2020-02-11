@@ -35,7 +35,7 @@
 @snapend
 
 @snap[north-east span-40 text-08]
-@ul
+@ul[list-spaced-bullets text-white]
 - Test
 - Test
 @ulend
