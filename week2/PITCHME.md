@@ -25,3 +25,18 @@
 @snap[south-east span-40 text-08]
 @box[bg-blue](What is Milic's vision for the Next Step in 1966?)
 @snapend
+
+---?color=linear-gradient(90deg, white 50%, black 50%)
+
+@snap[west span-40 -center]
+
+![tara_mcpherson](/week2/tara_mcpherson.png)
+
+@snapend
+
+@snap[north-east span-40 text-08]
+@ul
+- Test
+- Test
+@ulend
+@snapend
