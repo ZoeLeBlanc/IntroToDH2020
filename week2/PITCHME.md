@@ -34,11 +34,10 @@
 
 @snapend
 
-@snap[north-east span-40 text-08]
-@ul[list-spaced-bullets text-white]
-- What is a Secondary Source?
-- What is McPherson's argument?
-- How does she support her argument? What historical trends does she explore?
+@snap[north-east span-40 -center]
+@ul[list-spaced-bullets text-white text-12]
+- What is a secondary source?
+- What is McPherson's argument? How does she support her argument? What historical trends does she explore?
 - What terminology did McPherson use? What is the idea of modularity?
 - How does McPherson's vision for DH converge/diverge with Milic's?
 @ulend
@@ -62,11 +61,11 @@ Might we ask whether there is not something particular to the very forms of elec
 @snap[west span-40 -center]
 ![lenticular](https://i.pinimg.com/originals/73/75/0f/73750f1e8a2b44a08cce34bb3057914f.jpg)
 @snapend
-@snap[north-east span-40 text-08]
+@snap[east span-40 -center]
 ![stereoscopic](https://futurism.com/wp-content/uploads/2016/10/Stereoscopic-3D-View-50e7da423b13b_hires.jpg)
 @snapend
 
----?image=https://images.slideplayer.com/24/7232287/slides/slide_35.jpg
+---?image=https://images.slideplayer.com/24/7232287/slides/slide_35.jpg&size=contain
 
 ---
 ### How can we connect McPherson and Milic?
