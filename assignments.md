@@ -20,8 +20,11 @@ You are able to _drop your three lowest participation grades_ and I will make av
 
 Each week you will complete small assignments to help you engage with the readings and programming concepts. For weekly readings, you will be required to submit three questions in advance of class to the instructor via Slack. Please see Guidelines for Reading below for more about the strategy for reading and asking questions.
 Potential questions to submit from readings include:
-
-Three questions weekly -> connections, interests
+- How did the arguments in each reading overlap? Were the arguments in opposition?
+- What connections did you identify across readings?
+- Was there aspects of the readings that were inspirational or infuriating? If so, which ones?
+- What did you not understand in the readings? What was confusing?
+- What do you want to learn more about?
 
 You will also have weekly programming assignments to complete and share either via Slack or Github. These assignments are intended to reinforce the lessons from our meetings and help you learn to work in pairs or small groups when coding.  Please see Guidelines for Coding below for more about policies for programming work.
 
