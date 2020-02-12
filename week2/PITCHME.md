@@ -10,7 +10,7 @@
 ---?color=linear-gradient(90deg, white 50%, black 50%)
 @snap[west span-40 -center]
 
-![comps_hums](/week2/computers_hums_firstissue.gif)
+![comps_hums](/week2/images/computers_hums_firstissue.gif)
 
 @snapend
 
@@ -30,7 +30,7 @@
 
 @snap[west span-40 -center]
 
-![tara_mcpherson](/week2/tara_mcpherson.png)
+![tara_mcpherson](/week2/images/tara_mcpherson.png)
 
 @snapend
 
@@ -116,9 +116,9 @@ Frederick Mosteller and David L. Wallace "Inference in an Authorship Problem" *J
 @snapend
 
 ---
-![comps_hums](/week2/computers_hums_firstissue.gif)
+![comps_hums](/week2/images/computers_hums_firstissue.gif)
 
-![ach](/_site/week2/ach.png)
+![ach](/_site/week2/images/ach.png)
 
 ---
 @snap[west span-40 -center]
@@ -131,7 +131,7 @@ Robert Fogel and Stanley Engerman *Time on the Cross: The Economics of American 
 ---
 Oxford Text Archive Project in 1976 founded by Susan Hockey and Lou Burnard [https://ota.bodleian.ox.ac.uk/repository/xmlui/](https://ota.bodleian.ox.ac.uk/repository/xmlui/)
 
-![ota](/week2/ota.png)
+![ota](/week2/images/ota.png)
 ---
 Perseus Project in 1985 [http://www.perseus.tufts.edu/hopper/about?redirect=true](http://www.perseus.tufts.edu/hopper/about?redirect=true)
 
@@ -180,7 +180,7 @@ Humanist Listserv [https://dhhumanist.org/](https://dhhumanist.org/)
 
 ![GMU](https://mars.gmu.edu/bitstream/id/52fc9341-8f29-4c79-b48a-6f59ac1431e8/rrchnm-logo.png?sequence=-1)
 
-![MITH](/week2/mith.png)
+![MITH](/week2/images/mith.png)
 
 ---
 @snap[west span-40 -center]

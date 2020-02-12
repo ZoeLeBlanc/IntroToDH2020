@@ -46,7 +46,7 @@ What is the digital in digital humanities? How does a computer understand code?
 *Class Activities*:
 
 - Brief overview of the history of computing and how computers read code [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week1)
-- Seminar discussion of what do we mean by digital?
+- Seminar discussion of what do we mean by digital? Check out this thread on [Twitter by Scott Weingart](https://twitter.com/scott_bot/status/1227622965812047874)
 - Finish installations and environment setup. See instructions [here](/IntroToDH2020/week1/installation_instructions)
 - Introduction to the terminal and command line
 
