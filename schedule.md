@@ -85,7 +85,7 @@ How do different histories of digital humanities explain the emergence of this f
 - Experiment with Google Ngram Viewer. What does it tell us about the origins of DH? [https://books.google.com/ngrams](https://books.google.com/ngrams)
 
 *Assignment for next class:*
-- Read through and complete [Introduction to Python](/week2/intro_python.md)
+- Read through and complete [Introduction to Python](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week2/intro_python.md)
 - "Which Dh Tools Are Actually Used In Research?" By Laure Barbot, Frank Fischer, Yoann Moranville And Ivan Pozdniakov, December 6 2019 [https://weltliteratur.net/dh-tools-used-in-research/](https://weltliteratur.net/dh-tools-used-in-research/)
 - If you get through the Introduction to Python quickly, go ahead and research one of the tools from the reading.
 - NO PRE-SUBMITTED QUESTIONS REQUIRED FOR NEXT CLASS!

@@ -2,7 +2,7 @@
 ![python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
 ## What is Python?
-|![python definition](/IntroToDH2020/week2/images/python_def.png)|
+|![python definition](/week2/images/python_def.png)|
 |:--:|
 | [Wikipedia's Definition of Python](https://en.wikipedia.org/wiki/Python_(programming_language))|
 
@@ -12,7 +12,7 @@ In short:
 - Used for a wide range of programming, from making web apps to data analysis
 
 ## Why Python?
-|![python twitter](/IntroToDH2020/week2/images/python_twitter.png)| ![python stack overflow](/IntroToDH2020/week2/images/python_so.png) |
+|![python twitter](/week2/images/python_twitter.png)| ![python stack overflow](/week2/images/python_so.png) |
 |:--:|:--:|
 | [Jake VanderPlas Tweet](https://twitter.com/jakevdp/status/994934052091318272?lang=en) |[Stack Overflow's Annual Survey](https://insights.stackoverflow.com/survey/2019)|
 
@@ -35,7 +35,7 @@ python --version
 python3 --version
 ```
 You're results should look something like the following.
-![python_version](/IntroToDH2020/week2/images/python_version.png)
+![python_version](/week2/images/python_version.png)
 
 If you are getting errors, try looking at the [Python Installation Instructions](/week1/installation_instructions.md) and contact Zoe for help troubleshooting.
 
@@ -46,7 +46,7 @@ In your terminal, type `python3`. This will open the interactive python interpre
 
 1. Type `'Hello world'` in the interpreter and press enter.
 
-![hello world](/IntroToDH2020/week2/images/python_hw.png)
+![hello world](/week2/images/python_hw.png)
 
 Congrats you've just typed your first bit of python and had the computer execute it 🎉!
 
