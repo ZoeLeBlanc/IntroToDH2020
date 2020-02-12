@@ -12,11 +12,9 @@ In short:
 - Used for a wide range of programming, from making web apps to data analysis
 
 ## Why Python?
-![python twitter](/week2/python_twitter.png)
-
-Stack Overflow's Annual Survey of Developers and Technology Trends
-
-![python stack overflow](/week2/python_so.png)
+|![python twitter](/week2/python_twitter.png)| ![python stack overflow](/week2/python_so.png) |
+|:--:|:--:|
+| [Jake VanderPlas Tweet](https://twitter.com/jakevdp/status/994934052091318272?lang=en) |[Stack Overflow's Annual Survey](https://insights.stackoverflow.com/survey/2019)|
 
 In short:
 - Python is well suited to a number of programming tasks
