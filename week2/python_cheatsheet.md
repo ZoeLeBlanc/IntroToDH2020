@@ -69,3 +69,5 @@ junk = tuple()
 junk = ('Joe', 'Instructor', 'Awesome')
 print(junk)
 ```
+
+Read more here [Python 3 Docs: Built-in Types: Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)

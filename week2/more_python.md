@@ -1,25 +1,145 @@
+## Introduction to Python (Continued)
 
+### FIRST EXERCISE (in class)
 
+Work in small groups, and work as group to figure how to use the data types, structures, and methods we discussed to solve these prompts:
+1. Get everyone's first names. Add each person's name to the data structure. Whose name comes first?
+2. Get everyone's favorite number (or age). Calculate the average number for the group (hint: average is sum of all numbers divided by number of people in the group)
+3. Create a data structure to store each a set of movies (maybe your favorite halloween themed one?). Update the structure to keep a count for each movie depending on how many people in the group have seen the movie. Make sure that you don't keep any movie that only has a count of one.
+
+---
+
+Python interpreter is great, but why might we not want to write all our code in the interpreter? What happens every time you quit?
+
+SOLUTION:
+1. Open Visual Studio Code
+- Visual Studio Code is a Code Editor, for writing code. (Think like Microsoft Office for writing...)
+
+2. Open your directory in Visual Studio Code and create a new file
+
+```sh
+touch first_script.py
+```
+
+You should see this file in Visual Studio Code. We're going to write your first code script! Feel free to enter some of what you wrote for the exercise, or copy this below:
 
 ```python
-print("Hello Cruel World!")
+projects = ['Valley of the Shadow', 'American Panorama', 'Orlando Project']
+digital_humanities = {
+    'people': ['Susan Hockey', 'Father Robert Busa'],
+    'tools': ['Python', 'Gephi', 'JavaScript', 'Mallet']
+}
 ```
-"Print" is a function, which is like a command. Functions are called by writing the function name followed by parenthesis. Inside the parenthesis are zero or more parameters, which are extra bits of information that you attach to the function. The "print" function simply writes out the data that's passed to it.
 
-If you're looking for help on the internet and ever see `print "foobar"` instead of `print("foobar")` (without the parenthesis), that's Python 2 code instead of Python 3!
+1. Now try running the file from your terminal
+Make sure you are not in the python interpreter. Type:
+
+```sh
+python3 first_script.py
+```
+What happens?
+
+![https://media.giphy.com/media/3KCOFfdqmptLi/giphy.gif](https://media.giphy.com/media/3KCOFfdqmptLi/giphy.gif)
+
+Because we aren't in the interpreter any more, unless we tell the computer to output a value it won't show us any message (unless there's an error.)
+
+One solution is the **print** method.
+
+In first_script.py, add the line to the bottom of the script:
+```python
+print(projects)
+```
+This time you should see the list of projects.
+
+Now try moving that line to the top of first_script.py and running the script again.
+
+![https://media.giphy.com/media/qQI16x8tgp7nW/giphy.gif](https://media.giphy.com/media/qQI16x8tgp7nW/giphy.gif)
+
+We've hit a problem. Let's break down what happened here. If the print statement was at the bottom of the script it worked, but if it was at the top it didn't. 
+
+That's because the print statement within it's parentheses references the variable `digital humanities`, but we haven't defined that variable yet.
+
+**Computers read code from top to bottom**
 
 
+#### So what's the print statement?
+
+Print is a *built-in Python method*, which means it comes installed with Python and we can use it whenever we are writing Python.
+
+Print is used to literally print out values to the terminal, and it's one of many ways to find out the output of a Python script.
+
+#### Built-In Methods
+
+Print is one of many methods. Let's take a look at a few more.
+
+1. Len()
+In first_script.py, move the print statement back to the bottom of the script. Then above the print statement type:
+```python
+projects_numbers = len(projects)
+print('how many DH projects do we have?', projects_numbers)
+```
+Then try running the code. You should first see our question followed by a number and then the list of projects.
+
+The **len** method can return the length of any list, dictionary, or string in Python.
+
+1. Type()
+You might also want to know the **type** of your variable, whether it's a data type or a data structure. In first_script.py, add to the bottom of the script:
+```python
+print(type(projects), type(digital_humanities))
+```
+Once you run the script you should see that we have both a list and a dictionary. With print statements you can add multiple items as long as they are separated by commas, and you can use built-in methods inside the print statement, instead of assigning them to a variable first.
+
+1. Input()
+You can also get input from the terminal using the **input** method. In first_script.py, type the following at the bottom of the script:
+```python
+print('Enter your name:')
+name = input()
+print('Hello, ' + name)
+```
+![https://media.giphy.com/media/3o7buirYcmV5nSwIRW/giphy.gif](https://media.giphy.com/media/3o7buirYcmV5nSwIRW/giphy.gif)
+
+*What did we just do?*
+First we printed out a prompt. Then we assigned the input method to a variable, and then we printed out hello concatenated with the value of name. 
+
+You've now used built-in methods before for both dictionaries and lists. But they exist for data types too.
+
+#### Built-In Methods for Strings
+
+1. Split()
+The **split** method lets us split up a string and turn it into a list. In first_script.py, add the following:
+
+```python
+definition_of_dh = 'DH is 1) using new digital tools to do humanistic research and 2) using humanistic methods to analyze new digital tools.'
+print(definition_of_dh)
+print(definition_of_dh.split(''))
+```
+![dh definition](/week2/images/def_dh.png)
+
+1. Join()
+The **join** method lets us take a list and join all the values together.
+```python
+all_projects = ' '.join(projects)
+print(all_projects)
+```
+
+1. Replace()
+The **replace** method lets us find a string and replace it with another string. You can also specify how many times you want to replace a string.
+```python
+edited_definition_of_dh = definition_of_dh.replace('tools', 'people') 
+print(edited_definition_of_dh)
+```
+
+1. Upper() and Lower()
+The **upper** and **lower** methods return the entire string capitalized or lowercased respectively.
+```python
+print(definition_of_dh.upper(), definition_of_dh.lower())
+```
+
+You can find more information about string methods here
+[https://www.w3schools.com/python/python_ref_string.asp](https://www.w3schools.com/python/python_ref_string.asp)
 
 
-
-
-## Comments and Documentation
 ### Inline Commenting
-```python
-# Life is suffering...
-1+2+3
-```
-
 Comments are especially useful--necessary!--for collaboration. Python is open source and its community of millions of coders often share in its permissive approach to intellectual property. Python as a whole is a giant collaborative project of which you are now members.
 
 When you write particularly complicated logic or whenever you write new classes or functions (more on this later!), you should write a comment to explain yourself.
@@ -36,9 +156,9 @@ Let's take a look at the specific documentation for strings:
 
 Learning to read documentation is a critical skill for succeeding as a programmer. Happily, most of you, as graduate students, should already be literate.
 
-## Interlude: The Zen of Python
+## The Zen of Python
 ### What's the deal with Python? 
-Type this into Python:
+Type this into the Python interpreter:
 ```python
 import this
 ```
@@ -46,84 +166,3 @@ import this
 Here's [one interpretation of Z of P](https://inventwithpython.com/blog/2018/08/17/the-zen-of-python-explained/).
 
 Also, a DH answer: lots of DH projects are written in Python because of its simplicity and robust community and it's especially popular in areas like text analysis and machine learning.
-
-## Saving and running code
-The Python interactive interpreter is very useful for experimentation, but if you want to write something less ephemereal, you'll want to save it as a file so that it can be run over again without going through it line by line. The code is exactly the same, just save it as a text file to your disk with the usual Python file format extension, .py.
-
-Now, you can run the resulting file using the command `python code.py` (or `python3 code.py`).
-
-There are some important differences in behavior between running code through the interactive interpreter and as a saved .py file. The way that we've been using the interpreter so far has relied on how it returning values that we reference.
-
-If we run these two lines in the interactive interpreter, we see that the second statement prints 2 because Python assumes that we want to know more about it:
-
-```
->>> a = 1+1
->>> a
-2
-```
-
-If we ran these lines from a .py file, nothing will print at all because the statement `a` on the second line doesn't actually tell Python to do anything. In a .py file, we have to explicitly tell Python to print using the print() function.
-
-```python
-a = 1+1
-a
-```
-
-## Input
-Code that always does the same thing is a little boring. Let's spice up the earlier example a bit with user input.
-```python
-madlibs=input("What manner of overlords do you, for one, welcome? ")
-print("I, for one, welcome our new "+madlibs+" overlords!")
-```
-
-## Sequences
-### Lists
-
-![Bad Pun Hazel](assets/sleeping_hazel.jpeg)
-
-```python
-dogs = ["Toby","Bofur","Hazel","Maple","Henry","Fat Dog","Monty", "Keefa"]
-print(dogs[0])
-print(dogs[-1])
-print(dogs[3:])
-print(len(dogs))
-dogs.sort()
-print(dogs)
-dogs.sort(reverse=True)
-print(dogs)
-```
-
-Lists are one type of sequence, which are ordered collections of variables (including sequences, so you can have lists of lists).
-
-[Python 3 Docs: Built-in Types: Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
-
-Strings are actually sequence types, just like lists! They're sequences of characters and we can address particular characters just like with lists.
-
-```python
-gooddog = "Hazel is a good dog"
-print("Every dog"+gooddog[5:])
-```
-
-## Modules
-### Python Standard Library
-```python
-import random
-print(random.randint(0,10))
-```
-
-[Python 3 Docs: Standard Library: Numeric and Mathematical: Random](https://docs.python.org/3/library/random.html#module-random)
-
-Of course, you don't always want to write your own code. Programmers are ~~lazy~~ efficient. Python has a famously robust built-in Standard Library so you can reuse the work of thousands of programmers who have contributed to it. This Standard Library is part of the language itself and is included in every Python installation.
-
-For more specialized tasks, it's also easy to use the work of third party developers. But we'll leave that to another week.
-
-## Let's Hope You Paid Attention!
-### Work together!
-Pair programming is a common practice. We want you to always do pair programming. Let's write some code to assign each of you a partner for this week's homework using what we've just learned!
-
-```python
-praxis = ["chloe","connor","janet","lauren","natasha"]
-# ???
-```
-
-##### Hint: there's a section in the Random library documentation [just for working with sequences](https://docs.python.org/3/library/random.html#functions-for-sequences)!
