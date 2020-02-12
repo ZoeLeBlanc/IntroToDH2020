@@ -2,7 +2,7 @@
 ![python logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
 ## What is Python?
-|![python definition](/week2/images/python_def.png)|
+|![python definition](/IntroToDH2020/week2/images/python_def.png)|
 |:--:|
 | [Wikipedia's Definition of Python](https://en.wikipedia.org/wiki/Python_(programming_language))|
 
@@ -341,6 +341,6 @@ professors[0]
 
 Congratulations 🎉🎉🎉! You've now completed the introduction to Python.
 
-If anything is unclear, please bring questions you have to class and we'll being doing an overview of these concepts.
+If anything is unclear, please bring questions you have to class and we'll being doing an overview of these concepts. Also checkout the [Python Cheatsheet](/week2/python_cheatsheet.md)!
 
 If you want to continue with learning and exercises, check out the additional materials [here](/week2/more_python.md) but otherwise we'll cover this in class together.
