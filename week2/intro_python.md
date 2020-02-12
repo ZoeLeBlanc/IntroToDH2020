@@ -249,8 +249,8 @@ We can also add items and remove them from the list. Let's take a look at some o
 #### Quick Assignment
 ```
 Try out the methods in the documentation for manipulating lists
-1. Find a way to add 'Dumbledore' to the end of our `new_list` (hint: there's multiple ways to do this)
-2. Try reversing and sorting our `new_list`, what happens? Try doing the same on `classes`
+1. Find a way to add 'American Panorama' to the end of our `new_list` (hint: there's multiple ways to do this)
+2. Try reversing and sorting our `new_list`, what happens? Try doing the same on `projects`
 ```
 
 Lists are great. But what if we wanted to store information not just in a sequence, but in a way that let's us keep certain values together?
@@ -259,79 +259,76 @@ Lists are great. But what if we wanted to store information not just in a sequen
 We can use a *dictionary*, which is a collection of key/value pairs to store this information. Keys and values are always separated by a colon.
 
 ```python3
-witch = { 'name': 'Hermione', 'age': 18}
+professor = { 'name': 'Susan Hockey', 'birth_year': 1946}
 ```
 To access our values in dictionaries, we don't use indexing. Instead, we use the keys of dictionary. Keys are always the values that come before the colon.
 ```python3
-witch['name']
+professor['name']
 ```
 We write the key inside of brackets and quotations, called *bracket notation*. 
 
 What happens if we add another name to the dictionary?
 ```python
-witch = { 'name': 'Hermione', 'age': 18, 'name': 'Harry'}
+professor = { 'name': 'Susan Hockey', 'birth_year': 1946, 'name':'Father Robert Busa'}
 ```
-Where's hermione??
+Where's Susan Hockey??
 
-![https://media.giphy.com/media/OUwzqE4ZOk5Bm/giphy.gif](https://media.giphy.com/media/OUwzqE4ZOk5Bm/giphy.gif)
-
-Hermione was overwritten in our dictionary because our new value shared the same key. In a dictionary, keys must be unique!
+Susan Hockey was overwritten in our dictionary because our new value shared the same key. In a dictionary, keys must be unique!
 
 Just like lists though we can store a dictionary inside of a dictionary
 ```python
-hogwarts = {
-    'student_1': {
-        'name':'Hermione'
+professors = {
+    'professor_1': {
+        'name':'Father Robert Busa'
     },
-    'student_2': {
-        'name':'Harry',
-        'age':19
+    'professor_2': {
+        'name': 'Susan Hockey',
+        'birth_year': 1946
     },
 }
 ```
-Now we can get Hermione's name if we type `hogwarts['student_1']['name']`. What's happening here is that we're using the keys to find our value that's nested inside a dictionary within a dictionary.
+Now we can get Susan Hockey's name if we type `professors['professor_2']['name']`. What's happening here is that we're using the keys to find our value that's nested inside a dictionary within a dictionary.
 
-We can add Hermione's age by using a similar notation:
+We can add Susan Hockey's age by using a similar notation:
 ```python3
-hogwarts['student_1']['age'] = 18
+`professors['professor_2']['age'] = 74
 ```
+
 Just like lists there are many ways to manipulate dictionaries
 [https://www.w3schools.com/python/python_ref_dictionary.asp](https://www.w3schools.com/python/python_ref_dictionary.asp)
 
 #### Quick Assignment
 ```
 Try out the methods for manipulating dictionaries.
-1. Remove Harry's age from the `student_2` dictionary
-2. Get all the keys for the `hogwarts` dictionary
-3. Get all the values for the `student_1` dictionary
+1. Remove Susan Hockey's age from the `professor_2` dictionary
+2. Get all the keys for the `professors` dictionary
+3. Get all the values for the `professor_1` dictionary
 ```
-
-[https://media.giphy.com/media/F6MFG8PHtQ2qs/giphy.gif](https://media.giphy.com/media/F6MFG8PHtQ2qs/giphy.gif)
 
 You can also get even crazier and store lists in dictionaries:
 ```python
-hogwarts = {
-    'student_1': {
-        'name':'Hermione',
-        'classes':['Defense Against The Dark Arts', 'Potions']
+professors = {
+    'professor_1': {
+        'name':'Father Robert Busa',
+        'projects': ['Index Thomisticus', 'Index Thomisticus Treebank']
     },
-    'student_2': {
-        'name':'Harry',
-        'age':19
+    'professor_2': {
+        'name': 'Susan Hockey',
+        'birth_year': 1946
     },
 }
 ```
-Notice that the list is a value of a key, in this case `classes`. You can only insert a list into a dictionary as a value.
+Notice that the list is a value of a key, in this case `projects`. You can only insert a list into a dictionary as a value.
 
 You can also put dictionaries inside of lists:
 ```python
-students_hogwarts = [
+professors = [
     {
-        'name':'Hermione',
-        'classes':['Defense Against The Dark Arts', 'Potions']
+        'name':'Father Robert Busa',
+        'projects': ['Index Thomisticus', 'Index Thomisticus Treebank']
     },{
-        'name':'Harry',
-        'age':19
+        'name': 'Susan Hockey',
+        'birth_year': 1946
     }
 ]
 ```
@@ -339,138 +336,11 @@ Notice that we now don't have keys for our top-most dictionaries. In lists, item
 
 Python defaults to indexing each dictionary with numbers, just like in our list of strings. So to get the first value, you would type:
 ```python
-students_hogwarts[0]
-```
-### Any questions?
-
-### Second Group Exercise
-[TRICK OR TREAT PYTHON](python_exercise.md)
-
-![https://media.giphy.com/media/uoPf8Z0vGcTOE/giphy.gif](https://media.giphy.com/media/uoPf8Z0vGcTOE/giphy.gif)
-
-```python
-print("Hello Cruel World!")
-```
-"Print" is a function, which is like a command. Functions are called by writing the function name followed by parenthesis. Inside the parenthesis are zero or more parameters, which are extra bits of information that you attach to the function. The "print" function simply writes out the data that's passed to it.
-
-If you're looking for help on the internet and ever see `print "foobar"` instead of `print("foobar")` (without the parenthesis), that's Python 2 code instead of Python 3!
-
-
-
-
-
-
-## Comments and Documentation
-### Inline Commenting
-```python
-# Life is suffering...
-1+2+3
+professors[0]
 ```
 
-Comments are especially useful--necessary!--for collaboration. Python is open source and its community of millions of coders often share in its permissive approach to intellectual property. Python as a whole is a giant collaborative project of which you are now members.
+Congratulations 🎉🎉🎉! You've now completed the introduction to Python.
 
-When you write particularly complicated logic or whenever you write new classes or functions (more on this later!), you should write a comment to explain yourself.
+If anything is unclear, please bring questions you have to class and we'll being doing an overview of these concepts.
 
-### Documentation
-
-Python, as with virtually all other languages and complex codes, contains extensive documentation that covers all aspects of its use. This documentation is [easily accessible via the Internet](assets/MissionImpossible.m4v?raw=true).
-
-[Python 3 Documentation](https://docs.python.org/3/)
-
-Let's take a look at the specific documentation for strings:
-
-[Python 3 Docs: Built-in Types: Strings](https://docs.python.org/3/library/stdtypes.html#string-methods)
-
-Learning to read documentation is a critical skill for succeeding as a programmer. Happily, most of you, as graduate students, should already be literate.
-
-## Interlude: The Zen of Python
-### What's the deal with Python? 
-Type this into Python:
-```python
-import this
-```
-
-Here's [one interpretation of Z of P](https://inventwithpython.com/blog/2018/08/17/the-zen-of-python-explained/).
-
-Also, a DH answer: lots of DH projects are written in Python because of its simplicity and robust community and it's especially popular in areas like text analysis and machine learning.
-
-## Saving and running code
-The Python interactive interpreter is very useful for experimentation, but if you want to write something less ephemereal, you'll want to save it as a file so that it can be run over again without going through it line by line. The code is exactly the same, just save it as a text file to your disk with the usual Python file format extension, .py.
-
-Now, you can run the resulting file using the command `python code.py` (or `python3 code.py`).
-
-There are some important differences in behavior between running code through the interactive interpreter and as a saved .py file. The way that we've been using the interpreter so far has relied on how it returning values that we reference.
-
-If we run these two lines in the interactive interpreter, we see that the second statement prints 2 because Python assumes that we want to know more about it:
-
-```
->>> a = 1+1
->>> a
-2
-```
-
-If we ran these lines from a .py file, nothing will print at all because the statement `a` on the second line doesn't actually tell Python to do anything. In a .py file, we have to explicitly tell Python to print using the print() function.
-
-```python
-a = 1+1
-a
-```
-
-## Input
-Code that always does the same thing is a little boring. Let's spice up the earlier example a bit with user input.
-```python
-madlibs=input("What manner of overlords do you, for one, welcome? ")
-print("I, for one, welcome our new "+madlibs+" overlords!")
-```
-
-## Sequences
-### Lists
-
-![Bad Pun Hazel](assets/sleeping_hazel.jpeg)
-
-```python
-dogs = ["Toby","Bofur","Hazel","Maple","Henry","Fat Dog","Monty", "Keefa"]
-print(dogs[0])
-print(dogs[-1])
-print(dogs[3:])
-print(len(dogs))
-dogs.sort()
-print(dogs)
-dogs.sort(reverse=True)
-print(dogs)
-```
-
-Lists are one type of sequence, which are ordered collections of variables (including sequences, so you can have lists of lists).
-
-[Python 3 Docs: Built-in Types: Sequence Types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
-
-Strings are actually sequence types, just like lists! They're sequences of characters and we can address particular characters just like with lists.
-
-```python
-gooddog = "Hazel is a good dog"
-print("Every dog"+gooddog[5:])
-```
-
-## Modules
-### Python Standard Library
-```python
-import random
-print(random.randint(0,10))
-```
-
-[Python 3 Docs: Standard Library: Numeric and Mathematical: Random](https://docs.python.org/3/library/random.html#module-random)
-
-Of course, you don't always want to write your own code. Programmers are ~~lazy~~ efficient. Python has a famously robust built-in Standard Library so you can reuse the work of thousands of programmers who have contributed to it. This Standard Library is part of the language itself and is included in every Python installation.
-
-For more specialized tasks, it's also easy to use the work of third party developers. But we'll leave that to another week.
-
-## Let's Hope You Paid Attention!
-### Work together!
-Pair programming is a common practice. We want you to always do pair programming. Let's write some code to assign each of you a partner for this week's homework using what we've just learned!
-
-```python
-praxis = ["chloe","connor","janet","lauren","natasha"]
-# ???
-```
-
-##### Hint: there's a section in the Random library documentation [just for working with sequences](https://docs.python.org/3/library/random.html#functions-for-sequences)!
+If you want to continue with learning and exercises, check out the additional materials [here](/week2/more_python.md) but otherwise we'll cover this in class together.
