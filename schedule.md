@@ -81,7 +81,7 @@ How do different histories of digital humanities explain the emergence of this f
 
 *Class Activities:*
 
-- Seminar discussion about early DH and debates over how to define the field [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week2)
+- Seminar discussion about early DH and debates over how to define the field [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week2/Tuesday)
 - Experiment with Google Ngram Viewer. What does it tell us about the origins of DH? [https://books.google.com/ngrams](https://books.google.com/ngrams)
 
 *Assignment for next class:*
