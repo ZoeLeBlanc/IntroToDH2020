@@ -103,7 +103,7 @@ What is Python? How can you tell computers to execute code?
 
 *Class Activities:*
 
-- Introduction to data structures and coding in the terminal
+- Introduction to data structures and coding in the terminal [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week2/Thursday)
 - Seminar discussion of “tools” in DH. Which ones are popular? How do we define “tools”?
 
 *Assignment for next class:*
