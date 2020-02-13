@@ -21,23 +21,10 @@
 ---
 ### Introduction to Python
 
-Open your interpreter:
-```sh
+1. Pair up. One types, while the other decides what to type
+2. Open the interpreter
+3. Go to [in-class exercises](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week2/inclass_exercises.md)
 
-```
----
-### Introduction to Python
-
-1. What are data structures?
-2. What can we store in data structures?
-
----
-### Introduction to Python
-
-Open your interpreter:
-```sh
-
-```
 ---
 ### Introduction to Python
 
@@ -47,26 +34,29 @@ Open your interpreter:
 ---
 ### Introduction to Python
 
-Open a new script:
-```python
-
-```
----
-### Introduction to Python
-
 1. What are built-in methods in Python?
 2. How do we use these methods?
 ---
 ### Introduction to Python
 
-Open a new script:
-```python
+**COMPLETE EXERCISE 2**
 
-```
 ---
 ### Introduction to Python
 
-In Class exercise
+1. What are data structures?
+2. What can we store in data structures?
+
+---
+### Introduction to Python
+
+**COMPLETE EXERCISE 2**
+
+---
+### Introduction to Python
+
+**QUESTIONS???**
+
 ---
 ### DH Tools
 
@@ -95,8 +85,8 @@ https://weltliteratur.net/dh-tools-used-in-research/
 ---
 ### DH Tools
 
-[Tapor Project](http://tapor.ca/home)
-[ADHO Data](https://github.com/ADHO/)
+- [Tapor Project](http://tapor.ca/home)
+- [ADHO Data](https://github.com/ADHO/)
 
 ---
 ### DH Tools
@@ -116,3 +106,8 @@ Some discussion questions:
 - How do we use tools?
 - Who builds these tools?
 
+---
+### Next Class
+
+- Now that we know a bit about DH tools, let's delve into DH projects!
+- Also start discussing how to review a DH project
