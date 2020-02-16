@@ -26,7 +26,7 @@ Now next person types, other person decides what to type
 3. BUT use the `input` method so that users can choose the initial values for both the strings and integers variables
 4. AND use the `print` method to print out in the terminal each step of the exercise
 
-### Exercise 3
+### Exercise 3 (COMPLETE AT HOME)
 
 Working in pairs or individually, figure out how to use the data types, structures, and methods we discussed to solve these prompts. Save your work in a script, titled `lastname_date.py` and send it before class on Tuesday.
 
