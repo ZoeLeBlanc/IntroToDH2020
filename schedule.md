@@ -108,7 +108,7 @@ What is Python? How can you tell computers to execute code?
 
 *Assignment for next class:*
 
-Complete introduction to Python coding exercises if not finished during class.
+Complete introduction to Python coding exercises if not finished during class. [Exercise 3 is available here]((https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week2/inclass_exercises.md))
 
 Read the following:
 
