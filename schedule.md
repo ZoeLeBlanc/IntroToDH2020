@@ -133,19 +133,17 @@ What was the Big Tent of DH? What are the many formats of digital humanities’ 
 
 *Class Activities:*
 
-- Seminar discussion on the many forms of DH scholarship and what makes a good review
+- Seminar discussion on the many forms of DH scholarship and what makes a good review [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week3)
 - In-class exercise to compile list of DH projects
 
 *Assignment for next class:*
-
-*Read one of the following:*
-
+- Python Fundamentals (posted after class)
 - Miriam Posner, “How Did They Make That?,” August 29, 2013. [http://miriamposner.com/blog/how-did-they-make-that/](http://miriamposner.com/blog/how-did-they-make-that/)
-- Paige Morgan, “How to get a digital humanities project off the ground” June 5, 2014. [https://www.paigemorgan.net/how-to-get-a-digital-humanities-project-off-the-ground/](https://www.paigemorgan.net/how-to-get-a-digital-humanities-project-off-the-ground/)
 
 *Additional readings:*
 
 - Stephen Ramsay and Geofrey Rockwell, “Developing Things: Notes toward an Epistemology of Building in the Digital Humanities,” pp. 75-84, in Debates in the Digital Humanities, ed. Matthew K. Gold (Minnesota UP, 2012). [https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/c733786e-5787-454e-8f12-e1b7a85cac72](https://dhdebates.gc.cuny.edu/read/untitled-88c11800-9446-469b-a3be-3fdb36bfbd1e/section/c733786e-5787-454e-8f12-e1b7a85cac72)
+- Paige Morgan, “How to get a digital humanities project off the ground” June 5, 2014. [https://www.paigemorgan.net/how-to-get-a-digital-humanities-project-off-the-ground/](https://www.paigemorgan.net/how-to-get-a-digital-humanities-project-off-the-ground/)
 
 *Second Meeting: Python Fundamentals and DH Project Management February 20, 2020*
 
