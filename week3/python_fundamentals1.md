@@ -94,13 +94,13 @@ For example, try and understand this code from week 2 exercise:
 ```python
 def make_tool_dict(name, value_2015 , value_2016, value_2017,value_2018, value_2019):
     return {
-      "2015":value_2015 ,
-      "2016":value_2016,
-      "2017":value_2017,
-      "2018":value_2018,
-      "2019":value_2019,
-      "name":name,
-      "total":value_2015+value_2016+value_2017+value_2018+value_2019
+        "2015":value_2015 ,
+        "2016":value_2016,
+        "2017":value_2017,
+        "2018":value_2018,
+        "2019":value_2019,
+        "name":name,
+        "total":value_2015+value_2016+value_2017+value_2018+value_2019
     }
 
 dh_tools=[make_tool_dict("Python",9,22,27,32,35),
@@ -140,7 +140,7 @@ A conditional is a way for a computer program to make a choice. The basic syntax
 ```python
 x = 5
 if x>0:
-  print("Positive")
+    print("Positive")
 ```
 
 If statements are essentially expressions that follow `if` and end with a `:`. We indent whatever code we want to run if that expression is successful within that code block, just like with functions or for loops. In this case, when whatever value we assign to `x` is *greater than* zero our script will run the print statement. What happens if we assign `x` to `-1`?
@@ -148,11 +148,11 @@ If statements are essentially expressions that follow `if` and end with a `:`. W
 ```python
 x = 5
 if x>0:
-  print("Positive")
+    print("Positive")
 elif x<0:
-  print("Negative")
+    print("Negative")
 else:
-  print("Zero")
+    print("Zero")
 ```
 We an also use additional conditional keywords `elif` (else if) and `else` to add more complexity to our code. Each of the conditional blocks (the three `print()` statements) are only run if the associated conditional statement is `True` (in the boolean logic sense). We can have multiple `elif` blocks if we want. We can also omit `elif` and `else` blocks altogether.
 
@@ -165,16 +165,16 @@ For numbers, we can use `>`, `>=`, `==`, `<`, and `<=` to make numeric compariso
 x = 5
 y = -1
 if x>0 and y<0:
-  print("both expressions true")
+    print("both expressions true")
 ```
 
 For strings, we can use use `==` for comparison and some special operators like `in` to see if one string exists inside of another.
 
 ```python
 if 'I' in 'TEAM':
-  print('at least one')
+    print('at least one')
 else:
-  print('no')
+    print('no')
 ```
 
 If a variable is the special `None` object, an empty string (""), or the numeric value zero, it evaluates as boolean `False`. Otherwise, it is `True`.
@@ -182,9 +182,9 @@ If a variable is the special `None` object, an empty string (""), or the numeric
 ```python
 fundamentals = ''
 if fundamentals:
-  print('Yay!')
+    print('Yay!')
 else:
-  print('Nooo...')
+    print('Nooo...')
 ```
 
 We can also test the equality of two variables in an if statement:
