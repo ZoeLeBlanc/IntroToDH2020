@@ -137,8 +137,9 @@ What was the Big Tent of DH? What are the many formats of digital humanities’ 
 - In-class exercise to compile list of DH projects
 
 *Assignment for next class:*
-- Python Fundamentals (posted after class)
-- Miriam Posner, “How Did They Make That?,” August 29, 2013. [http://miriamposner.com/blog/how-did-they-make-that/](http://miriamposner.com/blog/how-did-they-make-that/)
+- Read through Python Fundamentals [one](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week3/python_fundamentals1.md)
+- Start thinking about final projects and review assignment. We'll start brainstorming in class, but feel free to bring in potential ideas.
+- Skim for reference Miriam Posner, “How Did They Make That?,” August 29, 2013. [http://miriamposner.com/blog/how-did-they-make-that/](http://miriamposner.com/blog/how-did-they-make-that/)
 
 *Additional readings:*
 
@@ -152,8 +153,7 @@ How do you manage a digital humanities project? How do you manage code?
 *Class Activities:*
 
 - Introduction to functions and conditionals, along with reading code documentation
-- Introduction to writing code scripts
-- Seminar discussion of project management in DH
+- Seminar discussion about review and final projects
 
 *Assignment for next class:* Complete coding assignment on Python fundamentals and share on Slack.
 
