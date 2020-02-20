@@ -30,7 +30,7 @@ Quick overview:
 #### Python Fundamentals
 
 - How could we turn our loop and conditional code into something we could reuse multiple times?
-- What is white space?
+- What is white space? Local and global scope?
 
 ---
 #### Python Fundamentals
