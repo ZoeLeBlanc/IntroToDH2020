@@ -133,7 +133,7 @@ What was the Big Tent of DH? What are the many formats of digital humanities’ 
 
 *Class Activities:*
 
-- Seminar discussion on the many forms of DH scholarship and what makes a good review [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week3)
+- Seminar discussion on the many forms of DH scholarship and what makes a good review [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week3/Tuesday)
 - In-class exercise to compile list of DH projects
 
 *Assignment for next class:*
@@ -152,7 +152,7 @@ How do you manage a digital humanities project? How do you manage code?
 
 *Class Activities:*
 
-- Introduction to functions and conditionals, along with reading code documentation 
+- Introduction to loops, functions, and conditionals [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week3/Thursday)
 - Seminar discussion about review assignment and final projects
 
 *Assignment for next class:* Complete coding assignment on Python fundamentals and share on Slack.
