@@ -1,13 +1,19 @@
 ## Python Fundamentals 1
 
-#### Looping
+**Data Flow**
+
+Computers read code line by line, top to bottom of a script. But what if you want to have code run not in sequential order, or you want your code to do something depending on a value, or you want to reuse your code and run it multiple times?
+
+We can solve all those problems with data flow structures.
+
+#### 1. Looping
 In `code_review_week2.py` you had to print out multiple values from the tools dictionary. While typing each value out is tedious, it was still possible to do. However, what would happen if you had hundreds or thousands of values? 
 
-While there's a much faster way to traverse data structures and types in Python, called `Looping`. With various loops in Python, you can travel through a sequence (i.e. a list, dictionary, string, etc...) to be able to manipulate items within the sequence.
+There's a much faster way to traverse data structures and types in Python, called `Looping`. With various types of loops in Python, you can travel through a sequence (i.e. a list, dictionary, string, etc...) to be able to manipulate items within the sequence.
 
 **For Loops** are one of the most common ways in python to loop over a sequence. But what does looping mean exactly?
 
-Let's go back to our script from week 2, and find our list of halloween costumes. Add these lines to the script:
+Let's go back to our script from week 2, and find our list of names. Add these lines to the script:
 ```python
 names=["Sara", "Kevin", "Shiva", "Anna", "Meher", "Maia"]
 for name in names:
@@ -15,11 +21,13 @@ for name in names:
 ```
 ![https://www.oreilly.com/library/view/head-first-python/9781449397524/httpatomoreillycomsourceoreillyimages1368346.png.jpg](https://www.oreilly.com/library/view/head-first-python/9781449397524/httpatomoreillycomsourceoreillyimages1368346.png.jpg)
 
-We can also use For Loops on dictionaries.
+We can also use For Loops on dictionaries. The syntax is slightly different because dictionaries are not one long sequence, but rather a sequence of key/value pairs.
 ```python
 tools = {"Python":{"2015":9, "2016":22, "2017":27, "2018":32, "2019":35}, "Javascript":{"2015":8, "2016":18, "2017":12, "2018":6, "2019":15}, "Twitter":{"2015":10, "2016":18, "2017":26, "2018":16, "2019":12}, "Github":{"2015":2, "2016":6, "2017":17, "2018":5, "2019":10}, "Gephi":{"2015":11, "2016":16, "2017":14, "2018":10, "2019":9}, "Geonames":{"2015":2, "2016":4, "2017":3, "2018":1, "2019":8}, "Transkribus":{"2015":0, "2016":1, "2017":2, "2018":1, "2019":8}, "Excel":{"2015":5, "2016":9, "2017":3, "2018":6, "2019":7}, "MySQL":{"2015":0, "2016":6, "2017":9, "2018":5, "2019":7}}
-for tool in tools:
-    print(tool)
+
+for key, value in tools.items():
+    print('key', key)
+    print('value', value)
 ```
 
 Or even strings.
@@ -31,14 +39,14 @@ for letter in 'Digital Humanities':
 For more about looping in Python checkout [https://wiki.python.org/moin/ForLoop](https://wiki.python.org/moin/ForLoop) and [https://www.learnpython.org/en/Loops](https://www.learnpython.org/en/Loops).
 
 #### Functions
-Looping is very powerful, but currently each time we want to loop through a variable we have to repeat our code later in the script. An alternative is to create a function.
+Looping is very powerful, but if we want to loop through a second list of names or a different variable, we would have to repeat our code later in the script. An alternative is to create a function.
 
 A function is a way to organize code by packaging many lines of code together into a single bundle. At the most basic level, this makes it easy to reuse code: it's easier to write out and read a single line rather than many lines and easier to change code in one place rather than in many places.
 
 **Function Syntax**
 ![https://cdn.askpython.com/wp-content/uploads/2019/06/python-functions.png](https://cdn.askpython.com/wp-content/uploads/2019/06/python-functions.png)
 
-To create a function we use the `def` keyword to define the function, giving it a name and follow that with parentheses, which can either be empty or contain variables we want to pass to the function.
+To create a function, we define using `def` and a unique name and finally parentheses, followed by colon. Then we can pass *arguments* (also called parameters) in the parentheses, that we can that use *inside* of the functions. Those arguments will be *variables* and so we can do anything you would normally do to a value. Finally we can *return* the result of our manipulation.
 
 For example try:
 ```python
@@ -196,5 +204,7 @@ if top_tool2015 != top_tool2019:
 else:
     print('More they stay the same')
 ```
+
+For more information about control flow, read the [Python documentation on the topic](https://docs.python.org/3/tutorial/controlflow.html).
 
 We'll go over all of this in class with exercises, but bring additional questions too!!

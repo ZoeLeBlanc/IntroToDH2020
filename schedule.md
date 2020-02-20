@@ -152,10 +152,12 @@ How do you manage a digital humanities project? How do you manage code?
 
 *Class Activities:*
 
-- Introduction to functions and conditionals, along with reading code documentation
-- Seminar discussion about review and final projects
+- Introduction to functions and conditionals, along with reading code documentation 
+- Seminar discussion about review assignment and final projects
 
 *Assignment for next class:* Complete coding assignment on Python fundamentals and share on Slack.
+
+Read through pre-lesson materials on Python Classes and version control. Read Dale Markowitz "The Servers Are Burning" *Logic Magazine* [https://logicmag.io/failure/the-servers-are-burning/](https://logicmag.io/failure/the-servers-are-burning/) to learn why debugging is so difficult. No questions needed for this reading (should take you ~10 minutes).
 
 Select two articles from *Current Research in Digital History* [https://crdh.rrchnm.org/](https://crdh.rrchnm.org/) for the DH Review assignment. When selecting, consider what topics, methods, or data you might be interested in using in the final project. Send me an email or Slack message with a short paragraph explaining your selection.
 
