@@ -35,12 +35,13 @@ Quick overview:
 ---
 #### Python Fundamentals
 
-###[In Class Exercises](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week3/inclass_exercises.md)
+[In Class Exercises](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week3/inclass_exercises.md)
 
 ---
 #### Project Management
 
-- Overall goals for the end of the semester
+**Overall goals for the end of the semester**
+  
 1) Have more in-depth knowledge of DH
 2) Make a humanities data analysis project
 
