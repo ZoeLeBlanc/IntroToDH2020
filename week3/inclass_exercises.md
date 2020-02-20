@@ -1,3 +1,5 @@
+Working in pairs or small groups, one person types and the other(s) tell them what to write.
+
 ##### Assignment 1
 This is the first few lines from Project Gutenberg version of Jane Austen, which you can find [here](https://www.gutenberg.org/files/1342/1342-0.txt).
 
@@ -17,7 +19,7 @@ BONUS:
 
 ##### Assignment 2
 
-Using the DH Tools data from last week, rewrite your code so that we could add a few more entries.
+Using the DH Tools data from last week, rewrite your code so that we could add a few more entries in a new script called `dh_tools.py`.
 
 1. Download and open the [`tools_dh_proceedings.csv`](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week3/tools_dh_proceedings.csv) file and get the next top ten tools, based on 2019 ratings.
    
@@ -27,3 +29,5 @@ Using the DH Tools data from last week, rewrite your code so that we could add a
 
 **BONUS**
 1. Create a way to input any year and return the top tool.
+
+Once you're finished, post your scripts in Slack. If you don't finish both of these today, finish them over the weekend.
