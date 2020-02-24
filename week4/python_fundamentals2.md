@@ -1,5 +1,41 @@
 ## Python Fundamentals 2
 
+So far we've learned how to store data in different data types (integers, strings, floats, etc...) and structures (lists and dictionaries). We've also learned how to use for loops to manipulate our data, conditionals to change the data flow, and functions to encapsulate our code and make it reusable and generalizable. 
+
+Now that we've started to learn the range of Python syntax, we can start putting it all together. One of the main ways we can do that is with `Classes`.
+
+Let's take a look at code from Week 2's assignment.
+```python
+def make_tool_dict(name, value_2015):
+    return {
+        "2015":value_2015 ,
+        "name":name,
+    }
+
+dh_tools= {
+    "tool1": make_tool_dict("Python",9),
+    "creator1": "Guido van Rossum"
+}
+```
+This code snippet contains a **function** called make_tool_dict that returns a **dictionary** with the name and value from 2015 for a DH tool. We call this function inside of the dh_tools **variable**.
+
+Right now this code works well if we just have one script, but what if we wanted to build upon this code to add more fields and information about the tools, and maybe even reuse this code in multiple files? Then we might want to consider rewriting the code into a **class**.
+
+While dictionaries are great for describing complex data within a single object, a class is really useful to encapsulate both data and functions in a single cohesive unit. 
+
+A class is a particular type of **objects**. We can create ("instantiate") an object of a class and store it as a variable. A variable therefore contains (technically, contains a reference to) an *instance* of a class.
+
+We've already used a lot of built-in classes. Strings, lists, dictionaries are all classes. We can have Python tell us what kind of class it is using the built-in function `type()`.
+
+```sh
+>>> a = [1,2,3]
+>>> type(a)
+<class 'list'>
+>>> b = "123"
+>>> type(b)
+<class 'str'>
+```
+
 #### Classes
 Python classes are great for storing complex data structures, but they can also be simple.
 
@@ -14,132 +50,129 @@ class noop:
 noop()
 ```
 
-What exactly gets invoked in this case since the class has no actual logic in it. For any class, when you invoke it, it executes the `__init__` method. Since our simplistic example above didn't define any logic for the built-in `__init__` method, nothing happened.
+To first define a class, we need to use the keyword `class` followed by the name of the class (which can be anything!) and then a semi colon. All the logic of the class is indented (just like with functions, loops, and conditionals) and then we call the class similar to a function, using its name and parentheses to pass arguments to the class.
+
+In this case, since the class has no actual logic in it, just the keyword `pass`, nothing actually happens. For any class, when you invoke it, it executes the `__init__` method, which is another built in method from Python. Thus, since our example above didn't define any logic for the built-in `__init__` method, nothing happened.
 
 ## Simple Class
 
 Let's define a class that actually does something when it's initialized.
 
 ```python
-class Zoo:
+class DHTool:
     def __init__(self, name):
-        self.zoo_name = name
+        self.tool_name = name
 
-a_zoo = Zoo("Zoolandia")
-a_zoo.zoo_name
+a_tool = DHTool("Python")
+a_tool.tool_name
 ```
 
-The class instance is the first argument to **_any_** function defined in a class.
+So similar to our initial `make_dh_tool` function, we are creating a way to store data about DH tools. However, in this example we've created a class that has an initial method (which is really just a function!) that takes the argument we pass and assigns it to something called `self`.
+
+Self references the class **instance** that is created when you call a class, which is why `self` is the first argument to **_any_** function defined in a class.
 
 ```python
-
-class Zoo:
-    """Contains methods for maintaining a Zoo
+class DHTool:
+    """Contains methods for maintaining data related to a dh tool
 
     Methods:
     --------
-    build_habitat
-    sell_family_ticket
-    purchase_animal
+    add_authors
+    add_year_popularity
+    calculate_total_popularity
     """
     def __init__(self, name):
-        self.zoo_name = name
-        self.animals = dict()
-        self.habitats = set()
-        self.visitors = list()
+        self.tool_name = name
+        self.authors = list()
+        self.year_values = dict()
+        self.total_value = 0
 
 
-    def build_habitat(self, name, type):
-        """Adds tuples to the habitats set in the format (name, type)
-
-        Method arguments:
-        -----------------
-        name(string) -- The marketing name of the habitat
-        type(string) -- The type of habitat (e.g. Saltwater, Savanna, Swamp, etc.)
-        """
-
-        self.habitats.add((name, type))
-
-
-    def sell_family_ticket(self, family):
-        """Adds an entire family to the list of visitors
+    def add_authors(self, authors):
+        """Adds a list of authors of the DH Tool
 
         Method argument:
         -----------------
-        family(list) -- A list of people in a family of visitors
+        authors(list) -- A list of people who built the dh tool
         """
+        if isinstance(authors, list) is False:
+            authors = [authors]
 
-        self.visitors.extend(family)
+        self.authors.extend(authors)
 
 
-    def purchase_animal(self, type, name):
-        """Add an animal to the zoo
+    def add_year_popularity(self, year, value):
+        """Adds the popularity value for each year of the DH tool
 
-        Method arguments:
+        Method argument:
         -----------------
-        type(string) -- The type of animal to add
-        name(string) -- The given name of the animal
+        year(integer or string) -- A year 
+        value(integer) - Popularity value
         """
 
-        self.animals[name] = type
+        self.year_values[str(year)] = value
 
 
-    def list_animals(self):
-        """Lists all animals in the zoo
-
-        Method arguments:
-        n/a
+    def calculate_total_popularity(self):
+        """Calculate the total popularity for a tool
         """
 
-        [print(k + ' the ' + v) for k, v in self.animals.items()]
+        self.total_popularity = sum(self.year_values.values())
+        print(self.total_popularity)
 
 
-a_zoo = Zoo("Zoolandia")
-a_zoo.purchase_animal("Tortoise", "Tommy")
-a_zoo.list_animals()
+a_tool = DHTool("Python")
+a_tool.add_authors("Guido van Rossum")
+a_tool.add_year_popularity(2015, 9)
+a_tool.calculate_total_popularity()
+print(a_tool.total_popularity)
 
-print(a_zoo.list_animals.__doc__) # To view the docstring for the method
+print(a_tool.add_year_popularity.__doc__) # To view the docstring for the method
 ```
 
-## Subclassing
+So what's going in this code block?
 
-In the previous example, we used strings to define an animal. Let's be more detailed in what an animal is by defining an `Animal` class.
+First we're taking our `DHTool` class and expanding it so that it can contain more information about each tool. We still only initially create the class with one argument - the tool's name. But we've also added additional attributes to the `__init__` function. First, we have `authors`, which holds a list; then year_values, which is a dictionary holding years as keys for the tool's popularity value, and finally total_value, which is an integer that we store the total popularity of the tool.
+
+Do you notice that the syntax here looks like a dictionary? That's because we can use a similar pattern to dictionaries for creating our attributes.
+
+To make it even more clear this is what the `__init__` method would look like as a function that return a dictionary:
 
 ```python
-class Animal:
-    def __init__(self, name = None, species = None):
-        self.name = name
-        self.species = species
-        self.speed = 0
-        self.legs = 0
 
-    def get_name(self):
-        return self.name
-
-    def walk(self):
-        print("Parent class walk method")
-        self.speed = self.speed + (0.1 * self.legs)
-
-    def set_species(self, species):
-        self.species = species
-
-    def get_species(self):
-        return self.species
-
-    # __str__ is a special function equivalent to toString() in JavaScript
-    def __str__(self):
-        return "%s is a %s" % (self.name, self.species)
-
-
-class Dog(Animal):
-    def __init__(self, name):
-        Animal.__init__(name, "Dog")
-
-    def walk(self):
-        self.speed = self.speed + (0.2 * self.legs)
+def make_dh_tool(name):
+    dh_tool = dict() #Could also write {}
+    dh_tool.tool_name = name
+    dh_tool.authors = alist()
+    dh_tool.year_values = dict()
+    dh_tool.total_value = 0
 ```
 
-A class is really useful to encapsulate both data and functions in a single cohesive unit.
+While this function is somewhat similar to our `DHTool` class, we've also added a number of functions, which we call **methods** to the class.
+
+The first method `add_authors` takes two arguments, `self` and `authors`. Just like in the `__init__` method, `self` represents the class instance and authors is a list of authors. In the `__init__` method, we define the authors attribute on `self` as an empty list. Then in our `add_authors` method we extend this initial empty list, adding the new authors to the list.
+
+What would happen if we decided to add an additional author of Python from the ![list of core contributors](https://devguide.python.org/developers/)?
+
+```python
+a_tool.add_authors("Joannah Nanjekye")
+print(a_tool.authors)
+```
+We can check by printing out the authors attribute, and we'll see that the list now contains both Guido and Joannah. 
+
+Our `DHTool` class also has methods for add popularity values for each year, and also for calculating the total popularity for the tool. 
+
+What if we wanted to add a method for printing out an entire tool's information? We could try looping through the class object and print out each attribute. Or we could use the built-in `__dict__` functionality that prints out the values for a class. 
+
+```python
+def get_tool_info(self):
+    print(a_tool.__dict__)
+
+```
+
+### Quick Assignment
+1. Try adding the `get_tool_info` to our `DHTool` class and then call it in your script.
+2. Try adding a second tool with all the relevant information, and then calculate it's total popularity and print out it's full information.
 
 # Additional Reading
 
@@ -148,71 +181,11 @@ A class is really useful to encapsulate both data and functions in a single cohe
 
 #### Python Libraries
 
-#### Importing Modules
-Let's model a dog class that includes some simple logic to track mood.
-
-```python
-class Dog:
-
-    def __init__(self, name, owner, breed, likes, dislikes):
-        self.name = name
-        self.owner = owner
-        self.breed = breed
-        self.likes = likes
-        self.dislikes = dislikes
-        
-        # default mood value, range 0-5
-        self.mood = 2
-
-    def speak(self):
-        if self.mood > 3:
-            print("*nuzzle* *happy bark!*")
-        elif self.mood > 1:
-            print("*regular bark*")
-        else:
-            print("*grrrrr!*") 
-    
-    def stimulate(self, stimulus):
-        if stimulus in self.likes and self.mood<5:
-            self.mood += 1
-        elif stimulus in self.dislikes and self.mood>0:
-            self.mood -= 1
-
-hazel = Dog("Hazel","Beagle","Shane",["treats","naps","raccoons"],["thunder"])
-hazel.stimulate("thunder")
-hazel.stimulate("thunder")
-hazel.speak()
-hazel.stimulate("treats")
-hazel.stimulate("treats")
-hazel.speak()
-hazel.stimulate("naps")
-hazel.stimulate("raccoons")
-hazel.speak()
-```
-
-When we call the constructor (`hazel = Dog("Hazel","Beagle","Shane",["treats","naps","raccoons"],["thunder"])`), we create a new dog object with the parameters we pass in and have the variable `hazel` point to it. We say that the object we created is an *instance* of the class Dog. The variable `hazel` is a *reference* to that instance. Two different variables can point to the same object. Two different objects that contain identical data are not the same.
-
-For example:
-
-```python
-hazel = Dog("Hazel","Beagle","Shane",["treats","naps","raccoons"],["thunder"])
-hazel_clone = Dog("Hazel","Beagle","Shane",["treats","naps","raccoons"],["thunder"])
-
-print(hazel is hazel_clone)
-hazel.likes.append("smells")
-print("smells" in hazel_clone.likes)
-
-hazel_clone = hazel
-print(hazel is hazel_clone)
-print("smells" in hazel_clone.likes)
-```
-
-The `is` operator returns True if the object is literally the same (that is, they have the same memory address) and false if they aren't. If we don't do anything special, printing an object will actually print its type and memory address.
-
-
-One important thing to understand is that we already use classes even when we're not defining them. The class is the primary way that Python organizes its standard library and the wider ecosystem of external libraries. So when we do `file_input = open("text.txt","r")`, we get back a File Object that is defined as a class in the Python Standard Library. 
+So you're probably wondering when to use classes? Mostly we won't be delving into code complicated enough to require to write your own classes, but you will be using lots of code that is based on this pattern. That's because the class is the primary way that Python organizes its standard library and the wider ecosystem of external libraries. So when we do `file_input = open("text.txt","r")`, we get back a File Object that is defined as a class in the Python Standard Library. 
 
 We can see why the properties of classes are so useful there: each File Object contains distinct data (the filename and the mode and all sorts of things under the hood) and methods that operate on that data.
+
+
 
 ## Imports are Important
 
@@ -236,9 +209,7 @@ from Dog import Dog
 hazel = Dog("Hazel","Beagle","Shane",["treats","naps","raccoons"],["thunder"])
 ```
 
-#### Input and Output
-
-## File Input
+#### File Input and Output
 
 File IO is easy in Python using the [`open` built-in function](https://docs.python.org/3/library/functions.html#open).
 
