@@ -83,7 +83,7 @@ def make_dh_tool(name):
 
 What are the Class' methods? What is `add_authors`? 
 
-What would happen if we decided to add an additional author of Python from the ![list of core contributors](https://devguide.python.org/developers/)?
+What would happen if we decided to add an additional author of Python from the [list of core contributors](https://devguide.python.org/developers/)?
 
 ---
 #### Python Classes
