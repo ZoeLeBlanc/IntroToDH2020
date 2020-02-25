@@ -52,7 +52,7 @@ noop()
 
 To first define a class, we need to use the keyword `class` followed by the name of the class (which can be anything!) and then a semi colon. All the logic of the class is indented (just like with functions, loops, and conditionals) and then we call the class similar to a function, using its name and parentheses to pass arguments to the class.
 
-In this case, since the class has no actual logic in it, just the keyword `pass`, nothing actually happens. For any class, when you invoke it, it executes the `__init__` method, which is another built in method from Python. Thus, since our example above didn't define any logic for the built-in `__init__` method, nothing happened.
+In this case, since the class has no actual logic in it, just the keyword `pass`, nothing actually happens. For any class, when you invoke it, it executes the `__init__` method, which is another built in method from Python (this one is called a **constructor** method). Thus, since our example above didn't define any logic for the built-in `__init__` method, nothing happened.
 
 ## Simple Class
 
@@ -69,7 +69,7 @@ a_tool.tool_name
 
 So similar to our initial `make_dh_tool` function, we are creating a way to store data about DH tools. However, in this example we've created a class that has an initial method (which is really just a function!) that takes the argument we pass and assigns it to something called `self`.
 
-Self references the class **instance** that is created when you call a class, which is why `self` is the first argument to **_any_** function defined in a class.
+Self references the class **instance** that is created when you call a class, which is why `self` is the first argument to **_any_** function defined in a class. You can read more about [class scope here](https://docs.python.org/3/tutorial/classes.html#python-scopes-and-namespaces).
 
 ```python
 class DHTool:
@@ -178,13 +178,13 @@ def get_tool_info(self):
 
 1. [An Introduction to Python Classes and Inheritance](http://www.jesshamrick.com/2011/05/18/an-introduction-to-classes-and-inheritance-in-python/)
 2. [Here is a very helpful video series on class inheritance](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
+3. [Python Documentation on Classes](https://docs.python.org/3/tutorial/classes.html)
 
 #### Python Libraries
 
-So you're probably wondering when to use classes? Mostly we won't be delving into code complicated enough to require to write your own classes, but you will be using lots of code that is based on this pattern. That's because the class is the primary way that Python organizes its standard library and the wider ecosystem of external libraries. So when we do `file_input = open("text.txt","r")`, we get back a File Object that is defined as a class in the Python Standard Library. 
+So you're probably wondering when to use classes? Mostly we won't be delving into code complicated enough to require to write your own classes, but you will be using lots of code that is based on this pattern. That's because the class is the primary way that Python organizes its standard library and the wider ecosystem of external libraries.
 
-We can see why the properties of classes are so useful there: each File Object contains distinct data (the filename and the mode and all sorts of things under the hood) and methods that operate on that data.
-
+Let's dig into the Python documentation to understand more! [Here's the Python Standard Library](https://docs.python.org/3/library/). We've already been using this documentation, but let's scroll down to the [Pathlib module](https://docs.python.org/3/library/pathlib.html). 
 
 
 ## Imports are Important
@@ -193,21 +193,7 @@ We can easily bring classes into other code using the `import` keyword, which do
 
 We can also use `import` to import our own classes. It gets complicated if we have to specify the path, so for now it's easier to open the Python interpreter inside the same directory to import.
 
-We can try it out by going into the examples directory, where we have defined the Dog class inside of the file Dog.py.
 
-```python
-import Dog
-hazel = Dog.Dog("Hazel","Beagle","Shane",["treats","naps","raccoons"],["thunder"])
-```
-
-`import Dog` finds the Dog.py file and then we can create a new Dog object as above.
-
-Alternatively, we can use the `from` convention to import the class Dog directly from the file Dog:
-
-```python
-from Dog import Dog
-hazel = Dog("Hazel","Beagle","Shane",["treats","naps","raccoons"],["thunder"])
-```
 
 #### File Input and Output
 

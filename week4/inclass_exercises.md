@@ -1,8 +1,6 @@
 ### Homework Time
 This week's homework builds on classes, file input and output, and all your previous python exercises. Remember to ask for help if you get stuck, and that there's always more than one right answer!
 
-![https://media.giphy.com/media/l2YWEhwRvpY4Q6UJG/giphy.gif](https://media.giphy.com/media/l2YWEhwRvpY4Q6UJG/giphy.gif)
-
 1. Create a class for storing information about historical figures (i.e. people from history)
 
 - Have the class store a first and last name
@@ -25,5 +23,3 @@ centuries = ['long 19th century', 'even longer 18th century', 'Medieval Times', 
 3. print out all three figures information when you run the script
 
 4. Write the historical figures information to a text file using the python `io` library.
-
-![https://media.giphy.com/media/b55x0VFpFKm7S/giphy.gif](https://media.giphy.com/media/b55x0VFpFKm7S/giphy.gif)
