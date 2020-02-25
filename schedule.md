@@ -169,7 +169,7 @@ What is a Python library? How do we store information in Python?
 
 *Class Activities:*
 
-- Review coding assignment and concepts
+- Review coding assignment and concepts [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week4)
 - Introduction to git, Github, and input and output of files
 - (Time permitting) Introduction to Python Classes
 
