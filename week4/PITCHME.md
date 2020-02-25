@@ -140,6 +140,7 @@ Up to now we've copy and pasted any data we need into our scripts, but what if w
 1. Using the code we've written earlier to just print out text files, try using Pathlib to read in the text and assign it to a variable.
 2. Using the code from last week, write a function that will replace all instances of `man` with `person`, and `wife` with `parther` 
 3. Using Pathlib, assign this new text back to the textfile.
+
 ---
 #### Virtual Environment
 
@@ -170,3 +171,9 @@ pipenv install <package>
 2. Altair
 3. Spacy
 4. Scikit-Learn
+
+
+---
+#### Final thoughts
+
+We've now encountered some relatively complex code concepts and you're starting to get a sense of what code ecosystems look like. What do you make of Dale Markowitz's article? What does debugging mean to you? 
