@@ -198,15 +198,19 @@ What is *public* digital humanities? Where does this type of scholarship happen?
 
 Complete the coding assignments on Python classes and continue to pair program. Continue working on your DH review assignment.
 
-- “What is HTML” Mozilla Developer Network [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML)
 - Jeffrey Veen, “A Brief History of HTML” Wired. April 28, 1997 [https://www.wired.com/1997/04/a-brief-history-of-html/](https://www.wired.com/1997/04/a-brief-history-of-html/)
+- Maciej Cegłowski. “Website Obesity” *Idle Words*. October 29, 2015 [https://idlewords.com/talks/website_obesity.htm](https://idlewords.com/talks/website_obesity.htm)
+- Karl Bode "Court Rules That ‘Scraping’ Public Website Data Isn’t Hacking" *Vice* Sep 11 2019 [https://www.vice.com/en_us/article/9kek83/linkedin-data-scraping-lawsuit-shot-down](https://www.vice.com/en_us/article/9kek83/linkedin-data-scraping-lawsuit-shot-down)
 - Python Library Assignment
+- Introduction to HTML and Web Scraping (posted Thursday Night)
 
 *Additional readings:*
 
 - Ian Milligan “Welcome to the Web: The Online Community of GeoCities During The Early Years of The World Wide Web” https://ianmilligan.ca/2017/03/14/new-chapter-welcome-to-the-web-the-online-community-of-geocities-during-the-early-years-of-the-world-wide-web/
+- “What is HTML” Mozilla Developer Network [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML)
+- Jeri Wieringa, "Intro to Beautiful Soup," The Programming Historian 1 (2012), https://programminghistorian.org/en/lessons/intro-to-beautiful-soup and complete HTML assignment.
 
-<h3 id="week-5">Week 5: Case Study: Minimal Computing and New Media Studies</h3>
+<h3 id="week-5">Week 5: Case Study: The Web, Minimal Computing, and New Media Studies</h3>
 
 *First Meeting: How the Web Works March 3, 2020*
 
@@ -214,13 +218,14 @@ How does the web work? How can you pass data to a web page? What is hypertext ma
 
 *Class Activities*
 
-- Introduction to Web and HTML
-- Introduction to Web Scraping (time permitting)
+- Introduction to history of the Web and HTML
+- Introduction to Web Scraping
+- Geocities, web archiving, and crowdsourced content
 
 *Assignment for next class*
 
 Read selected chapters from *The Routledge Companion to Media Studies and Digital Humanities*, ed. Jentery Sayers (New York: Routledge, 2018) and explore Global Outlook Digital Humanities Minimal Computing [https://go-dh.github.io/mincomp/](https://go-dh.github.io/mincomp/)
-- Read and complete Jeri Wieringa, "Intro to Beautiful Soup," The Programming Historian 1 (2012), https://programminghistorian.org/en/lessons/intro-to-beautiful-soup and complete HTML assignment.
+
 
 *Second Meeting:*
 
@@ -234,16 +239,15 @@ What theoretical perspectives informed digital humanities and vice versa? How do
 
 *Assignment for next class:*
 
-
-- Read preface from Ted Underwood, *Distant Horizons: Digital Evidence and Literary Change*.
-- Finish DH review assignment
+- Read preface from Ted Underwood, *Distant Horizons: Digital Evidence and Literary Change* and explore "RyanHeuser. FrancoMoretti. Erik Steiner. The Emotions of London. October 2016. Pamphlets of the Stanford LiteraryLab. ISSN 2164-1757 (
+- Lincoln Mullen *“A Braided Narrative for Digital History,” in Debates in the Digital Humanities 2019, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2019).* [link](https://dhdebates.gc.cuny.edu/read/4805e692-0823-4073-b431-5a684250a82d/section/e5496dc6-dcc1-42e7-8609-9377d05812c5#ch31) and explore [America's Public Bible Project](https://americaspublicbible.org/)
+- Continue working on DH review assignment
 
 <h3 id="week-6">Week 6: Case Study: Cultural Analytics and Digital History</h3>
 
 *First Meeting: Counting and Computing in DH March 10, 2020*
 
 **DH review assignment due**
-
 How can we use computational methods in DH research? What types of questions have scholars used computation to answer? How do we blend humanities and computational narratives?
 
 *Class Activities*
@@ -255,6 +259,7 @@ How can we use computational methods in DH research? What types of questions hav
 
 - Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016.
 - Wes McKinney. *Python for Data Analysis*. 2017. Chapters 5, 7
+- Read Through Pandas Review
 
 *Second Meeting: Data in Python March 12, 2020*
 
@@ -270,9 +275,11 @@ Complete initial data cleaning assignment using pandas and the previous data fro
 
 Read the following:
 
-- Posner, Miriam (2015), “Humanities Data, a Necessary Contradiction”
+- “Film Dialogue from 2,000 screenplays, Broken Down by Gender and Age”,
+Hannah Anderson and Matt Daniels *The Pudding* [https://pudding.cool/2017/03/film-dialogue/](https://pudding.cool/2017/03/film-dialogue/) and background to the project [https://medium.com/@matthew_daniels/faq-for-the-film-dialogue-by-gender-project-40078209f751](https://medium.com/@matthew_daniels/faq-for-the-film-dialogue-by-gender-project-40078209f751)
+- Posner, Miriam (2015), “Humanities Data, a Necessary Contradiction” [https://miriamposner.com/blog/humanities-data-a-necessary-contradiction/](https://miriamposner.com/blog/humanities-data-a-necessary-contradiction/)
 - Krause, H. (2017, March 27). Data Biographies: Getting to Know Your Data. Global Investigative Journalism Network. [https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/](https://gijn.org/2017/03/27/data-biographies-getting-to-know-your-data/)
-- Maciej Cegłowski. “Deep Fried Data” *Idle Words*. September 27, 2016. [https://idlewords.com/talks/deep_fried_data.htm](https://idlewords.com/talks/deep_fried_data.htm)
+
 
 *Additional Readings:*
 
@@ -313,10 +320,13 @@ Using pandas and web scraped data, explore the distribution of your data and pus
 Read:
 
 - Benjamin Bengfort, Tony Ojeda, Rebecca Bilbro. *Applied Text Analysis with Python*. 2018. Chapter 1-2
-- Lincoln Mullen *“A Braided Narrative for Digital History,” in Debates in the Digital Humanities 2019, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2019).*
+
+- Dong Nguyen, Maria Liakata, Simon DeDeo, Jacob Eisenstein, David
+Mimno, Rebekah Tromble, and Jane Winters, “How We Do Things with Words: Analyzing Text as Social and Cultural Data” (2019).
+- Maciej Cegłowski. “Deep Fried Data” *Idle Words*. September 27, 2016. [https://idlewords.com/talks/deep_fried_data.htm](https://idlewords.com/talks/deep_fried_data.htm)
 - Skim Arguing with Digital History working group, “Digital History and Argument,” white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017): [https://rrchnm.org/argument-white-paper/](https://rrchnm.org/argument-white-paper/). (primary author with Stephen Robertson)
 
-> Additional Readings:
+Additional Readings:
 
 - Scott B. Weingart, “‘Digital History’ Can Never Be New,” the scottbot irregular, 2 May 2016 and “ Argument Clinic” July 26, 2017
 - Matthew K. Gold et al., “Forum: Text Analysis at Scale,” in Debates in the Digital Humanities 2016 (University of Minnesota Press, 2016), 525–568.
