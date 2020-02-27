@@ -176,12 +176,15 @@ What is a Python library? How do we store information in Python?
 *Assignment for next class:*
 
 - The Santa Barbara Statement on Collections as Data. Version 2. [https://collectionsasdata.github.io/statement/](https://collectionsasdata.github.io/statement/)
-- Either Sharon Leon, “Complexity and Collaboration: Doing Public History in a Digital Environment,” in The *Oxford Handbook of Public History*, edited by Paula Hamilton and James B. Gardner (Oxford University Press, 2017) or Sheila Brenna, Public First. Debates in Digital Humanities 2016. [http://dhdebates.gc.cuny.edu/debates/text/83](http://dhdebates.gc.cuny.edu/debates/text/83)
+- Sheila Brenna, Public First. Debates in Digital Humanities 2016. [http://dhdebates.gc.cuny.edu/debates/text/83](http://dhdebates.gc.cuny.edu/debates/text/83)
+- If you didn't read it earlier, be sure to read the *Reviews in DH* of the Princeton Prosody Archive
+
 
 *Additional Readings:*
 
 - Matthew Delmont, “Does It Count?” Scholarly Communication and African American Digital History” Perspectives on History. November 1, 2016 [https://www.historians.org/publications-and-directories/perspectives-on-history/november-2016/does-it-count-scholarly-communication-and-african-american-digital-history](https://www.historians.org/publications-and-directories/perspectives-on-history/november-2016/does-it-count-scholarly-communication-and-african-american-digital-history)
 - Mark C. Marino, “Why We Must Read the Code: The Science Wars, Episode IV” Debates in DH 2016 [http://dhdebates.gc.cuny.edu/debates/text/64](http://dhdebates.gc.cuny.edu/debates/text/64)
+- Either Sharon Leon, “Complexity and Collaboration: Doing Public History in a Digital Environment,” in The *Oxford Handbook of Public History*, edited by Paula Hamilton and James B. Gardner (Oxford University Press, 2017)
 
 *Second Meeting: DH in Public and in Libraries February 27, 2020*
 
@@ -189,7 +192,7 @@ What is *public* digital humanities? Where does this type of scholarship happen?
 
 *Class Activities:*
 
-- Special class section with Meredith Martin on the Princeton Prosody Archive
+- Special class section with Meredith Martin on the Princeton Prosody Archive, covering the building of the project and computational poetry
 
 *Assignment for next class:*
 
@@ -197,6 +200,7 @@ Complete the coding assignments on Python classes and continue to pair program. 
 
 - “What is HTML” Mozilla Developer Network [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML)
 - Jeffrey Veen, “A Brief History of HTML” Wired. April 28, 1997 [https://www.wired.com/1997/04/a-brief-history-of-html/](https://www.wired.com/1997/04/a-brief-history-of-html/)
+- Python Library Assignment
 
 *Additional readings:*
 
@@ -210,11 +214,13 @@ How does the web work? How can you pass data to a web page? What is hypertext ma
 
 *Class Activities*
 
-- Introduction to web and html
+- Introduction to Web and HTML
+- Introduction to Web Scraping (time permitting)
 
 *Assignment for next class*
 
 Read selected chapters from *The Routledge Companion to Media Studies and Digital Humanities*, ed. Jentery Sayers (New York: Routledge, 2018) and explore Global Outlook Digital Humanities Minimal Computing [https://go-dh.github.io/mincomp/](https://go-dh.github.io/mincomp/)
+- Read and complete Jeri Wieringa, "Intro to Beautiful Soup," The Programming Historian 1 (2012), https://programminghistorian.org/en/lessons/intro-to-beautiful-soup and complete HTML assignment.
 
 *Second Meeting:*
 
@@ -228,7 +234,7 @@ What theoretical perspectives informed digital humanities and vice versa? How do
 
 *Assignment for next class:*
 
-- Read and complete Jeri Wieringa, "Intro to Beautiful Soup," The Programming Historian 1 (2012), https://programminghistorian.org/en/lessons/intro-to-beautiful-soup and complete HTML assignment.
+
 - Read preface from Ted Underwood, *Distant Horizons: Digital Evidence and Literary Change*.
 - Finish DH review assignment
 

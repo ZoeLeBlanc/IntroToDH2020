@@ -1,71 +1,49 @@
-# tools = {"Python":{"2015":9, "2016":22, "2017":27, "2018":32, "2019":35}, "Javascript":{"2015":8, "2016":18, "2017":12, "2018":6, "2019":15}, "Twitter":{"2015":10, "2016":18, "2017":26, "2018":16, "2019":12}, "Github":{"2015":2, "2016":6, "2017":17, "2018":5, "2019":10}, "Gephi":{"2015":11, "2016":16, "2017":14, "2018":10, "2019":9}, "Geonames":{"2015":2, "2016":4, "2017":3, "2018":1, "2019":8}, "Transkribus":{"2015":0, "2016":1, "2017":2, "2018":1, "2019":8}, "Excel":{"2015":5, "2016":9, "2017":3, "2018":6, "2019":7}, "MySQL":{"2015":0, "2016":6, "2017":9, "2018":5, "2019":7}}
-
-# names=["Sara", "Kevin", "Shiva", "Anna", "Meher", "Maia"]
-
-# def check_data(data, value):
-#     for item in data:
-#         if value == item:
-#             print(value)
-
-# check_data(tools.keys(), 'Excel')
-# # for key, value in tools.items():
-# #     if key == 'Python' or 'Gephi':
-# #         print(value)
-# #     else:
-# #         print('try again')
-
-class DHTool:
-    """Contains methods for maintaining data related to a dh tool
-
-    Methods:
-    --------
-    add_authors
-    add_year_popularity
-    calculate_total_popularity
-    """
-    def __init__(self, name):
-        self.tool_name = name
-        self.authors = list()
-        self.year_values = dict()
-        self.total_value = 0
+# Input a tool name and output it's information
 
 
-    def add_authors(self, authors):
-        """Adds a list of authors of the DH Tool
-
-        Method argument:
-        -----------------
-        authors(list) -- A list of people who built the dh tool
-        """
-        if isinstance(authors, list) is False:
-            authors = [authors]
-        self.authors.extend(authors)
-
-
-    def add_year_popularity(self, year, value):
-        """Adds the popularity value for each year of the DH tool
-
-        Method argument:
-        -----------------
-        year(integer or string) -- A year 
-        value(integer) - Popularity value
-        """
-
-        self.year_values[str(year)] = value
+def make_tool_dict(name, value_2015 , value_2016, value_2017,value_2018, value_2019):
+    tool = {
+        "2015":value_2015,
+        "2016":value_2016,
+        "2017":value_2017,
+        "2018":value_2018,
+        "2019":value_2019,
+        "name":name,
+        "total":value_2015+value_2016+value_2017+value_2018+value_2019
+    }
+    return tool
 
 
-    def calculate_total_popularity(self):
-        """Calculate the total popularity for a tool
-        """
+    
 
-        self.total_popularity = sum(self.year_values.values())
-        print(self.total_popularity)
+dh_tools=[make_tool_dict("Python",9,22,27,32,35),
+          make_tool_dict("JavaScript",8,18,12,6,15),
+          make_tool_dict("Twitter",10,18,26,16,12),
+          make_tool_dict("GitHub",2,6,17,5,10),
+          make_tool_dict("Gephi",11,16,14,10,9),
+          make_tool_dict("GeoNames",2,4,3,1,8),
+          make_tool_dict("Transkribus",0,1,2,1,8),
+          make_tool_dict("Excel",5,9,3,6,7),
+          make_tool_dict("MySQL",0,6,9,5,7)]
 
 
+# def get_tool_info(toolname):
+#     # print(dh_tools)
+#     for tool in dh_tools:
+#         if toolname == tool.name:
+#             print(tool)
+#         else:
+#             print("Not a DH tool")
+# user_toolname = input("Enter a DH Tool...")
+# get_tool_info(user_toolname)
 
+a_tool = dh_tools[0]
+print(a_tool.keys())
 
-a_tool = DHTool("Python")
-a_tool.add_authors("Guido van Rossum")
-a_tool.add_year_popularity(2015, 9)
-a_tool.calculate_total_popularity()
-print(a_tool.__dict__)
+# print("\nPrinting tools...\n")
+# for tool in dh_tools:
+#     print(tool)
+#     for prop in ["name","2015","2019","total"]:
+#         print(tool[prop])
+#         # print(prop+": "+str(tool[prop])+"\n")
+#     # print("\n")
