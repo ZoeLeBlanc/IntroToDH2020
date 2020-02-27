@@ -201,7 +201,7 @@ Complete the coding assignments on Python classes and continue to pair program. 
 - Jeffrey Veen, “A Brief History of HTML” Wired. April 28, 1997 [https://www.wired.com/1997/04/a-brief-history-of-html/](https://www.wired.com/1997/04/a-brief-history-of-html/)
 - Maciej Cegłowski. “Website Obesity” *Idle Words*. October 29, 2015 [https://idlewords.com/talks/website_obesity.htm](https://idlewords.com/talks/website_obesity.htm)
 - Karl Bode "Court Rules That ‘Scraping’ Public Website Data Isn’t Hacking" *Vice* Sep 11 2019 [https://www.vice.com/en_us/article/9kek83/linkedin-data-scraping-lawsuit-shot-down](https://www.vice.com/en_us/article/9kek83/linkedin-data-scraping-lawsuit-shot-down)
-- Python Library Assignment
+- [Python Library Assignment](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week4/library_assignment.md)
 - Introduction to HTML and Web Scraping (posted Thursday Night)
 
 *Additional readings:*
