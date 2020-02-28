@@ -80,9 +80,6 @@ HTML is also notoriously messy---web browsers are very forgiving of syntax error
 
 ### Introduction to Web Scraping in Python
 
-Let's install our 
+Let's install our required packages. If you haven't already check out the instructions for installing a [virtual environment](../week4/virtual_environment.md).
 
 Complete Jeri Wieringa, "Intro to Beautiful Soup," The Programming Historian 1 (2012), [https://programminghistorian.org/en/lessons/intro-to-beautiful-soup](https://programminghistorian.org/en/lessons/intro-to-beautiful-soup). If you have questions or get stuck, please Slack the instructor.
-
-
-
