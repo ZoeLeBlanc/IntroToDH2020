@@ -202,13 +202,11 @@ Complete the coding assignments on Python classes and continue to pair program. 
 - Maciej Cegłowski. “Website Obesity” *Idle Words*. October 29, 2015 [https://idlewords.com/talks/website_obesity.htm](https://idlewords.com/talks/website_obesity.htm)
 - Karl Bode "Court Rules That ‘Scraping’ Public Website Data Isn’t Hacking" *Vice* Sep 11 2019 [https://www.vice.com/en_us/article/9kek83/linkedin-data-scraping-lawsuit-shot-down](https://www.vice.com/en_us/article/9kek83/linkedin-data-scraping-lawsuit-shot-down)
 - [Python Library Assignment](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week4/library_assignment.md)
-- Introduction to HTML and Web Scraping (posted Thursday Night)
+- Introduction to HTML and Web Scraping [https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week4/intro_html_webscraping.md](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week4/intro_html_webscraping.md)
 
 *Additional readings:*
 
 - Ian Milligan “Welcome to the Web: The Online Community of GeoCities During The Early Years of The World Wide Web” https://ianmilligan.ca/2017/03/14/new-chapter-welcome-to-the-web-the-online-community-of-geocities-during-the-early-years-of-the-world-wide-web/
-- “What is HTML” Mozilla Developer Network [https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#What_is_HTML)
-- Jeri Wieringa, "Intro to Beautiful Soup," The Programming Historian 1 (2012), https://programminghistorian.org/en/lessons/intro-to-beautiful-soup and complete HTML assignment.
 
 <h3 id="week-5">Week 5: Case Study: The Web, Minimal Computing, and New Media Studies</h3>
 
@@ -239,7 +237,8 @@ What theoretical perspectives informed digital humanities and vice versa? How do
 
 *Assignment for next class:*
 
-- Read preface from Ted Underwood, *Distant Horizons: Digital Evidence and Literary Change* and explore "RyanHeuser. FrancoMoretti. Erik Steiner. The Emotions of London. October 2016. Pamphlets of the Stanford LiteraryLab. ISSN 2164-1757 (
+- Read preface from Ted Underwood, *Distant Horizons: Digital Evidence and Literary Change*
+- "All models are wrong". RJ So. PMLA 132 (3), 668-673, 2017. 14, 2017 (On Blackboard)
 - Lincoln Mullen *“A Braided Narrative for Digital History,” in Debates in the Digital Humanities 2019, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2019).* [link](https://dhdebates.gc.cuny.edu/read/4805e692-0823-4073-b431-5a684250a82d/section/e5496dc6-dcc1-42e7-8609-9377d05812c5#ch31) and explore [America's Public Bible Project](https://americaspublicbible.org/)
 - Continue working on DH review assignment
 
@@ -252,14 +251,15 @@ How can we use computational methods in DH research? What types of questions hav
 
 *Class Activities*
 
-- Seminar discussion about Cultural Analytics
+- Seminar discussion about Cultural Analytics and Digital History
+- How do we study culture with computation?
 - Explore articles from the *Journal of Cultural Analytics*
 
 *Assignment for next class:*
 
 - Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016.
 - Wes McKinney. *Python for Data Analysis*. 2017. Chapters 5, 7
-- Read Through Pandas Review
+- Read Through Introduction to Pandas and Jupyter notebooks
 
 *Second Meeting: Data in Python March 12, 2020*
 
@@ -267,7 +267,8 @@ How do we deal with data in Python? What types of formats does data come in? Whi
 
 *Class Activities*
 
-- *Introduction to pandas and data manipulation*
+- Introduction to pandas and data manipulation
+- Introduction to EDA and Jupyter Notebooks
 
 *Assignment for next class:*
 
