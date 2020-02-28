@@ -15,9 +15,9 @@ Prior to installing our virtual environment, let's make sure that you have the l
 
 ![install pip](../week5/images/install_pip.png)
 
-1. Check if you have pip installed [https://stackoverflow.com/questions/40868345/checking-whether-the-pip-is-installed](https://stackoverflow.com/questions/40868345/checking-whether-the-pip-is-installed)
+If you get any errors, you can check if you have pip installed [https://stackoverflow.com/questions/40868345/checking-whether-the-pip-is-installed](https://stackoverflow.com/questions/40868345/checking-whether-the-pip-is-installed)
 
-2. Install Pipenv (follow instructions) [https://docs.python-guide.org/dev/virtualenvs/#installing-pipenv](https://docs.python-guide.org/dev/virtualenvs/#installing-pipenv)
+Now we'll install Pipenv (follow instructions) [https://docs.python-guide.org/dev/virtualenvs/#installing-pipenv](https://docs.python-guide.org/dev/virtualenvs/#installing-pipenv)
 
 *If you get an error message, Slack message the instructor*
 
@@ -28,6 +28,8 @@ Prior to installing our virtual environment, let's make sure that you have the l
 ```sh
 pipenv shell
 ```
+
+Try installing the package Beautiful Soup
 ```sh
-pipenv install <package>
+pipenv install beautifulsoup4
 ```
