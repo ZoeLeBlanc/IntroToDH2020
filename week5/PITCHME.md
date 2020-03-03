@@ -8,7 +8,6 @@
 - In-class web scraping exercise
 - Discussion about the legality & ethics of web scrapping
 
-
 ---
 
 *Thoughts about PPA? Anything surprising or confusing? What problem does PPA solve? What issues exist in the data?*
@@ -16,6 +15,8 @@
 *Questions about Python Libraries? Any difficulties or questions about reading documentation. Did anybody try these libraries out?*
 
 ---
+
+
 
 ---
 #### What is the history of the web?

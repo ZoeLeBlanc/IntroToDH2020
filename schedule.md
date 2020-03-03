@@ -218,12 +218,12 @@ How does the web work? How can you pass data to a web page? What is hypertext ma
 
 - Introduction to history of the Web and HTML
 - Introduction to Web Scraping
-- Geocities, web archiving, and crowdsourced content
+- Discussion about the legality of web scraping and who owns the web
 
 *Assignment for next class*
 
-Read selected chapters from *The Routledge Companion to Media Studies and Digital Humanities*, ed. Jentery Sayers (New York: Routledge, 2018) and explore Global Outlook Digital Humanities Minimal Computing [https://go-dh.github.io/mincomp/](https://go-dh.github.io/mincomp/)
-
+- Visit the Minimal Computing site [https://go-dh.github.io/mincomp/](https://go-dh.github.io/mincomp/) and skim some of the thought pieces and resources. Think about how minimal computing relates to issues of "website obesity"
+- Read Scott B. Weingart, “The Route of a Text Message” *Vice* (February 2019) [https://www.vice.com/en_us/article/kzdn8n/the-route-of-a-text-message-a-love-story](https://www.vice.com/en_us/article/kzdn8n/the-route-of-a-text-message-a-love-story)
 
 *Second Meeting:*
 
