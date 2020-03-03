@@ -216,7 +216,7 @@ How does the web work? How can you pass data to a web page? What is hypertext ma
 
 *Class Activities*
 
-- Introduction to history of the Web and HTML
+- Introduction to history of the Web and HTML [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week5)
 - Introduction to Web Scraping
 - Discussion about the legality of web scraping and who owns the web
 
