@@ -66,7 +66,7 @@ Tags can contain other tags, in a hierarchical relationship. For example, here's
   <li>Gephi</li>
 </ul>
 
-The <ul> tag (ul stands for **unordered list**) in this example has three other <li> tags inside of it (li stands for **list item**). The <ul> tag is said to be the **parent** of the <li> tags, and the <li> tags are the **children** of the <ul> tag. All tags grouped under a particular parent tag are called **siblings.**
+The `<ul>` tag (ul stands for **unordered list**) in this example has three other `<li>` tags inside of it (li stands for **list item**). The `<ul>` tag is said to be the **parent** of the `<li>` tags, and the `<li>` tags are the **children** of the `<ul>` tag. All tags grouped under a particular parent tag are called **siblings.**
 
 *HTML's shortcomings*
 

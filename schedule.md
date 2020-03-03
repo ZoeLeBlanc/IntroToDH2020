@@ -202,7 +202,7 @@ Complete the coding assignments on Python classes and continue to pair program. 
 - Maciej Cegłowski. “Website Obesity” *Idle Words*. October 29, 2015 [https://idlewords.com/talks/website_obesity.htm](https://idlewords.com/talks/website_obesity.htm)
 - Karl Bode "Court Rules That ‘Scraping’ Public Website Data Isn’t Hacking" *Vice* Sep 11 2019 [https://www.vice.com/en_us/article/9kek83/linkedin-data-scraping-lawsuit-shot-down](https://www.vice.com/en_us/article/9kek83/linkedin-data-scraping-lawsuit-shot-down)
 - [Python Library Assignment](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week4/library_assignment.md)
-- Introduction to HTML and Web Scraping [https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week4/intro_html_webscraping.md](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week4/intro_html_webscraping.md)
+- Introduction to HTML and Web Scraping [https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week5/intro_html_webscraping.md](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week5/intro_html_webscraping.md)
 
 *Additional readings:*
 
