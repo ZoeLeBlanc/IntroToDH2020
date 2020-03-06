@@ -30,7 +30,7 @@ You will also have weekly programming assignments to complete and share either v
 
 Both reading responses and coding assignments will be graded as pass/fail, and extensions can be granted for the coding assignments but need to be requested prior to class.
 
-DH Review assignment: 20% 
+## DH Review assignment: 20% 
 You will select two articles from Current Research in Digital History (https://crdh.rrchnm.org/
 ) and write a review comparing them. Drawing from readings in the class, you will situate the articles in broader trends in digital humanities. Your review should answer the following questions: 
 What was the stated goals of the article? Was the article successful in achieving those goals? How would you evaluate their success?
@@ -39,9 +39,9 @@ What sorts of data did each article use? Did the authors define data in the same
 How did the articles utilize visualizations for their arguments?
 How do the articles relate to earlier trends in DH? 
 Was the article authored by a team? Is the article part of a larger DH project? 
-Ultimately, this review should go beyond summarizing the articles to exploring their scholarly contribution to digital humanities. When selecting which articles to review consider which areas of digital humanities interest you and that you might want to include in your research. The review should be between 2-3 pages and be modeled on Reviews in DH format. You will need to get instructor approval of your articles before you begin working on the assignment. 
+Ultimately, this review should go beyond summarizing the articles to exploring their scholarly contribution to digital humanities. When selecting which articles to review consider which areas of digital humanities interest you and that you might want to include in your research. The review should be between 2-3 pages single spaced (~1000-1500 words) and be modeled on Reviews in DH format. You will need to get instructor approval of your articles before you begin working on the assignment.
 
-Digital Humanities Project: 45%
+## Digital Humanities Project: 45%
 The goal of this project is to expose you to how digital humanities research is created and evaluated. Working in groups OR individually you will select a humanities research question and relevant datasets. Example projects include exploring character networks in a set of novels to understand gender disparities, or correlation analysis of place names in historical documents to analyze spatial imaginings. Using your skills in Python and your knowledge of digital humanities, you will experience the lifecycle of a digital humanities project, from planning the project and collecting data to analyzing and communicating your results, and finally reflecting and outlining future directions. 
 
 The instructor will provide a list of available datasets and relevant readings that students can use as the basis for their project, but students are also encouraged to also develop their own datasets and research questions if they have a strong interest in a particular topic.

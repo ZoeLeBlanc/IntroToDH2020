@@ -239,7 +239,7 @@ What theoretical perspectives informed digital humanities and vice versa? How do
 
 - Read preface from Ted Underwood, *Distant Horizons: Digital Evidence and Literary Change*
 - "All models are wrong". RJ So. PMLA 132 (3), 668-673, 2017. 14, 2017 (On Blackboard)
-- Lincoln Mullen *“A Braided Narrative for Digital History,” in Debates in the Digital Humanities 2019, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2019).* [link](https://dhdebates.gc.cuny.edu/read/4805e692-0823-4073-b431-5a684250a82d/section/e5496dc6-dcc1-42e7-8609-9377d05812c5#ch31) and explore [America's Public Bible Project](https://americaspublicbible.org/)
+- Lincoln Mullen *“A Braided Narrative for Digital History,” in Debates in the Digital Humanities 2019, ed. Matthew K. Gold and Lauren F. Klein (University of Minnesota Press, 2019).* [link](https://dhdebates.gc.cuny.edu/read/4805e692-0823-4073-b431-5a684250a82d/section/e5496dc6-dcc1-42e7-8609-9377d05812c5#ch31)
 - Continue working on DH review assignment
 
 <h3 id="week-6">Week 6: Case Study: Cultural Analytics and Digital History</h3>
@@ -253,7 +253,7 @@ How can we use computational methods in DH research? What types of questions hav
 
 - Seminar discussion about Cultural Analytics and Digital History
 - How do we study culture with computation?
-- Explore articles from the *Journal of Cultural Analytics*
+- Explore articles from the *Journal of Cultural Analytics* and explore [America's Public Bible Project](https://americaspublicbible.org/)
 
 *Assignment for next class:*
 
@@ -268,7 +268,7 @@ How do we deal with data in Python? What types of formats does data come in? Whi
 *Class Activities*
 
 - Introduction to pandas and data manipulation
-- Introduction to EDA and Jupyter Notebooks
+- Introduction to APIs and review of HTTP/web scraping
 
 *Assignment for next class:*
 
@@ -312,7 +312,7 @@ What is exploratory data analysis (EDA)? How do we apply it in the humanities? W
 
 *Class Activities*
 
-- Introduction to EDA and Jupyter Notebooks
+- Introduction to EDA with text analysis and Jupyter Notebooks
 
 *Assignment for next class:*
 
@@ -340,7 +340,7 @@ How do we translate humanities research into hypotheses that can be tested compu
 
 *Class Activities*
 
-- Introduction to text analysis in DH
+- Introduction to more advanced text analysis in DH
 - Seminar discussion of what sorts of hypotheses and research questions can we answer with text analysis
 
 *Assignment for next class:*
