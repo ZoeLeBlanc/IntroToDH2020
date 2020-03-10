@@ -244,7 +244,7 @@ What theoretical perspectives informed digital humanities and vice versa? How do
 
 <h3 id="week-6">Week 6: Case Study: Cultural Analytics and Digital History</h3>
 
-*First Meeting: Counting and Computing in DH March 10, 2020*
+~~*First Meeting: Counting and Computing in DH March 10, 2020*~~ **CLASS CANCELED**
 
 **DH review assignment due**
 How can we use computational methods in DH research? What types of questions have scholars used computation to answer? How do we blend humanities and computational narratives?
@@ -253,13 +253,28 @@ How can we use computational methods in DH research? What types of questions hav
 
 - Seminar discussion about Cultural Analytics and Digital History
 - How do we study culture with computation?
-- Explore articles from the *Journal of Cultural Analytics* and explore [America's Public Bible Project](https://americaspublicbible.org/)
+- Explore articles from the *Journal of Cultural Analytics*
 
 *Assignment for next class:*
-
-- Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016.
-- Wes McKinney. *Python for Data Analysis*. 2017. Chapters 5, 7
+- Read Through Introduction to APIs and HTTPS
 - Read Through Introduction to Pandas and Jupyter notebooks
+- Choose one of the following projects:
+  - [America's Public Bible Project](https://americaspublicbible.org/)
+  - [Selfiecity](http://lab.culturalanalytics.info/2014/08/selfiecity-investigates-style-of.html)
+  - [Gender and Teacher Reviews](https://benschmidt.org/profGender/#%7B%22database%22%3A%22RMP%22%2C%22plotType%22%3A%22pointchart%22%2C%22method%22%3A%22return_json%22%2C%22search_limits%22%3A%7B%22word%22%3A%5B%22funny%22%5D%2C%22department__id%22%3A%7B%22%24lte%22%3A25%7D%7D%2C%22aesthetic%22%3A%7B%22x%22%3A%22WordsPerMillion%22%2C%22y%22%3A%22department%22%2C%22color%22%3A%22gender%22%7D%2C%22counttype%22%3A%5B%22WordCount%22%2C%22TotalWords%22%5D%2C%22groups%22%3A%5B%22unigram%22%5D%2C%22testGroup%22%3A%22D%22%7D)
+  - [The World through the Eyes of the US](https://pudding.cool/2018/12/countries/)
+Answer the following questions and have them prepared to share for class on Thursday:
+- What is the dataset in the article or project? How did the authors get their data? Is their dataset or code available?
+- What sorts of visualizations do they use? Are their visualizations interactive?
+- Do they use perspectival modeling or the braided narrative in their projects? Do they offer any interpretation of their data analysis? What might be missing from their dataset?
+- What sorts of conclusions can we draw from this project or article about *"culture"*?
+  
+These should be short bullet point answers and we'll be sharing them together in class during our discussion of Cultural Analytics and Digital History
+
+*Additional readings*
+- Katie Rawson and Trevor Muñoz, “Against Cleaning”, Curating Menus, 7 July, 2016. 
+- Wes McKinney. *Python for Data Analysis*. 2017. Chapters 2, 5 (Available online through the Princeton Library)
+
 
 *Second Meeting: Data in Python March 12, 2020*
 
@@ -267,8 +282,8 @@ How do we deal with data in Python? What types of formats does data come in? Whi
 
 *Class Activities*
 
-- Introduction to pandas and data manipulation
-- Introduction to APIs and review of HTTP/web scraping
+- Discussion of modeling in the humanities, cultural analytics, and digital history
+- Introduction to APIs and review of HTTP/web scraping, along with Jupyter notebooks and pandas
 
 *Assignment for next class:*
 
