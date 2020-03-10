@@ -263,6 +263,7 @@ How can we use computational methods in DH research? What types of questions hav
   - [Selfiecity](http://lab.culturalanalytics.info/2014/08/selfiecity-investigates-style-of.html)
   - [Gender and Teacher Reviews](https://benschmidt.org/profGender/#%7B%22database%22%3A%22RMP%22%2C%22plotType%22%3A%22pointchart%22%2C%22method%22%3A%22return_json%22%2C%22search_limits%22%3A%7B%22word%22%3A%5B%22funny%22%5D%2C%22department__id%22%3A%7B%22%24lte%22%3A25%7D%7D%2C%22aesthetic%22%3A%7B%22x%22%3A%22WordsPerMillion%22%2C%22y%22%3A%22department%22%2C%22color%22%3A%22gender%22%7D%2C%22counttype%22%3A%5B%22WordCount%22%2C%22TotalWords%22%5D%2C%22groups%22%3A%5B%22unigram%22%5D%2C%22testGroup%22%3A%22D%22%7D)
   - [The World through the Eyes of the US](https://pudding.cool/2018/12/countries/)
+
 Answer the following questions and have them prepared to share for class on Thursday:
 - What is the dataset in the article or project? How did the authors get their data? Is their dataset or code available?
 - What sorts of visualizations do they use? Are their visualizations interactive?
