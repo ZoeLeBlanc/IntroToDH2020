@@ -22,4 +22,4 @@ Now we can open up the Jupyter notebook in our browser with the following comman
 pipenv run jupyter notebook
 ```
 
-This command immediately opens the Jupyter interface in our browser.
+This command immediately opens the Jupyter interface in our browser. Go 

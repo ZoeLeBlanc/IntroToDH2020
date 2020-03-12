@@ -71,3 +71,24 @@ Just as a webpage contains data formatted in HTML, an API gives us access to dat
 Before we jump in though, we need to cover our final piece of Python ecosystem - Jupyter notebooks and Pandas.
 
 [**Click here to go to the next section.**](intro_pandas.md)
+
+---
+## Let's Try Out An API
+
+jupyter notebooks and pandas
+
+htrc feature reader
+
+back to APIs -> feature reader going to hathi trust and asking for json but we could also just scrape that data
+
+APIs have a greater barrier
+
+going to look at two APIs
+
+Library of Congress Chroncling America an
+
+New York Times Headlines 
+
+
+
+
