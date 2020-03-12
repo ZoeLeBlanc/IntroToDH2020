@@ -256,8 +256,6 @@ How can we use computational methods in DH research? What types of questions hav
 - Explore articles from the *Journal of Cultural Analytics*
 
 *Assignment for next class:*
-- Read Through Introduction to APIs and HTTPS
-- Read Through Introduction to Pandas and Jupyter notebooks
 - Choose one of the following projects:
   - [America's Public Bible Project](https://americaspublicbible.org/) *Sara*
   - [Selfiecity](http://lab.culturalanalytics.info/2014/08/selfiecity-investigates-style-of.html) *Anna*
@@ -283,8 +281,9 @@ How do we deal with data in Python? What types of formats does data come in? Whi
 
 *Class Activities*
 
+- Discussion about moving our course to online
 - Discussion of modeling in the humanities, cultural analytics, and digital history
-- Introduction to APIs and review of HTTP/web scraping, along with Jupyter notebooks and pandas
+- Introduction to APIs and review of HTTP/web scraping, along with introduction to Jupyter notebooks and pandas
 
 *Assignment for next class:*
 

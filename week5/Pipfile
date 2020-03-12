@@ -9,6 +9,8 @@ verify_ssl = true
 requests = "*"
 beautifulsoup4 = "*"
 lxml = "*"
+jupyter = "*"
+notebook = "*"
 
 [requires]
 python_version = "3.7"
