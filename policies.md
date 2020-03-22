@@ -3,17 +3,25 @@ layout: page
 title: Course Policies
 permalink: /policies/
 ---
+# Updated March 22 2020
+
 ## Communication and Respect
 
-Outside of our meetings, course communication will primarily be through our Slack Channel on [cdhprinceton.slack.com](cdhprinceton.slack.com). Everyone will be setup and signed up with Slack during our first meeting, and the channel will be used for updates, sharing materials, and answering general questions. While Slack is great for streamlining emails, the platform is more informal and thus I ask that you remember to be respectful in your communications.
+For the remainder of the semester, we will be meeting virtually to discuss course readings, cover coding concepts, and share updates on final projects. We will ideally be using Zoom synchronously, but given the increased internet usage we may need to find creative solutions to account for variable internet connections. Please let me know if you are concerned about your internet connection or if you're having difficulties connecting to a call.
 
-Respect is also crucial for our in-person class meetings. Digital Humanities is a broad field, and your fellow students will have differing backgrounds and perspectives. This diversity is one of the strengths of DH, but can also be difficult to navigate if you have not taken an interdisciplinary course before. I request that you each try to be inclusive and thoughtful in your communications, and if you ever have any concerns please feel free to contact me via Slack direct message or email.
+In terms of Zoom etiquette, we will be learning what works best for our course meetings. Understandably we will likely interrupt one another and at times struggle to hear each other. I ask that you each try to continue to be respectful and engaged, but again if you have concerns, please let me know.
 
-In addition, I am always happy to talk in-person and I encourage you to visit my office hours. My office hours are Tuesday afternoons 4-5pm or Wednesday mornings from 9-10am, but I am also happy to meet at other times as requested.
+*Rule of thumb from here on out is to over-communicate!*
 
-## Attendance and Life Happens
+Outside of our meetings, course communication will continue to primarily be through our Slack Channel on [cdhprinceton.slack.com](cdhprinceton.slack.com). Office hours will now be virtual as well. You can join my Zoom room (link is available on Slack) Tuesday afternoons 4-5pm EST or Wednesday mornings from 9-10am EST, but I am also happy to meet at other times as requested.
 
-Due to the breadth of DH subfields and methods, this course covers a wide range of materials in each of our class meetings. Students are expected to not only attend these sessions but also engage with course materials (more details in the participation section). However, life happens. You are permitted __up to three absences__ at your discretion. Please come speak with me if you know in advance about these absences, since you will still be responsible for covering the materials you missed. Absences should generally be reserved for either schedule conflicts or illnesses.
+## Attendance and Life Happens (Covid-19 Policies)
+
+When we first started this course, I tried to design policies that would be flexible enough for most life events. However, a global pandemic is more than I anticipated! Given the severity of the situation, I want to give some guidance and reassurance about how the course will proceed.
+
+First, I am hoping we can get through the remainder of the syllabus, but I also realize that we need to plan in case we become sick or are unable to attend class. In the scenario, where **I am no longer able to teach due to COVID-19**, I will do my best to find substitute instructors through the CDH with the goal of completing your final project. If you or someone close to you becomes ill and you are no longer able to attend class or complete the final project, I will *in consultation with you* determine a final grade based on your existing work and *if requested* advocate for you to be able to move the course to pass/fail (I'm assuming Princeton will probably make this available for most courses).
+
+Depending on the urgency of your situation, I realize that communicating with your instructor is a low priority, but please get in touch when you can to let me know if anything comes up. After our discussion on Tuesday March 24, I will likely end up altering some of the policies for for attendance and participation grades to take into account the fact that we may have more absences and difficulties connecting with Zoom. As a first measure though, I will not have any attendance policy besides just asking you do your best to let me know before class if you will not be attending.
 
 If you are thinking of missing class because you are overwhelmed with your workload, please instead take an _information overload day_. On these days you will be excused from the assigned readings and in-class discussion. Instead you will be expected to actively listen to the discussion and then consult with the instructor about how to make up any relevant assignments at a later date. I realize the reading load and assignments for this course are significant and that you are balancing a number of other commitments at the same time, so information overload days are intended to help you manage your stress.
 
