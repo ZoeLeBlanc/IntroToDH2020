@@ -287,7 +287,7 @@ How do we deal with data in Python? What types of formats does data come in? Whi
 
 *Assignment for next class:*
 
-~~Complete initial data cleaning assignment using pandas and the previous data from web scraping assignment.~~ Over spring break, start thinking about what data and research questions you want to pursue for the final project (a list of example ideas and datasets will also be provided).
+~~Complete initial data cleaning assignment using pandas and the previous data from web scraping assignment.~~ Over spring break, start thinking about what data and research questions you want to pursue for the final project (for some example datasets checkout the website [Humanities Data](https://humanitiesdata.com/) and [*The Pudding*'s available datasets](https://github.com/the-pudding/data)).
 
 Read the following:
 
@@ -315,7 +315,7 @@ What sources are used in humanities versus digital humanities research? How do s
 
 - Discuss updated course policies
 - Discussion about data in the humanities. What do humanists' mean when they say *data*? What is a data biography?
-- Discuss potential datasets for final project and some of the difficulties in finding data
+- Discuss potential datasets for final project and some of the difficulties in finding data, as well as potential research questions
 - Explore The Pudding's Film Dialogue project and data with Jupyter notebooks and Pandas (time permitting)
 
 *Assignment for next class:*
@@ -329,16 +329,15 @@ What is exploratory data analysis (EDA)? How do we apply it in the humanities? W
 
 *Class Activities*
 
-- Pandas and Jupyter Notebooks
-- HTTP and APIs
+- Pandas, Jupyter Notebooks, and Exploratory Data Analysis using *The Pudding* data
+- Introduction to git and Github
 
 *Assignment for next class:*
 
-Using pandas and web scraped data, explore the distribution of your data and push up the final result in a Jupyter notebook to Github.
+Create a Jupyter notebook and using web scraped data, explore the distribution of your data and push up the final result to Github.
 
 Read:
 
-- Benjamin Bengfort, Tony Ojeda, Rebecca Bilbro. *Applied Text Analysis with Python*. 2018. Chapter 1-2 (aviailable online through the library)
 - Dong Nguyen, Maria Liakata, Simon DeDeo, Jacob Eisenstein, David
 Mimno, Rebekah Tromble, and Jane Winters, “How We Do Things with Words: Analyzing Text as Social and Cultural Data” (2019). [https://arxiv.org/abs/1907.01468](https://arxiv.org/abs/1907.01468)
 - Maciej Cegłowski. “Deep Fried Data” *Idle Words*. September 27, 2016. [https://idlewords.com/talks/deep_fried_data.htm](https://idlewords.com/talks/deep_fried_data.htm)
@@ -349,6 +348,7 @@ Additional Readings:
 - Scott B. Weingart, “‘Digital History’ Can Never Be New,” the scottbot irregular, 2 May 2016 and “ Argument Clinic” July 26, 2017
 - Matthew K. Gold et al., “Forum: Text Analysis at Scale,” in Debates in the Digital Humanities 2016 (University of Minnesota Press, 2016), 525–568.
 - Skim Arguing with Digital History working group, “Digital History and Argument,” white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017): [https://rrchnm.org/argument-white-paper/](https://rrchnm.org/argument-white-paper/). (primary author with Stephen Robertson)
+- Benjamin Bengfort, Tony Ojeda, Rebecca Bilbro. *Applied Text Analysis with Python*. 2018. Chapter 1-2 (aviailable online through the library)
 
 <h3 id="week-8">Week 8: Making Digital Humanities: Humanities Research Into Hypotheses</h3>
 
@@ -358,7 +358,7 @@ How do we translate humanities research into hypotheses that can be tested compu
 
 *Class Activities*
 
-- Introduction to more advanced text analysis in DH
+- Introduction to more advanced text analysis in DH using data from APIs
 - Seminar discussion of what sorts of hypotheses and research questions can we answer with text analysis
 
 *Assignment for next class:*
@@ -380,7 +380,8 @@ What is text analysis? What is natural language processing? How do computers und
 
 *Class Activities:*
 
-- Special guest meeting with David Mimno
+- ~~Special guest meeting with David Mimno~~
+- 
 
 *Assignment for next class:*
 
