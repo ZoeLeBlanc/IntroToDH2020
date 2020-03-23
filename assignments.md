@@ -42,16 +42,16 @@ Was the article authored by a team? Is the article part of a larger DH project?
 Ultimately, this review should go beyond summarizing the articles to exploring their scholarly contribution to digital humanities. When selecting which articles to review consider which areas of digital humanities interest you and that you might want to include in your research. The review should be between 2-3 pages single spaced (~1000-1500 words) and be *loosely* modeled on Reviews in DH format (i.e. focus on not just summarizing, but also contextualizing and critiquing these articles). You will need to get instructor approval of your articles before you begin working on the assignment.
 
 ## Digital Humanities Project: 45%
-The goal of this project is to expose you to how digital humanities research is created and evaluated. Working in groups OR individually you will select a humanities research question and relevant datasets. Example projects include exploring character networks in a set of novels to understand gender disparities, or correlation analysis of place names in historical documents to analyze spatial imaginings. Using your skills in Python and your knowledge of digital humanities, you will experience the lifecycle of a digital humanities project, from planning the project and collecting data to analyzing and communicating your results, and finally reflecting and outlining future directions. 
+The goal of this project is to expose you to how digital humanities research is created and evaluated. Working in groups OR individually you will select a humanities research question and relevant datasets. Example projects include exploring character networks in a set of novels to understand gender disparities, or correlation analysis of place names in historical documents to analyze spatial imaginings. Using your skills in Python and your knowledge of digital humanities, you will experience the lifecycle of a digital humanities project, from planning the project and collecting data to analyzing and communicating your results, and finally reflecting and outlining future directions.
 
 The instructor will provide a list of available datasets and relevant readings that students can use as the basis for their project, but students are also encouraged to also develop their own datasets and research questions if they have a strong interest in a particular topic.
 
-The first stage of the project is worth 10% and is your initial project proposal. If working as a group you will collaboratively agree on a project. Regardless, you will research and create an initial project write-up, answering the following: 
-What are your initial research questions? 
-What scholarship does your research draw upon and further? (This could be digital humanities scholarship, or broader questions in relevant humanities fields)
-How you will translate your research questions into hypotheses? 
-Which methods and datasets do you plan to use? 
-How do you plan to communicate your results?
+The first stage of the project is worth 10% and is your initial project proposal. If working as a group you will collaboratively agree on a project. Regardless, you will research and create an initial project write-up, answering the following:
+- What are your initial research questions?
+- What scholarship does your research draw upon and further? (This could be digital humanities scholarship, or broader questions in relevant humanities fields)
+- How you will translate your research questions into hypotheses? 
+- Which methods and datasets do you plan to use? 
+- How do you plan to communicate your results?
 This write-up should be 2-3 pages and should lay the groundwork for the project, including a timeline to completion and how you plan to divide the work required to make the project.
 
 The second stage is worth 15%, and involves building the first iteration of the project to be presented to the instructor. You will demo the project and explain how much you have completed from the initial write-up. Then through feedback from the instructor and your peers, you will assess how much progress you have made and whether you need to change directions or revise any goals.
