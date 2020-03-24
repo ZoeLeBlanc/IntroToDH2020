@@ -313,7 +313,7 @@ What sources are used in humanities versus digital humanities research? How do s
 
 *Class Activities:*
 
-- Discuss updated course policies
+- Discuss updated course policies [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week7)
 - Discussion about data in the humanities. What do humanists' mean when they say *data*? What is a data biography?
 - Discuss potential datasets for final project and some of the difficulties in finding data, as well as potential research questions
 - Explore The Pudding's Film Dialogue project and data with Jupyter notebooks and Pandas (time permitting)
