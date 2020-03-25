@@ -151,3 +151,31 @@ First, we can type the variable `film_scripts` into a cell, which shows us the c
 
 We can also type `film_scripts.head()`, which prints out the first few rows or `film_scripts.sample()` which prints out a random sample of rows.
 
+![display data](display_data.png)
+
+We might also want to explore the size of our dataset, as well as the types of data it contains.
+
+![size](size.png)
+
+We can use the `shape` and `dtypes` attributes that are built-in on the DataFrame Class. `shape` tells us that we have 2000 rows and 6 columns, while `dtypes` tells us the data types of each of those columns.
+
+Pandas data types build from ones available in Python. This tables compares Pandas to Python and another library called Numpy. 
+
+| Pandas dtype | Python type | NumPy type | Usage|
+|:----------:|:----------:|:----------:|:----------:|
+|object | str or mixed | string_, unicode_, mixed types	|Text or mixed numeric and non-numeric values |
+int64	| int	| int_, int8, int16, int32, int64, uint8, uint16, uint32, uint64 | 	Integer numbers |
+float64	| float	| float_, float16, float32, float64	|Floating point numbers |
+bool |	bool |	bool_	| True/False values |
+datetime64 |	NA|	datetime64[ns]|	Date and time values
+timedelta[ns]	|NA |	NA |	Differences between two datetimes |
+category|	NA|	NA	|Finite list of text values|
+
+You'll notice that some of the data types are only available in Pandas. It's important to check what data types exist in your columns, since it informs the types of data manipulation you can do with your dataset.
+
+Let's explore the `link` column. To access a particular column in Pandas, we can use a few different syntaxes. Try typing in one cell `film_scripts['link']` and then in the following cell `fiml_scripts[['link]]`. What differences do you notice?
+
+![columns](columns.png)
+
+The difference in the output for each of these syntaxes has to do with how Pandas handles `indexing` (as a refresher, we index in Python using single square brackets).
+
