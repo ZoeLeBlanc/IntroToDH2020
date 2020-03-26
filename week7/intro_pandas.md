@@ -19,7 +19,7 @@ pipenv install jupyter notebook
 
 *If you're not using `pipenv`, then feel free to install the library with whatever virtual environment and package manager you prefer to use.*
 
-![install libraries](install.png)
+![install libraries](images/install.png)
 
 If you've installed successfully, you should see the following message in your terminal.
 
@@ -31,15 +31,15 @@ pipenv run jupyter notebook
 
 This command immediately opens the Jupyter interface in our browser.
 
-![create notebook](create_notebook.png)
+![create notebook](images/create_notebook.png)
 
 Our first step is to create a new Python 3 notebook using the `new` button.
 
-![empty notebook](empty_notebook.png)
+![empty notebook](images/empty_notebook.png)
 
 This opens up an empty notebook and we can rename the notebook by clicking on `Untitled`.
 
-![rename notebook](rename_notebook.png)
+![rename notebook](images/rename_notebook.png)
 
 I renamed my notebook `Introduction to Notebooks`.
 
@@ -60,7 +60,7 @@ def make_tool_dict(name, value_2015 , value_2016, value_2017,value_2018, value_2
     return tool
 ```
 It should look like the following:
-![function](function.png)
+![function](images/function.png)
 Unlike with our scripts where we would need to save our file and then type `pipenv run python script.py`, we can just click on the cell and either press `Shift` + `Return` on a Mac or  `Shift` + `Enter` on Windows to run the cell.
 
 You'll notice that it seems like nothing happened, though now there's a `1` next to the cell. That means that it the first cell run in the notebook, if you run it again, it will show `2`. 
@@ -75,7 +75,7 @@ make_tool_dict("Python",9,22,27,32,35)
 
 You should now see output from the function below our code.
 
-![call function](call_function.png)
+![call function](images/call_function.png)
 
 Just like in a script if we want to save this output, we need to assign it to a variable.
 
@@ -86,7 +86,7 @@ tool1 = make_tool_dict("Python",9,22,27,32,35)
 ```
 Now when you run that cell, you'll see no output because we've stored in a variable. To check that our function worked you can either use the built-in `print()` method or simply type the variable in the cell.
 
-![variable](variable.png)
+![variable](images/variable.png)
 
 To learn more of the shortcuts for Jupyter notebooks, go to the [shortcuts file](shortcuts.md).
 
@@ -106,7 +106,7 @@ Type `pipenv install pandas` in the folder with you Pipfile and once it is insta
 
 First, let's create a new notebook.
 
-![new notebook](new_notebook.png)
+![new notebook](images/new_notebook.png)
 
 Now let's import Pandas into our notebook! Place the following code into our first cell and run it.
 
@@ -135,7 +135,7 @@ Below `film_scripts`, paste:
 ```python
 help(pd.read_csv)
 ```
-![help](help.png)
+![help](images/help.png)
 
 This function prints out the documentation for this method, which is useful in case you have questions. Alternatively, we can always use the Pandas documentation [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html).
 
@@ -151,11 +151,11 @@ First, we can type the variable `film_scripts` into a cell, which shows us the c
 
 We can also type `film_scripts.head()`, which prints out the first few rows or `film_scripts.sample()` which prints out a random sample of rows.
 
-![display data](display_data.png)
+![display data](images/display_data.png)
 
 We might also want to explore the size of our dataset, as well as the types of data it contains.
 
-![size](size.png)
+![size](images/size.png)
 
 We can use the `shape` and `dtypes` attributes that are built-in on the DataFrame Class. `shape` tells us that we have 2000 rows and 6 columns, while `dtypes` tells us the data types of each of those columns.
 
@@ -175,7 +175,7 @@ You'll notice that some of the data types are only available in Pandas. It's imp
 
 Let's explore the `link` column. To access a particular column in Pandas, we can use a few different syntaxes. Try typing in one cell `film_scripts['link']` and then in the following cell `fiml_scripts[['link]]`. What differences do you notice?
 
-![columns](columns.png)
+![columns](images/columns.png)
 
 The difference in the output for each of these syntaxes has to do with how Pandas handles `indexing` (as a refresher, we index in Python using single square brackets).
 
@@ -193,7 +193,7 @@ To understand the difference between these types of indexing, we can type follow
 print(type(film_scripts['link']))
 print(type(film_scripts[['link']]))
 ```
-![series](series.png)
+![series](images/series.png)
 
 The output here tells us that the first example is returning a class type `Series`, while the second example is returning a class type `DataFrame`. While dataframes are two-dimensional data structures, in Pandas, Series are used to store one-dimensional data (like a column). You can learn more about indexing from the Pandas documentation [https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html).
 
@@ -206,7 +206,7 @@ You should get a long list of all the values in the column as your output. Notic
 
 Let's use pandas `rename()` method to rename our column. We can read the documentation here [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rename.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rename.html)
 
-![rename column](rename_column.png)
+![rename column](images/rename_column.png)
 
 Looking at the documentation we can see that we call `rename()` after our dataframe and pass it an argument called `columns` which takes a dictionary of old column names as keys and new column names as values.
 
@@ -246,7 +246,7 @@ Now we can see that the first movie alphabetically was actually "(500) Days of S
 
 Try putting in `film_scripts.columns` in a cell and running it.
 
-![column names](col_names.png)
+![column names](images/col_names.png)
 
 `.columns` outputs the names of all the columns in the dataframe.
 
@@ -258,7 +258,7 @@ Pandas has great documentation for dealing with missing data that you can read h
 
 We'll focus on using filtering to remove this missing data. One of the easiest ways we can filter is simply seeing how many of the values are equal to or above zero.
 
-![is na](isna.png)
+![is na](images/isna.png)
 
 You'll notice that we can use a conditional expression with the `gross_ia` column to tell us which cells are empty (*hint* False here would indicate that the cell contains NaN). We can also use the built-in `isna()` method which will check if any of the cells are empty and return `True` if they are.
 
@@ -285,7 +285,7 @@ One question we might have is how much gross happened per year in this dataset? 
 
 One thing we do is try and find out how many movies are recorded for each year, using the `value_counts` method. This method counts the unique values in each column [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.value_counts.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.value_counts.html) 
 
-![value counts](value_counts.png)
+![value counts](images/value_counts.png)
 
 This shows us that years with the top amount of grossing films were fairly recent, with 2009 having 87 films. However, this doesn't really tell us how much total gross exists for each year.
 
@@ -295,7 +295,7 @@ We can do perform this operation using an advanced Pandas method called `groupby
 
 Groupby is popular because it lets you select groups of data and then perform calculations on those smaller groups.
 
-![groupby](groupby.png)
+![groupby](images/groupby.png)
 
 In this example, you'll notice that we call `groupby` on the dataframe and then pass it an argument, in this case the column name `year`. The column we pass is the one we want to use to *aggregate* our data. We could also pass in `title`, but would likely only get groups with one row each.
 
@@ -315,19 +315,6 @@ films_year = film_scripts_cleaned.groupby('year')['gross_ia'].sum().reset_index(
 ```
 Now in a new cell try checking the `type()` of `films_year` and `print()` the value of this variable.
 
+You should see that we now have a DataFrame that contains the total gross for each year. We'll go over `groupby()` later in class, but feel free to bring questions or code snippets you've tried.
 
-
-![groupby mech](groupby_mech.png)
-
-
-Pandas built in calculation methods [https://pandas.pydata.org/pandas-docs/stable/user_guide/computation.html#id1](https://pandas.pydata.org/pandas-docs/stable/user_guide/computation.html#id1)
-| Pandas method	| Explanation |
-|:----------:|:----------:|
-|`.count()`| Number of observations|
-|`.sum()`| Sum of values|
-|`.mean()`	Mean of values|
-|`.median()`| Median of values|
-`.min()` | Minimum|
-`.max()`| Maximum | 
-`.mode()`| Mode|
-`.std()`| Unbiased standard deviation|
+In case you get stuck, you can see all this code in my Jupyter Notebook on our Github site [https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week7/Introduction%20to%20Pandas.ipynb](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week7/Introduction%20to%20Pandas.ipynb).
