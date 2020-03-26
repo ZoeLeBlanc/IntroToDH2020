@@ -256,10 +256,78 @@ The output of `film_scripts[['gross_ia']]` should be `NaN`. This stands for "Not
 
 Pandas has great documentation for dealing with missing data that you can read here [https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
 
-We'll focus on using filtering to remove this missing data.
+We'll focus on using filtering to remove this missing data. One of the easiest ways we can filter is simply seeing how many of the values are equal to or above zero.
+
+![is na](isna.png)
+
+You'll notice that we can use a conditional expression with the `gross_ia` column to tell us which cells are empty (*hint* False here would indicate that the cell contains NaN). We can also use the built-in `isna()` method which will check if any of the cells are empty and return `True` if they are.
+
+Now if we want to remove all the rows with empty values for `gross_ia`, we can simply filter the dataframe using the following code.
+
+```python
+film_scripts[film_scripts.gross_ia >= 0]
+```
+Now rather than two thousands rows, we have a dataframe with 1662 rows.
+
+We can save this into a new variable:
+```python
+film_scripts_cleaned = film_scripts[film_scripts.gross_ia.isna() == False]
+```
+And now start calculating some summary values for the dataframe.
+
+For example, we could calculate the total gross income for all the films using the `sum()` method. 
+```python
+film_scripts_cleaned.gross_ia.sum()
+```
+This gives us the value of `172749.0`, which might be interesting but is likely too much aggregation of our data to be useful.
+
+One question we might have is how much gross happened per year in this dataset? How would we start answering this question?
+
+One thing we do is try and find out how many movies are recorded for each year, using the `value_counts` method. This method counts the unique values in each column [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.value_counts.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.value_counts.html) 
+
+![value counts](value_counts.png)
+
+This shows us that years with the top amount of grossing films were fairly recent, with 2009 having 87 films. However, this doesn't really tell us how much total gross exists for each year.
+
+To calculate that we need to group together the rows by their years and then add together the values in `gross_ia`.
+
+We can do perform this operation using an advanced Pandas method called `groupby()`, which you can read more about here [https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html).
+
+Groupby is popular because it lets you select groups of data and then perform calculations on those smaller groups.
+
+![groupby](groupby.png)
+
+In this example, you'll notice that we call `groupby` on the dataframe and then pass it an argument, in this case the column name `year`. The column we pass is the one we want to use to *aggregate* our data. We could also pass in `title`, but would likely only get groups with one row each.
+
+The output of our `groupby()` is a new class called `DataFrameGroupBy`, which is different than a normal DataFrame. Let's save this to a new variable called `films_year`, and then try to see what data exists in our group for 2008.
+
+```python
+films_year = film_scripts_cleaned.groupby('year')
+films_year.get_group(2009)
+```
+Running the code should return only the rows that contain the year 2009 in our dataset. Unlike a normal DataFrame, to see the values in a DataFrameGroupBy we need to use the `get_group()` method, passing it a value from the column we used to aggregate the data.
+
+Or we can perform a calculation on the groupby and turn it back into a normal dataframe.
+
+Try running this code:
+```python
+films_year = film_scripts_cleaned.groupby('year')['gross_ia'].sum().reset_index()
+```
+Now in a new cell try checking the `type()` of `films_year` and `print()` the value of this variable.
 
 
-- filter data -> for sum
-- sort columns -> by
-- count values
-- calculate columns
+
+![groupby mech](groupby_mech.png)
+
+
+Pandas built in calculation methods [https://pandas.pydata.org/pandas-docs/stable/user_guide/computation.html#id1](https://pandas.pydata.org/pandas-docs/stable/user_guide/computation.html#id1)
+| Pandas method	| Explanation |
+|:----------:|:----------:|
+|`.count()`| Number of observations|
+|`.sum()`| Sum of values|
+|`.mean()`	Mean of values|
+|`.median()`| Median of values|
+`.min()` | Minimum|
+`.max()`| Maximum | 
+`.mode()`| Mode|
+`.std()`| Unbiased standard deviation|
