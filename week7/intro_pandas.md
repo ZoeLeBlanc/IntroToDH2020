@@ -159,7 +159,7 @@ We might also want to explore the size of our dataset, as well as the types of d
 
 We can use the `shape` and `dtypes` attributes that are built-in on the DataFrame Class. `shape` tells us that we have 2000 rows and 6 columns, while `dtypes` tells us the data types of each of those columns.
 
-Pandas data types build from ones available in Python. This tables compares Pandas to Python and another library called Numpy. 
+Pandas data types build from ones available in Python. This tables compares Pandas to Python and another library called Numpy (you read more about Pandas data types from [here](https://pbpython.com/pandas_dtypes.html)).
 
 | Pandas dtype | Python type | NumPy type | Usage|
 |:----------:|:----------:|:----------:|:----------:|
@@ -179,3 +179,87 @@ Let's explore the `link` column. To access a particular column in Pandas, we can
 
 The difference in the output for each of these syntaxes has to do with how Pandas handles `indexing` (as a refresher, we index in Python using single square brackets).
 
+In Pandas, using a single bracket is used to index either a single column or selected rows, and essentially refers to one dimension of the dataframe (rather than two). Whereas two square brackets allows us to both index for a column, but then also potentially request a list of columns.
+
+Let's try out some examples:
+- Type `film_scripts[0:5]` in a cell and run it. What results do you get?
+- Type `film_scripts[['link', 'title']]` in a cell and run it. What results do you get?
+
+For the first example, you should see the first five rows of the dataframe, while the second example should show you the data in the columns `link` and `title`.
+
+To understand the difference between these types of indexing, we can type following:
+
+```python
+print(type(film_scripts['link']))
+print(type(film_scripts[['link']]))
+```
+![series](series.png)
+
+The output here tells us that the first example is returning a class type `Series`, while the second example is returning a class type `DataFrame`. While dataframes are two-dimensional data structures, in Pandas, Series are used to store one-dimensional data (like a column). You can learn more about indexing from the Pandas documentation [https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html).
+
+Let's start exploring the data in the `link` column. Try typing:
+
+```python
+film_scripts['link'].tolist()
+```
+You should get a long list of all the values in the column as your output. Notice that while some of the items are URLs, others are PDF files that aren't hosted on the web. Someone coming to this dataset might assume that `link` represents only URLs, so how can we provide a better column name?
+
+Let's use pandas `rename()` method to rename our column. We can read the documentation here [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rename.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rename.html)
+
+![rename column](rename_column.png)
+
+Looking at the documentation we can see that we call `rename()` after our dataframe and pass it an argument called `columns` which takes a dictionary of old column names as keys and new column names as values.
+
+So let's try it out:
+```python
+film_scripts.rename(columns={'link': 'source'})
+```
+However one issue with this code is that if we use `film_scripts` in a new cell, it won't show this new column name. To save our result we need to use the `inplace` argument in rename.
+```python
+film_scripts.rename(columns={'link': 'source'}, inplace=True)
+```
+Now when we run this cell, film_scripts will contain the updated column name (unless we reload the data into the notebook and overwrite film_scripts).
+
+Instead of renaming the column, we could have also copied the column into a new one that we add to the dataframe.
+
+Try out:
+```python
+film_scripts['link'] = film_scripts['source']
+```
+Now we've recreated our `link` column, which defeats our purposes. So we can also delete a column using Pandas `drop()` functionality.
+
+Paste:
+```python
+film_scripts_dropped = film_scripts.drop(['link'], axis=1) 
+```
+In this case, we assigned a copy of the dataframe `film_scripts` to a new variable called `film_scripts_dropped` and then also dropped the column `link`. Just like with standard Python syntax, we can assign dataframes to new variables depending on how we want to store and manipulate our data.
+
+With Pandas we can also manipulate the dataframe organization based on the data within the rows.
+
+For example, if we want to see the data organized by title alphabetically, we could use the `sort_values()` method.
+
+```python
+film_scripts.sort_values(by=['title'])
+```
+
+Now we can see that the first movie alphabetically was actually "(500) Days of Summer."
+
+Try putting in `film_scripts.columns` in a cell and running it.
+
+![column names](col_names.png)
+
+`.columns` outputs the names of all the columns in the dataframe.
+
+Let's rename `'gross (inflation-adjusted)'` into something that's easier to type, like `gross_ia`. When we index the dataframe to select `gross_ia` as a column, what is in the data value in the first cell?
+
+The output of `film_scripts[['gross_ia']]` should be `NaN`. This stands for "Not a Number" and is Pandas' way of telling us that there's no data in the first row for this column. 
+
+Pandas has great documentation for dealing with missing data that you can read here [https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html](https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html).
+
+We'll focus on using filtering to remove this missing data.
+
+
+- filter data -> for sum
+- sort columns -> by
+- count values
+- calculate columns
