@@ -326,30 +326,32 @@ What sources are used in humanities versus digital humanities research? How do s
 
 *Second Meeting: Exploratory Data Analysis in Python March 26, 2020*
 
-What is exploratory data analysis (EDA)? How do we apply it in the humanities? What are the basics of statistical knowledge that we need to understand to use EDA? What are jupyter notebooks?
+What is exploratory data analysis (EDA)? How do we apply it in the humanities? What are the basics of statistical knowledge that we need to understand to use EDA?
 
 *Class Activities*
 
 - Pandas, Jupyter Notebooks, and Exploratory Data Analysis using *The Pudding* data
-- Introduction to git and Github
+- ~~Introduction to git and Github~~
 
 *Assignment for next class:*
 
-Create a Jupyter notebook and using web scraped data, explore the distribution of your data and push up the final result to Github.
+Complete at home assignment.
 
 Read:
 
-- Dong Nguyen, Maria Liakata, Simon DeDeo, Jacob Eisenstein, David
-Mimno, Rebekah Tromble, and Jane Winters, “How We Do Things with Words: Analyzing Text as Social and Cultural Data” (2019). [https://arxiv.org/abs/1907.01468](https://arxiv.org/abs/1907.01468)
-- Maciej Cegłowski. “Deep Fried Data” *Idle Words*. September 27, 2016. [https://idlewords.com/talks/deep_fried_data.htm](https://idlewords.com/talks/deep_fried_data.htm)
+- Ted Underwood. “Seven ways humanists are using computers to understand text”. June 4, 2015 [https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/](https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/)
+- Ted Underwood, *Distant Horizons: Digital Evidence and Literary Change* Chapter 2 "The Lifecycle of Genres"
 
 
 Additional Readings:
 
 - Scott B. Weingart, “‘Digital History’ Can Never Be New,” the scottbot irregular, 2 May 2016 and “ Argument Clinic” July 26, 2017
 - Matthew K. Gold et al., “Forum: Text Analysis at Scale,” in Debates in the Digital Humanities 2016 (University of Minnesota Press, 2016), 525–568.
-- Skim Arguing with Digital History working group, “Digital History and Argument,” white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017): [https://rrchnm.org/argument-white-paper/](https://rrchnm.org/argument-white-paper/). (primary author with Stephen Robertson)
+- Arguing with Digital History working group, “Digital History and Argument,” white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017): [https://rrchnm.org/argument-white-paper/](https://rrchnm.org/argument-white-paper/). (primary author with Stephen Robertson)
 - Benjamin Bengfort, Tony Ojeda, Rebecca Bilbro. *Applied Text Analysis with Python*. 2018. Chapter 1-2 (aviailable online through the library)
+- Maciej Cegłowski. “Deep Fried Data” *Idle Words*. September 27, 2016. [https://idlewords.com/talks/deep_fried_data.htm](https://idlewords.com/talks/deep_fried_data.htm)
+- Dong Nguyen, Maria Liakata, Simon DeDeo, Jacob Eisenstein, David
+Mimno, Rebekah Tromble, and Jane Winters, “How We Do Things with Words: Analyzing Text as Social and Cultural Data” (2019). [https://arxiv.org/abs/1907.01468](https://arxiv.org/abs/1907.01468)
 
 <h3 id="week-8">Week 8: Making Digital Humanities: Humanities Research Into Hypotheses</h3>
 
@@ -359,16 +361,15 @@ How do we translate humanities research into hypotheses that can be tested compu
 
 *Class Activities*
 
-- Introduction to more advanced text analysis in DH using data from APIs
+- Introduction to foundations of text analysis with Pandas
 - Seminar discussion of what sorts of hypotheses and research questions can we answer with text analysis
 
 *Assignment for next class:*
 
-- Selected chapters from Ted Underwood, *Distant Horizons: Digital Evidence and Literary Change*.
+- Complete advanced Pandas' readings.
 
 *Additional readings:*
 
-- Ted Underwood. “Seven ways humanists are using computers to understand text”. June 4, 2015 [https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/](https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/)
 - Explore Quantifying Kissinger by Micki Kaufman [http://blog.quantifyingkissinger.com/](http://blog.quantifyingkissinger.com/)
 - David A. Smith, Ryan Cordell, and Abby Mullen, “Computational Methods for Uncovering Reprinted Texts in Antebellum Newspapers,” *American Literary History* 27, no. 3 (2015): E1–E15, doi:10.1093/alh/ajv029 and Viral Texts of 19th Century Newspapers https://viraltexts.org/
 - Funk, Kellen, and Lincoln Mullen. “The Spine of American Law: Digital Text Analysis and U.S. Legal Practice.” American Historical Review 123, no. 1 (2018).
@@ -382,7 +383,8 @@ What is text analysis? What is natural language processing? How do computers und
 *Class Activities:*
 
 - ~~Special guest meeting with David Mimno~~
-- 
+- More advanced Pandas and text analysis methods
+- Introduction to using APIs to get datasets
 
 *Assignment for next class:*
 
@@ -401,6 +403,8 @@ Read selected chapters from Lauren Klein and Catherine D’Ignacio, Data Feminis
 How can we visualize data in digital humanities? What forms of visualization can help support digital humanities research?
 
 *Class Activities*
+
+- 
 
 *Assignment for next class:*
 
