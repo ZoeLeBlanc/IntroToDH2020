@@ -94,6 +94,8 @@ Jupyter notebooks will autosave your notebook, but it's good to save it before l
 
 To exit the notebook, you can either press the `Quit` button on the main page or type `Ctrl`+`c` in the terminal and selecting `yes` to quitting the notebook.
 
+If you get stuck you can check my code on our Github repository [here](Introduction%20to%20Notebooks.ipynb)
+
 ---
 
 ## Data in Jupyter Notebooks
@@ -317,4 +319,4 @@ Now in a new cell try checking the `type()` of `films_year` and `print()` the va
 
 You should see that we now have a DataFrame that contains the total gross for each year. We'll go over `groupby()` later in class, but feel free to bring questions or code snippets you've tried.
 
-In case you get stuck, you can see all this code in my Jupyter Notebook on our Github site [https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week7/Introduction%20to%20Pandas.ipynb](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week7/Introduction%20to%20Pandas.ipynb).
+In case you get stuck, you can see all this code in my Jupyter Notebook on our Github site [here](Introduction%20to%20Pandas.ipynb).

@@ -313,15 +313,16 @@ What sources are used in humanities versus digital humanities research? How do s
 
 *Class Activities:*
 
-- Discuss updated course policies [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week7)
+- Discuss updated course policies [slides](https://gitpitch.com/ZoeLeblanc/IntroToDH2020/gh-pages?p=week7/Tuesday)
 - Discussion about data in the humanities. What do humanists' mean when they say *data*? What is a data biography?
 - Discuss potential datasets for final project and some of the difficulties in finding data, as well as potential research questions
 - Explore The Pudding's Film Dialogue project and data with Jupyter notebooks and Pandas (time permitting)
 
 *Assignment for next class:*
 
-- Benjamin Schmidt, “Do Digital Humanists Need to Understand Algorithms?,”*Debates in the Digital Humanities* 2016 http://dhdebates.gc.cuny.edu/debates/text/99
-- Wes McKinney. *Python for Data Analysis*. 2017. Chapters 5
+- Benjamin Schmidt, “Do Digital Humanists Need to Understand Algorithms?,”*Debates in the Digital Humanities* 2016 [http://dhdebates.gc.cuny.edu/debates/text/99](http://dhdebates.gc.cuny.edu/debates/text/99)
+- Wes McKinney. *Python for Data Analysis*. 2017. Chapters 5 (if you are struggling with this reading, please focus instead on the Introduction to Pandas and Jupyter Notebooks)
+- As an additional resource, check out this condensed [Introduction to Pandas and Jupyter Notebooks](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week5/intro_html_webscraping.md)
 
 *Second Meeting: Exploratory Data Analysis in Python March 26, 2020*
 
