@@ -1,6 +1,6 @@
 #### Week 8 Homework Assignment
 
-In class, we worked on getting the text from the *Humanist* listserv through web scraping (check out the [Jupyter notebook from our class](Pandas%20Web%20Scraping%20Humanist.ipynb)).
+In class, we worked on getting the text from the *Humanist* listserv through web scraping (check out the [Jupyter notebook from our class](Pandas_WebScraping_Humanist.ipynb)).
 
 The final piece of this assignment is to take the data from the plain text files and save it to a dataframe in Pandas. Going forward we'll be using this dataset to do some initial text analysis.
 
