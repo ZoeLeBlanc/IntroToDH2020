@@ -378,8 +378,6 @@ How do we translate humanities research into hypotheses that can be tested compu
 
 *Second Meeting: Text Analysis in Python April 2, 2020*
 
-**Initial project proposal due**
-
 What is text analysis? What is natural language processing? How do computers understand text?
 
 *Class Activities:*
@@ -402,11 +400,14 @@ Read selected chapters from Lauren Klein and Catherine D’Ignacio, Data Feminis
 
 *First Meeting: Data Visualization in DH April 7, 2020*
 
+**Initial project proposal due**
+
 How can we visualize data in digital humanities? What forms of visualization can help support digital humanities research?
 
 *Class Activities*
 
-- 
+- Data visualization in DH
+- Further text analysis methods
 
 *Assignment for next class:*
 
