@@ -366,7 +366,9 @@ How do we translate humanities research into hypotheses that can be tested compu
 
 *Assignment for next class:*
 
-- Complete advanced Pandas' readings.
+- Complete Matt Lavin "Analyzing Documents with TF-IDF" [https://programminghistorian.org/en/lessons/analyzing-documents-with-tfidf](https://programminghistorian.org/en/lessons/analyzing-documents-with-tfidf)
+- Complete the remainder of the In Class Assignment as homework ([instructions here](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week8/homework_assignment.md))
+- Continue working on Final Project proposal
 
 *Additional readings:*
 

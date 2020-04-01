@@ -11,6 +11,7 @@ matplotlib = "*"
 jupyter = "*"
 notebook = "*"
 beautifulsoup4 = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"
