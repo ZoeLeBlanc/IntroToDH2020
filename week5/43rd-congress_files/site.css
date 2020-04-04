@@ -1,0 +1,201 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.headerLinkWhite {
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+}
+
+a.headerLinkWhiteNone {
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    text-decoration:none;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+.headerrow {
+    background-color: #990000;
+    text-align: center;
+}
+
+.bodyrow {
+    background-color: #555555;
+    text-align: center;
+}
+
+.fontsmall {
+    font-size: x-small;
+}
+
+.font8pt {
+    font-size: 8pt;
+}
+
+.margintop15 {
+    margin-top: 15px;
+}
+
+.backgroundGrey {
+    background-color: #dddddd;
+}
+
+.backgroundLightGrey {
+    background-color: #eeeeee;
+}
+
+.backgroundDarkGrey {
+    background-color: #666666;
+}
+
+.width40Percent {
+    width: 40%;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+.textAlignLeft {
+    text-align: left;
+}
+
+.memberTopBorder {
+    color: #990000;
+    border-bottom: 2px solid #555555;
+    border-top: 2px solid #555555;
+    width: 100%;
+}
+
+.fontMedium {
+    font-size: medium;
+}
+
+.marginLeft25 {
+    margin-left: 25px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.padding15 {
+    padding: 15px;
+}
+
+.memberInfoHeader {
+    background-color: #bbbbbb;
+    border: 1px solid #dddddd;
+    color: black;
+}
+
+.red {
+    color: #990000
+}
+
+.memberBorder {
+    border-top: 1px solid #990000;
+    margin: .4em 0em 0em 0em;
+}
+
+.memberGrey {
+    background-color: #dddddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.memberWhite {
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.validation-summary {
+    margin-top:15px;
+    display: none;
+}
+
+    .validation-summary.validation-summary-errors {
+        display: block;
+    }
+
+.paddingleft20 {
+    padding-left: 20px;
+}
+
+.whiteText{
+    color:white;
+}
+
+.buttonRed {
+    background-color: #990000;
+    width:150px;
+    color:white;
+}
+    .buttonRed:hover {
+        background-color: #770000;
+        color: white;
+    }
