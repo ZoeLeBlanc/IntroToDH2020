@@ -12,10 +12,13 @@ jupyter = "*"
 notebook = "*"
 beautifulsoup4 = "*"
 requests = "*"
+<<<<<<< HEAD
 scikit-learn = "*"
 numpy = "*"
 nltk = "*"
 spacy = "*"
+=======
+>>>>>>> 1babd79a5a14ce827b96b6f870668d26247db02c
 
 [requires]
 python_version = "3.7"
