@@ -1,0 +1,2 @@
+- links to resources we've used over the course
+- some materials we haven't covered (APIs and git)
