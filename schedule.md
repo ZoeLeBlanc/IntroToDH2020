@@ -414,7 +414,6 @@ Mimno, Rebekah Tromble, and Jane Winters, “How We Do Things with Words: Analyz
 *Assignment for next class:*
 - Read Chapter 5 Lauren Klein and Catherine D’Ignacio, Data Feminism 2019
 
-
 *Additional Readings*
 
 - Johanna Drucker, “Humanities Approaches to Graphical Display,” Digital Humanities Quarterly 5, no. 1 (2011) http://digitalhumanities.org/dhq/vol/5/1/000091/000091.html
