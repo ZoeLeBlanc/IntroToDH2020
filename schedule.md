@@ -350,12 +350,6 @@ Additional Readings:
 - Arguing with Digital History working group, “Digital History and Argument,” white paper, Roy Rosenzweig Center for History and New Media (November 13, 2017): [https://rrchnm.org/argument-white-paper/](https://rrchnm.org/argument-white-paper/). (primary author with Stephen Robertson)
 - Benjamin Bengfort, Tony Ojeda, Rebecca Bilbro. *Applied Text Analysis with Python*. 2018. Chapter 1-2 (aviailable online through the library)
 - Maciej Cegłowski. “Deep Fried Data” *Idle Words*. September 27, 2016. [https://idlewords.com/talks/deep_fried_data.htm](https://idlewords.com/talks/deep_fried_data.htm)
-<<<<<<< HEAD
-
-=======
-- Dong Nguyen, Maria Liakata, Simon DeDeo, Jacob Eisenstein, David
-Mimno, Rebekah Tromble, and Jane Winters, “How We Do Things with Words: Analyzing Text as Social and Cultural Data” (2019). [https://arxiv.org/abs/1907.01468](https://arxiv.org/abs/1907.01468)
->>>>>>> 1babd79a5a14ce827b96b6f870668d26247db02c
 
 <h3 id="week-8">Week 8: Making Digital Humanities: Humanities Research Into Hypotheses</h3>
 
@@ -388,8 +382,6 @@ What is text analysis? What is natural language processing? How do computers und
 
 - ~~Special guest meeting with David Mimno~~
 - More advanced Pandas and text analysis methods
-<<<<<<< HEAD
-
 
 *Assignment for next class:*
 
@@ -426,51 +418,18 @@ Mimno, Rebekah Tromble, and Jane Winters, “How We Do Things with Words: Analyz
 *Additional Readings*
 
 - Johanna Drucker, “Humanities Approaches to Graphical Display,” Digital Humanities Quarterly 5, no. 1 (2011) http://digitalhumanities.org/dhq/vol/5/1/000091/000091.html
-=======
-- Introduction to using APIs to get datasets
-
-*Assignment for next class:*
-
-Complete assignment on text analysis fundamentals and push on Github. Start working on executing your final project as outlined in your proposal.
-
-Read selected chapters from Lauren Klein and Catherine D’Ignacio, Data Feminism 2019. Check out [The Pudding](https://pudding.cool/) for examples of data analysis and visualization projects
-
-*Additional Readings*
-
-- Johanna Drucker, “Humanities Approaches to Graphical Display,” Digital Humanities Quarterly 5, no. 1 (2011) http://digitalhumanities.org/dhq/vol/5/1/000091/000091.html
-
-<h3 id="week-9">Week 9: Making Digital Humanities: Humanities Arguments Into Data Analyses and Visualizations</h3>
-
-*First Meeting: Data Visualization in DH April 7, 2020*
-
-**Initial project proposal due**
-
-How can we visualize data in digital humanities? What forms of visualization can help support digital humanities research?
-
-*Class Activities*
-
-- Data visualization in DH
-- Further text analysis methods
-
-*Assignment for next class:*
-
->>>>>>> 1babd79a5a14ce827b96b6f870668d26247db02c
 - Explore one of the following and listen to the corresponding interview on Data Sketches:
     - Following Data https://flowingdata.com/ and http://datastori.es/126-flowingdata-with-nathan-yau/
     - Data Sketches http://www.datasketch.es/ http://datastori.es/98-data-sketches-with-nadieh-bremer-and-shirley-wu/
 
 *Second Meeting: Data Visualization in Python April 9, 2020*
 
-<<<<<<< HEAD
 How can we visualize data in digital humanities? What forms of visualization can help support digital humanities research? What Python libraries exist for visualization? How does data visualization in Python compare to other programming languages?
 
 *Class Activities*
 
 - Data visualization in DH
 - Introduction to Altair
-=======
-What Python libraries exist for visualization? How does data visualization in Python compare to other programming languages?
->>>>>>> 1babd79a5a14ce827b96b6f870668d26247db02c
 
 *Assignment for next week:*
 
