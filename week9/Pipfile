@@ -7,12 +7,16 @@ verify_ssl = true
 
 [packages]
 pandas = "*"
-jupyter = "*"
-notebook = "*"
 matplotlib = "*"
 spacy = "*"
 scikit-learn = "*"
 nltk = "*"
+altair = "*"
+vega = "*"
+progress = "*"
+jupyter = "*"
+ipykernel = "*"
+vega-datasets = "*"
 
 [requires]
 python_version = "3.7"
