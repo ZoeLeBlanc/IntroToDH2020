@@ -432,62 +432,73 @@ How can we visualize data in digital humanities? What forms of visualization can
 
 *Assignment for next week:*
 
-- Continue working on final project
-- Read Quinn Dombrowsk Towards a Taxonomy of Failure January 30 2019. [https://www.quinndombrowski.com/?q=blog/2019/01/30/towards-taxonomy-failure](https://www.quinndombrowski.com/?q=blog/2019/01/30/towards-taxonomy-failure)
+Read:
+- Lincoln Mullen "Isn't it obvious?" January 10, 2018 [https://lincolnmullen.com/blog/isnt-it-obvious/](https://lincolnmullen.com/blog/isnt-it-obvious/)
+- Matthew Lincoln "Confabulation in the humanities" 21 Mar 2015 [https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html](https://matthewlincoln.net/2015/03/21/confabulation-in-the-humanities.html)
+- Scott B. Weingart "Argument Clinic" July 26, 2017 [https://scottbot.net/argument-clinic/](https://scottbot.net/argument-clinic/)
+- Continue working on final project and revising proposal based on feedback from instructor
 
 *Additional Readings:*
 
-- Quinn Dombrowski What Ever Happened to Project Bamboo?, Literary and Linguistic Computing, Volume 29, Issue 3, 1 September 2014, Pages 326–339, https://doi.org/10.1093/llc/fqu026
 
-<h3 id="week-10">Week 10: Retrospectives: Failures and Successes in Digital Humanities</h3>
+<h3 id="week-10">Week 10: Works in Progress and Retrospectives: Data Driven Research in Digital Humanities</h3>
 
 **First project demo due**
 
-*First Meeting: Evaluation in DH April 14, 2020*
+*First Meeting: ~~Evaluation~~ Arguments & Experiments in DH April 14, 2020*
 
-How do we evaluate digital humanities scholarship? How does this evaluation differ from other humanities’ disciplines?
+*Class Activities:*
 
-*Class Activities*
-
-- Seminar discussion about how we evaluate DH scholarship and what success looks like for a DH project
+- Seminar discussion about making data driven arguments
+- Continuing to work with NER humanist dataset
+- Experimenting with more advanced text mining methods
 
 *Assignment for next class:*
 
-No assigned readings, class meeting time used for project retrospectives.
+No assigned readings, class meeting time used for project.
 
-*Second Meeting: First Project Retrospectives April 16, 2020*
+*Second Meeting: Coding Reviews and Updates April 16, 2020*~~
+
+*Class Activities:*
+
+- Review session of previous coding or DH concepts (as needed)
+- In class working sessions in breakout rooms and share current updates on project with instructor
+
+*Assignment for next class:*
+Prepare to demo your initial project to the class. Outline your initial research question for the class, describe your datasets and methods, and evaluate your progress based on your initial proposal. Come prepared to class to give feedback on your peers' projects.
+
+<h3 id="week-11">Week 11: Works In Progress and Retrospectives: Critiques of Digital Humanities</h3>
+
+*First Meeting: Retrospectives and Feedback in DH April 21, 2020*
 
 ***First Project Retrospectives Due (Demo initial progress and discuss next steps)***
 
-*Assignment for next class:*
-
-- Kathleen Fitzpatrick, “Obsolescence and Innovation in the Age of the Digital” in The Routledge Companion to Media Studies and Digital Humanities, ed. Jentery Sayers (New York: Routledge, 2018)
-- Castelvecchi, D. (2019). Venice ‘time machine’ project suspended amid data row. *Nature*, *574*(7780), 607–607. [https://doi.org/10.1038/d41586-019-03240-w](https://doi.org/10.1038/d41586-019-03240-w)
-
-<h3 id="week-11">Week 11: Retrospectives: Sustainability and Obsolesce in Digital Humanities</h3>
-
-*First Meeting: Sunrise and Sunset in DH and Information Technology April 21, 2020*
-
-How do we archive digital humanities projects? How do we manage the rapid pace of technical change? Who owns digital humanities projects and data?
-
 ***Class Activities***
-
-- **Seminar discussion about how to archive DH projects, as well as how to manage changing technical debt and ownership**
-- **Discussion of how to plan long term for a DH project**
+- Initial demos of projects and discussion of next steps for the project
 
 *Assignment for next class:*
 
-No assigned readings, class time dedicated to project check-ins and sprint.
+Read:
+- Nan Z. Da "The Digital Humanities Debacle" *The Chronicle of Higher Education*  March 27, 2019 [https://www.chronicle.com/article/The-Digital-Humanities-Debacle/245986/](https://www.chronicle.com/article/The-Digital-Humanities-Debacle/245986/) and on Blackboard
+- Timothy Brennan "The Digital-Humanities Bust" *The Chronicle of Higher Education* October 15, 2017 [https://www.chronicle.com/article/The-Digital-Humanities-Bust/241424](https://www.chronicle.com/article/The-Digital-Humanities-Bust/241424) and on Blackboard
 
-*Second Meeting: Project Sprint April 23, 2020*
+*Second Meeting: Critiques and Project Sprint April 23, 2020*
+What are critiques of DH? How does DH relate to other humanities' disciplines? What are the limits of computational analyses in the humanities?
 
 *Class Activities*
 
-*Work on final project in class and discuss any obstacles*
+- Seminar discussion about critiques of DH
+- Continue working on final project in class and discuss ongoing obstacles
 
 *Assignment for next class:*
+- [Miriam Posner. “What’s Next: The Radical, Unrealized Potential of Digital Humanities” Debates in Digital Humanities 2016](https://dhdebates.gc.cuny.edu/read/untitled/section/a22aca14-0eb0-4cc6-a622-6fee9428a357)
+- Ted Underwood "Dear Humanists: Fear Not the Digital Revolution" March 27, 2019 *The Chronicle of Higher Education* [https://www.chronicle.com/article/Dear-Humanists-Fear-Not-the/245987](https://www.chronicle.com/article/Dear-Humanists-Fear-Not-the/245987)
 
-- Miriam Posner. “What’s Next: The Radical, Unrealized Potential of Digital Humanities” Debates in Digital Humanities 2016.
+*Additional Readings*
+- Kathleen Fitzpatrick, “Obsolescence and Innovation in the Age of the Digital” in The Routledge Companion to Media Studies and Digital Humanities, ed. Jentery Sayers (New York: Routledge, 2018)
+- Castelvecchi, D. (2019). Venice ‘time machine’ project suspended amid data row. *Nature*, *574*(7780), 607–607. [https://doi.org/10.1038/d41586-019-03240-w](https://doi.org/10.1038/d41586-019-03240-w)
+- Quinn Dombrowski What Ever Happened to Project Bamboo?, Literary and Linguistic Computing, Volume 29, Issue 3, 1 September 2014, Pages 326–339, https://doi.org/10.1093/llc/fqu026
+- Quinn Dombrowsk Towards a Taxonomy of Failure January 30 2019. [https://www.quinndombrowski.com/?q=blog/2019/01/30/towards-taxonomy-failure](https://www.quinndombrowski.com/?q=blog/2019/01/30/towards-taxonomy-failure)
 - Bethany Nowviskie “Reconstitute the World” June 12, 2018. http://nowviskie.org/2018/reconstitute-the-world/
 
 <h3 id="week-12">Week 12: The Futures of Digital Humanities</h3>
@@ -498,8 +509,9 @@ What’s next for digital humanities?
 
 *Class Activities*
 
-- Seminar discussion about what might be next for Digital Humanities and students’ projects
+- Seminar discussion about what might be next for Digital Humanities 
+- Final chance to ask for feedback on projects
 
-*First Meeting: Final Project Presentations April 30, 2020*
+*Second Meeting: Final Project Presentations April 30, 2020*
 
 **Final project demo and reflection due (extension available for reflection if needed)**
