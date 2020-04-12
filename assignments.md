@@ -54,6 +54,6 @@ The first stage of the project is worth 10% and is your initial project proposal
 - How do you plan to communicate your results?
 This write-up should be 2-3 pages and should lay the groundwork for the project, including a timeline to completion and how you plan to divide the work required to make the project.
 
-The second stage is worth 15%, and involves building the first iteration of the project to be presented to the instructor. You will demo the project and explain how much you have completed from the initial write-up. Then through feedback from the instructor and your peers, you will assess how much progress you have made and whether you need to change directions or revise any goals.
+The second stage is worth ~~15%~~ 10%, and involves building the first iteration of the project to be presented to the instructor. You will demo the project and explain how much you have completed from the initial write-up. Then through feedback from the instructor and your peers, you will assess how much progress you have made and whether you need to change directions or revise any goals.
 
-The final stage is worth 20%, with the first 10% allocated to the public presentation of your project in our final class. The second 10% is an individual reflection piece (3-5 pages) on the experience of building the project, the successes and failures of the project, and your vision for the future directions of this project.
+The final stage is worth ~~20%~~ 25%, with the first 12.5% allocated to the public presentation of your project in our final class. The second 12.5% is an individual reflection piece (4-5 pages) on the experience of building the project, the successes and failures of the project, and your vision for the future directions of this project.
