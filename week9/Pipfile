@@ -17,6 +17,8 @@ progress = "*"
 jupyter = "*"
 ipykernel = "*"
 vega-datasets = "*"
+scipy = "*"
+regex = {path = "./textplot"}
 
 [requires]
 python_version = "3.7"
