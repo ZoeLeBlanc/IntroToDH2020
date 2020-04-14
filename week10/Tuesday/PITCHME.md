@@ -28,7 +28,8 @@
 #### Experiments with Humanist Listserv Data
 
 - Walk through identify NER code
-- Debug Jupyter notebooks
+- Include comments for Jupyter notebooks
+- Discuss what visualizations we could make
 - What questions could we ask about this data?
 
 ---
