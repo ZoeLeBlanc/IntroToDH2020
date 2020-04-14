@@ -59,4 +59,6 @@ ner_types = ['LOC', 'GPE']
 humanist_vols_dates[['ner','cleaned_text']] = humanist_vols_dates.apply(get_ner, types=ner_types, axis=1, result_type='expand')
 processing.finish()
 
-humanist_vols_dates.to_csv('humanist_vols_ner.csv')
+humanist_vols_dates['cleaned_tokens'] = humanist_vols_dates.cleaned_text.apply(nltk.word_tokenize)
+
+humanist_vols_dates.to_csv('humanist_vols_ner_tokens.csv')
