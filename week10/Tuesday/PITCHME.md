@@ -7,7 +7,7 @@
 ---
 #### Making Arguments with Humanities Data
 
-*How would you summarize Mullen, Lincoln, and Weingart's approaches for dealing with making arguments with data in DH? Why is data analysis often seen as not new?  What is confabulation? What is the value of showing blank plots?*
+*Why is data analysis often seen as not new in the humanities?  What is confabulation? What is the value of showing blank plots?*
 
 ---
 #### Making Arguments with Humanities Data
