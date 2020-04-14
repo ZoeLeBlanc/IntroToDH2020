@@ -84,16 +84,7 @@ Example 3:
 - So what should be our next steps with our dataset here?
 
 ---
-#### Updated Expectations for Final Project
+#### Updated Expectations and Timeline for Final Project
 
-*Initial Demo*
-- How much of the project have you completed?
-- Need to have something to demo, so ideally have completed at least one analysis by presentation
-- Need to explain your research question and process of collecting data
-
----
-#### Updated Timeline
-
+- How much of your project will you reasonably have done by next Tuesday?
 - Should we move the initial demo to a later date? And subsequently move the presentations into May?
-
-
