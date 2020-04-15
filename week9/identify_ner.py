@@ -1,17 +1,22 @@
+# Importing libraries
 import pandas as pd
 import nltk
 from nltk.corpus import stopwords
 import string
 from progress.bar import IncrementalBar
 import spacy
+# Load in spacy model
 nlp = spacy.load('en_core_web_lg')
 
+# Read in full dataset scraped from dh humanist websited, includes data from 1987-2019
 humanist_vols = pd.read_csv('web_scraped_humanist_listserv.csv')
+# Subset data to only includes rows with dates
 humanist_vols_dates = humanist_vols[humanist_vols.dates.str.contains('-')]
+# Create new column containing origintal text length
 humanist_vols_dates['original_text_length'] = humanist_vols_dates.text.apply(len)
 
 def split_on_text(row):
-    
+    """Spliting original text into million character blocks for Spacy"""
     val = round(row['original_text_length'] / 1000000)
     final_texts = []
     count = 1000000
@@ -19,7 +24,6 @@ def split_on_text(row):
     for i in range(0, val):
         if (count + 1000000) > row['original_text_length']:
             final_texts.append(row.text[count:])
-                
         else:
             final_texts.append(row.text[counter:count])
         counter = counter + 1000000
