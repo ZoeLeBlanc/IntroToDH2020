@@ -70,4 +70,4 @@ Please also be ready to listen to your peers' presentations and give feedback.
 
 The final stage is worth ~~20%~~ 25%, with the first 12.5% allocated to the public presentation of your project in our final class. The second 12.5% is an individual reflection piece (4-5 pages) on the experience of building the project, the successes and failures of the project, and your vision for the future directions of this project.
 
-To help with the final project, please checkout the [final project resources page](final_project_resources.md)
+To help with the final project, please checkout the [final project resources page](final_project_resources.md).
