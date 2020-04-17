@@ -19,6 +19,7 @@ ipykernel = "*"
 vega-datasets = "*"
 scipy = "*"
 regex = {path = "./textplot"}
+shorttext = "*"
 
 [requires]
 python_version = "3.7"

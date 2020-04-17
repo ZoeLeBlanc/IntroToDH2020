@@ -3,6 +3,7 @@ layout: page
 title: Assignments and Grading
 permalink: /assignments/
 ---
+*Updated April 17 2020*
 
 ## In Class Participation: 20%
 
@@ -56,4 +57,17 @@ This write-up should be 2-3 pages and should lay the groundwork for the project,
 
 The second stage is worth ~~15%~~ 10%, and involves building the first iteration of the project to be presented to the instructor. You will demo the project and explain how much you have completed from the initial write-up. Then through feedback from the instructor and your peers, you will assess how much progress you have made and whether you need to change directions or revise any goals.
 
+**Detailed guidelines for first demo**
+For individuals plan to present for 10 minutes (15 minutes max), for groups plan to present for 15 minutes (20 minutes max).
+
+Your presentation should:
+
+- Introduce your project through summarizing your initial proposal (including your initial research questions, planned datasets, and methods)
+- Demo your initial data collection through exploratory data analysis and give us a brief data biography of your dataset
+- Outline what you plan to do next in the project and whether you need to change course from what you outlined in your initial proposal
+
+Please also be ready to listen to your peers' presentations and give feedback.
+
 The final stage is worth ~~20%~~ 25%, with the first 12.5% allocated to the public presentation of your project in our final class. The second 12.5% is an individual reflection piece (4-5 pages) on the experience of building the project, the successes and failures of the project, and your vision for the future directions of this project.
+
+To help with the final project, please checkout the [final project resources page](final_project_resources.md)
