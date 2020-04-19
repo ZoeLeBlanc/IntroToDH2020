@@ -37,6 +37,7 @@ permalink: /project-resources/
    - Zoë Wilkinson Saldaña "Sentiment Analysis for Exploratory Data Analysis" [https://programminghistorian.org/en/lessons/sentiment-analysis](https://programminghistorian.org/en/lessons/sentiment-analysis)
    - François Dominic Laramée "Introduction to stylometry with Python" [https://programminghistorian.org/en/lessons/introduction-to-stylometry-with-python](https://programminghistorian.org/en/lessons/introduction-to-stylometry-with-python)
 
+
 5. Data Visualizations and Publishing Charts
 
    - [Introduction to Altair](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week9/intro_dataviz.md) and [notebook](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week9/Intro%20to%20Altair.ipynb), along with [class exercises](https://github.com/ZoeLeBlanc/IntroToDH2020/blob/gh-pages/week9/Class%20Code%20Exercise.ipynb)
