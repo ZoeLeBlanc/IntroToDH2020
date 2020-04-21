@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rubric for Retrospective Assignment
-permalink: /rubric_retrospective/
+permalink: /rubric-retrospective/
 ---
 
 ### Assignment Outline
