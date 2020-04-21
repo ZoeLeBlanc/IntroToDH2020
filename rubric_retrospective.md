@@ -19,7 +19,7 @@ Your presentation should:
 
 *A/A+ Presentations*
 
-- Presenters clearly outline the project, including detailed timelines, significance of their research questions, and rationale for their methods.
+- Presenters clearly outline the project, including detailed timelines, significance of their research questions, and rationale for their proposed methods.
 - Presenters explain thoroughly what they have completed so far from their proposal and, with the exception of extenuating circumstances, the presenters also demo their initial exploratory data analysis. Presenters provide a thorough data biography of their datasets, as well as some interpretation of their initial results.
 - Presenters present any obstacles they’ve encountered and how they plan to overcome them. Presenters detail next steps and how they plan to complete the remainder of their proposal.
 - A+ presentations should be ones that go beyond the criteria listed here in some manner.
