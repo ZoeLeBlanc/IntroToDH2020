@@ -1,3 +1,0 @@
-- cover list comprehensions
-- chaining methods
-- 
