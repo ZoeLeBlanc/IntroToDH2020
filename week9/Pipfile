@@ -18,8 +18,10 @@ jupyter = "*"
 ipykernel = "*"
 vega-datasets = "*"
 scipy = "*"
-regex = {path = "./textplot"}
+regex = {path = "./test_notebooks/textplot"}
 shorttext = "*"
+tqdm = "*"
+lxml = "*"
 
 [requires]
 python_version = "3.7"

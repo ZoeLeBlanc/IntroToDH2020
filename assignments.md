@@ -68,6 +68,27 @@ Your presentation should:
 
 Please also be ready to listen to your peers' presentations and give feedback.
 
+**Detailed guidelines for final project**
 The final stage is worth ~~20%~~ 25%, with the first 12.5% allocated to the public presentation of your project in our final class. The second 12.5% is an individual reflection piece (4-5 pages) on the experience of building the project, the successes and failures of the project, and your vision for the future directions of this project.
 
 To help with the final project, please checkout the [final project resources page](final_project_resources.md).
+
+*Presentation Guidelines*
+
+Presentations should be 15-20 minutes and unlike the initial demo this presentation should present a narrative structured around your research question (rather than you experience doing the research.)
+
+You should begin with an introduction to your question and why it is of interest or significance. Then you should explain the rationale for dataset selection, as well as how you obtained the data. You should include a discussion of what did or did not work, and how you shifted your question based on the data available.
+
+Then you should introduce the methods you decided to use (explain relevant background concepts if you are using more complex methods) and your rationale for selecting them. Finally you should discuss your results. What did you expect to find? Was there anything surprising or was everything expected? What would future research questions explore? How has this changed your understanding of this topic? This section should include at least one visualization, but remember that the best interpretations usually present data through multiple visualizations.
+
+Ideally, you will also bring in some of the topics we've discussed over the course of the semester and include some mention of how your project might this be relevant to digital humanities (not necessarily research questions, but maybe in terms of methods or datasets).
+
+You do not need to follow the order of these guidelines in terms of how you structure your presentation. Also you can use slides, jupyter notebooks, or any other documents to present your materials. After your presentation, we will have ten minutes for question and answer, and just like the demo you will complete a final self assessment survey.
+
+*Paper/Blog Post Guidelines*
+
+For the final piece of the project, you have a choice of either a final reflection paper or a blog post to be hosted on the CDH website.
+
+The final reflection paper will be 4-5 pages double spaced and detail your experience of building the final project. This paper is a chance to critically reflect on what worked in your final project and what did not, as well as what you might do in the future with this project. Ultimately, the reflection paper is intended to be a chance for you to articulate what you learned about data driven research in the humanities. To that end, final reflection papers should reference at least four of the readings from class and detail how your project impacted your understanding of digital humanities. Final reflection papers are due by midnight May 12, 2020.
+
+The blog post format covers some of the same material but is more focused on explaining your final project to a public audience. The blog post should cover some of the similar material from your presentation, mainly your research questions, rationale for your methods, and how you've interpreted your results. You should explain how you feel your project relates to discussions we've had in the class and reference at least two readings. The blog post will be at least 750 words but no more than 2000 words. Blog posts are also due by midnight May 12, 2020. However, because they are for a public audience, I will help you copy edit the final version and display your visualizations.
